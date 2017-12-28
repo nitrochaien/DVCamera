@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{A0574AF9-6E4C-424B-A843-B09B751C70AC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CameraTest/RotateAndScale.cs">
+    <Files>
+      <File FileName="CameraTest/CameraController.cs" Line="64" Column="49" />
+      <File FileName="CameraTest/ViewController.cs" Line="28" Column="1" />
+      <File FileName="CameraTest/RotateAndScale.cs" Line="22" Column="72" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CameraTest PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.5c4460a4edb55b4ebca46328c58b697cb872dd8f" automaticSigning="False">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.CameraTest>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../LunchPassport_Ver2/LunchPassport/LunchPassport.iOSView/UI/GroupLunch/ViewControllers/CreateProfileViewController.cs" line="48" offsetX="531" offsetY="705" expression="ivUser.Frame.Height" liveUpdate="False" />
+    <Watch file="../LunchPassport_Ver2/LunchPassport/LunchPassport.Common/Model/SearchConditionModel.cs" line="52" offsetX="329" offsetY="765" expression="ex" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MultiItemStartupConfigurations />
+</Properties>

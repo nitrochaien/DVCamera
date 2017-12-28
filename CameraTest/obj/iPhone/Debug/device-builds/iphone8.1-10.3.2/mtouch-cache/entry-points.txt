@@ -1,0 +1,9 @@
+Function=xamarin_timezone_get_data
+	/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/mtouch-cache/Link/mscorlib.dll
+Function=UIApplicationMain
+	/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/mtouch-cache/Link/Xamarin.iOS.dll
+Function=mono_pmip

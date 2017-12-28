@@ -1,0 +1,36 @@
+# Version: 11.6.1.2 (xcode9.2: 6857dfcc)
+# [first argument, ignore] # --cache
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mtouch/mtouch.exe \
+	/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/mtouch-cache \
+	--dev \
+	/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/bin/iPhone/Debug/device-builds/iphone8.1-10.3.2/CameraTest.app \
+	--executable \
+	CameraTest \
+	--fastdev \
+	--debug \
+	--linksdkonly \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	11.2 \
+	--targetver \
+	10.0 \
+	--aot-options=-O=float32 \
+	--http-message-handler=HttpClientHandler \
+	--abi=arm64 \
+	--symbollist \
+	/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	--target-framework \
+	'Xamarin.iOS,v1.0' \
+	/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/bin/iPhone/Debug/CameraTest.exe \

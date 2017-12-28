@@ -1,0 +1,9 @@
+/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/bin/iPhone/Debug/CameraTest.exe
+/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/bin/iPhone/Debug/CameraTest.pdb
+/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/actool/_PartialAppManifest.items
+/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/actool/_BundleResourceWithLogicalName.items
+/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/optimized/
+/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/CameraTest.csproj.CoreCompileInputs.cache
+/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/CameraTest.exe
+/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/CameraTest.pdb
