@@ -6,6 +6,7 @@
 	<dict>
 		<key>output-files</key>
 		<array>
+			<string>/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/actool/bundle/Assets.car</string>
 			<string>/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/actool/partial-info.plist</string>
 		</array>
 	</dict>

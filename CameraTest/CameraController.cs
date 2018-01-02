@@ -6,7 +6,7 @@ using Foundation;
 
 namespace CameraTest
 {
-    public partial class CameraController : UIViewController, IAVCapturePhotoCaptureDelegate
+    public partial class CameraController : UIViewController, IAVCapturePhotoCaptureDelegate, IRotateAndScale
     {
         protected CameraController(IntPtr handle) : base(handle)
         {
@@ -25,6 +25,10 @@ namespace CameraTest
             this.captureButton.TouchUpInside += (sender, e) => {
                 this.HandleCapture();
             };
+
+            this.NavigationController.NavigationBar.Hidden = true;
+            UIApplication.SharedApplication.StatusBarHidden = true;
+            SetNeedsStatusBarAppearanceUpdate();
 
             var captureDevice = AVCaptureDevice.GetDefaultDevice(AVMediaType.Video);
             NSError err;
@@ -45,6 +49,15 @@ namespace CameraTest
                 captureSession.AddOutput(captureOutput);
                 captureSession.StartRunning();
             }
+
+            cancelButton.TouchUpInside += (sender, e) => {
+                this.NavigationController.PopViewController(true);
+            };
+
+            rotateCameraButton.TouchUpInside += (sender, e) => {
+                captureSession.BeginConfiguration();
+
+            };
         }
 
         private void HandleCapture() {
@@ -64,9 +77,18 @@ namespace CameraTest
             var imageData = AVCapturePhotoOutput.GetJpegPhotoDataRepresentation(photoSampleBuffer, previewPhotoSampleBuffer);
             if (imageData != null) {
                 var capturedImage = new UIImage(imageData);
-                NSNotificationCenter.DefaultCenter.PostNotificationName("GetImageNotification", capturedImage);
-                this.NavigationController.PopViewController(true);
+
+                var storyboard = UIStoryboard.FromName("Main", NSBundle.MainBundle);
+                var vc = (RotateAndScale)storyboard.InstantiateViewController("RotateAndScale");
+                vc.SetImage(capturedImage);
+                vc.ImageDelegate = this;
+                this.PresentViewController(vc, true, null);
             }
+        }
+
+        public void DidSelectedImage(UIImage image) {
+            NSNotificationCenter.DefaultCenter.PostNotificationName("GetImageNotification", image);
+            this.NavigationController.PopViewController(true);
         }
     }
 }

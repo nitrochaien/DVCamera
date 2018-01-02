@@ -31,8 +31,18 @@
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/ibtool-link/Main.storyboardc/RotateAndScale.nib">
+      <LogicalName>Main.storyboardc/RotateAndScale.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/ibtool-link/Main.storyboardc/UINavigationController-tKe-8B-CEz.nib">
       <LogicalName>Main.storyboardc/UINavigationController-tKe-8B-CEz.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/ibtool-link/Main.storyboardc/pjF-Lj-xVb-view-mRt-nU-ct7.nib">
+      <LogicalName>Main.storyboardc/pjF-Lj-xVb-view-mRt-nU-ct7.nib</LogicalName>
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>

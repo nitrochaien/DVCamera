@@ -13,21 +13,37 @@ namespace CameraTest
 	partial class CameraController
 	{
 		[Outlet]
+		UIKit.UIButton cancelButton { get; set; }
+
+		[Outlet]
 		UIKit.UIButton captureButton { get; set; }
 
 		[Outlet]
 		UIKit.UIView previewView { get; set; }
+
+		[Outlet]
+		UIKit.UIButton rotateCameraButton { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
+			if (captureButton != null) {
+				captureButton.Dispose ();
+				captureButton = null;
+			}
+
 			if (previewView != null) {
 				previewView.Dispose ();
 				previewView = null;
 			}
 
-			if (captureButton != null) {
-				captureButton.Dispose ();
-				captureButton = null;
+			if (cancelButton != null) {
+				cancelButton.Dispose ();
+				cancelButton = null;
+			}
+
+			if (rotateCameraButton != null) {
+				rotateCameraButton.Dispose ();
+				rotateCameraButton = null;
 			}
 		}
 	}

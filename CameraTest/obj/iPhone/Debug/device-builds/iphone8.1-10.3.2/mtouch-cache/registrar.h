@@ -12,6 +12,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import <CloudKit/CloudKit.h>
 #import <Intents/Intents.h>
+#import <CoreGraphics/CoreGraphics.h>
 
 @class Foundation_InternalNSNotificationHandler;
 @class __MonoMac_NSActionDispatcher;
@@ -20,6 +21,7 @@
 @class AppDelegate;
 @class ViewController;
 @class CameraController;
+@class RotateAndScale;
 @class __UIGestureRecognizerToken;
 @class __UIGestureRecognizerParameterlessToken;
 @class __UIGestureRecognizerParametrizedToken;
@@ -31,6 +33,7 @@
 @class __UIPinchGestureRecognizer;
 @class __UISwipeGestureRecognizer;
 @class __UIScreenEdgePanGestureRecognizer;
+@class UIKit_UIScrollView__UIScrollViewDelegate;
 
 @interface AppDelegate : NSObject<UIApplicationDelegate> {
 }
@@ -68,18 +71,47 @@
 
 @interface CameraController : UIViewController<AVCapturePhotoCaptureDelegate> {
 }
+	@property (nonatomic, assign) UIButton * cancelButton;
 	@property (nonatomic, assign) UIButton * captureButton;
 	@property (nonatomic, assign) UIView * previewView;
+	@property (nonatomic, assign) UIButton * rotateCameraButton;
 	-(void) release;
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UIButton *) cancelButton;
+	-(void) setCancelButton:(UIButton *)p0;
 	-(UIButton *) captureButton;
 	-(void) setCaptureButton:(UIButton *)p0;
 	-(UIView *) previewView;
 	-(void) setPreviewView:(UIView *)p0;
+	-(UIButton *) rotateCameraButton;
+	-(void) setRotateCameraButton:(UIButton *)p0;
 	-(void) viewDidLoad;
 	-(void) captureOutput:(AVCapturePhotoOutput *)p0 didFinishProcessingPhotoSampleBuffer:(id)p1 previewPhotoSampleBuffer:(id)p2 resolvedSettings:(AVCaptureResolvedPhotoSettings *)p3 bracketSettings:(AVCaptureBracketedStillImageSettings *)p4 error:(NSError *)p5;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface RotateAndScale : UIViewController<UIScrollViewDelegate, UIGestureRecognizerDelegate> {
+}
+	@property (nonatomic, assign) UIImageView * imageView;
+	@property (nonatomic, assign) UIButton * retakeButton;
+	@property (nonatomic, assign) UIScrollView * scrollView;
+	@property (nonatomic, assign) UIButton * usePhotoButton;
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UIImageView *) imageView;
+	-(void) setImageView:(UIImageView *)p0;
+	-(UIButton *) retakeButton;
+	-(void) setRetakeButton:(UIButton *)p0;
+	-(UIScrollView *) scrollView;
+	-(void) setScrollView:(UIScrollView *)p0;
+	-(UIButton *) usePhotoButton;
+	-(void) setUsePhotoButton:(UIButton *)p0;
+	-(void) viewDidLoad;
+	-(UIView *) viewForZoomingInScrollView:(UIScrollView *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 

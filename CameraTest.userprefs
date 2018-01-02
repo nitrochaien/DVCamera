@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{A0574AF9-6E4C-424B-A843-B09B751C70AC}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="CameraTest/RotateAndScale.cs">
     <Files>
-      <File FileName="CameraTest/CameraController.cs" Line="64" Column="49" />
+      <File FileName="CameraTest/CameraController.cs" Line="70" Column="10" />
       <File FileName="CameraTest/ViewController.cs" Line="28" Column="1" />
-      <File FileName="CameraTest/RotateAndScale.cs" Line="22" Column="72" />
+      <File FileName="CameraTest/RotateAndScale.cs" Line="85" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.CameraTest PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.5c4460a4edb55b4ebca46328c58b697cb872dd8f" automaticSigning="False">
