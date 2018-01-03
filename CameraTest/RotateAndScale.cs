@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using CoreAnimation;
 using CoreGraphics;
 using Foundation;
@@ -25,6 +26,21 @@ namespace CameraTest
         private nfloat screenWidth = UIScreen.MainScreen.Bounds.Size.Width;
         private nfloat circleWidth;
         private nfloat yCircle;
+
+        private CGRect CropArea {
+            get {
+                var factor = imageView.Image.Size.Width / View.Frame.Width;
+                var scale = 1 / scrollView.ZoomScale;
+                var imageFrame = imageView.ImageFrame();
+
+                var X = (scrollView.ContentOffset.X + 8 - imageFrame.X) * scale * factor;
+                var Y = (scrollView.ContentOffset.Y + yCircle - imageFrame.Y) * scale * factor;
+                var width = circleWidth * scale * factor;
+                var height = width;
+
+                return new CGRect(X, Y, width, height);
+            }
+        }
 
         private CAShapeLayer circleLayer;
 
@@ -53,12 +69,31 @@ namespace CameraTest
 
                 if (ImageDelegate != null)
                 {
-                    CropImage();
+                    image = image.CenterCrop(CropArea);
                     ImageDelegate.DidSelectedImage(image);
                 }
             };
 
             this.AddCircleOverlay();
+        }
+
+        public override void ViewWillAppear(bool animated)
+        {
+            base.ViewWillAppear(animated);
+
+            AppDelegate.Instance().IsLockOrientation = true;
+        }
+
+        public override void ViewWillDisappear(bool animated)
+        {
+            base.ViewWillDisappear(animated);
+
+            AppDelegate.Instance().IsLockOrientation = false;
+        }
+
+        public override bool PrefersStatusBarHidden()
+        {
+            return true;
         }
 
         #region UIScrollView Delegate
@@ -95,11 +130,12 @@ namespace CameraTest
             maskPath.UsesEvenOddFillRule = true;
 
             //add sublayer
-            var fillLayer = new CAShapeLayer();
-            fillLayer.Path = maskPath.CGPath;
-            fillLayer.FillRule = CAShapeLayer.FillRuleEvenOdd;
-            fillLayer.FillColor = maskColor.CGColor;
-
+            var fillLayer = new CAShapeLayer
+            {
+                Path = maskPath.CGPath,
+                FillRule = CAShapeLayer.FillRuleEvenOdd,
+                FillColor = maskColor.CGColor
+            };
             View.Layer.AddSublayer(fillLayer);
 
             var scaleLabel = new UILabel
@@ -112,16 +148,79 @@ namespace CameraTest
 
             View.AddSubview(scaleLabel);
         }
-
-        private void CropImage()
-        {
-            var size = new CGSize(circleWidth, circleWidth);
-            UIGraphics.BeginImageContextWithOptions(size, true, 0);
-            var context = UIGraphics.GetCurrentContext();
-            circleLayer.RenderInContext(context);
-            image = UIGraphics.GetImageFromCurrentImageContext();
-            UIGraphics.EndImageContext();
-        }
     }
 }
 
+public static class Extension {
+    public static CGRect ImageFrame(this UIImageView self) {
+        var imageViewSize = self.Frame.Size;
+        var image = self.Image;
+        if (image == null)
+            return CGRect.Null;
+
+        var imageSize = image.Size;
+        var imageRatio = imageSize.Width / imageSize.Height;
+        var imageViewRatio = imageViewSize.Width / imageViewSize.Height;
+
+        if (imageRatio < imageViewRatio) {
+            var scaleFactor = imageViewSize.Height / imageSize.Height;
+            var width = imageSize.Width * scaleFactor;
+            var topLeftX = (imageViewSize.Width - width) / 2;
+
+            return new CGRect(topLeftX, 0, width, imageViewSize.Height);
+        }
+
+        var scalFactor = imageViewSize.Width / imageSize.Width;
+        var height = imageSize.Height * scalFactor;
+        var topLeftY = (imageViewSize.Height - height) / 2;
+
+        return new CGRect(0, topLeftY, imageViewSize.Width, height);
+    }
+
+    public static UIImage CenterCrop(this UIImage image, CGRect rect)
+    {
+        // Use smallest side length as crop square length
+        double squareLength = Math.Min(image.Size.Width, image.Size.Height);
+
+        nfloat x, y;
+        x = (nfloat)((image.Size.Width - squareLength) / 2.0);
+        y = (nfloat)((image.Size.Height - squareLength) / 2.0);
+
+        //This Rect defines the coordinates to be used for the crop
+        var croppedRect = rect;
+
+        // Center-Crop the image
+        UIGraphics.BeginImageContextWithOptions(croppedRect.Size, false, image.CurrentScale);
+        image.Draw(new CGPoint(-croppedRect.X, -croppedRect.Y));
+        UIImage croppedImage = UIGraphics.GetImageFromCurrentImageContext();
+        UIGraphics.EndImageContext();
+
+        croppedImage = croppedImage.RoundedImage();
+
+        return croppedImage;
+    }
+
+    public static UIImage RoundedImage(this UIImage image) {
+        var size = image.Size;
+        var minEdge = Math.Min(size.Height, size.Width);
+
+        UIGraphics.BeginImageContextWithOptions(size, false, 0);
+        var context = UIGraphics.GetCurrentContext();
+
+        var rect = new CGRect(CGPoint.Empty, size);
+        image.Draw(rect, CGBlendMode.Copy, 1);
+        context.SetBlendMode(CGBlendMode.Copy);
+        context.SetFillColor(UIColor.Clear.CGColor);
+
+        var rectPath = UIBezierPath.FromRect(rect);
+        var circlePath = UIBezierPath.FromOval(rect);
+        rectPath.AppendPath(circlePath);
+        rectPath.UsesEvenOddFillRule = true;
+        rectPath.Fill();
+
+        var result = UIGraphics.GetImageFromCurrentImageContext();
+        UIGraphics.EndImageContext();
+
+        return result;
+    }
+}

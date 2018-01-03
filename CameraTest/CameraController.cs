@@ -3,6 +3,8 @@
 using UIKit;
 using AVFoundation;
 using Foundation;
+using CoreGraphics;
+using CoreAnimation;
 
 namespace CameraTest
 {
@@ -22,7 +24,8 @@ namespace CameraTest
             base.ViewDidLoad();
 
             this.captureButton.Layer.CornerRadius = this.captureButton.Frame.Width / 2;
-            this.captureButton.TouchUpInside += (sender, e) => {
+            this.captureButton.TouchUpInside += (sender, e) =>
+            {
                 this.HandleCapture();
             };
 
@@ -30,11 +33,14 @@ namespace CameraTest
             UIApplication.SharedApplication.StatusBarHidden = true;
             SetNeedsStatusBarAppearanceUpdate();
 
+            DetectRotation();
+
             var captureDevice = AVCaptureDevice.GetDefaultDevice(AVMediaType.Video);
             NSError err;
             var input = new AVCaptureDeviceInput(captureDevice, out err);
 
-            if (err == null) {
+            if (err == null)
+            {
                 captureSession = new AVCaptureSession();
                 captureSession.AddInput(input);
 
@@ -50,17 +56,46 @@ namespace CameraTest
                 captureSession.StartRunning();
             }
 
-            cancelButton.TouchUpInside += (sender, e) => {
+            cancelButton.TouchUpInside += (sender, e) =>
+            {
                 this.NavigationController.PopViewController(true);
             };
 
-            rotateCameraButton.TouchUpInside += (sender, e) => {
-                captureSession.BeginConfiguration();
+            rotateCameraButton.TouchUpInside += (sender, e) =>
+            {
+                ConfigRotateCamera();
+            };
 
+            flashOptionView.Hidden = true;
+
+            flashButton.TouchUpInside += (sender, e) =>
+            {
+                var state = flashOptionView.Hidden;
+                flashOptionView.Hidden = state ? flashOptionView.Hidden = false : flashOptionView.Hidden = true;
             };
         }
 
-        private void HandleCapture() {
+        public override void ViewWillAppear(bool animated)
+        {
+            base.ViewWillAppear(animated);
+
+            AppDelegate.Instance().IsLockOrientation = true;
+        }
+
+        public override void ViewWillDisappear(bool animated)
+        {
+            base.ViewWillDisappear(animated);
+
+            AppDelegate.Instance().IsLockOrientation = false;
+        }
+
+        public override bool PrefersStatusBarHidden()
+        {
+            return true;
+        }
+
+        private void HandleCapture()
+        {
             if (captureOutput == null) return;
 
             var photoSettings = AVCapturePhotoSettings.Create();
@@ -71,11 +106,90 @@ namespace CameraTest
             captureOutput.CapturePhoto(photoSettings, this);
         }
 
+        private void DetectRotation()
+        {
+            UIDevice.Notifications.ObserveOrientationDidChange((sender, args) =>
+            {
+                UIView.Animate(0.3, () =>
+                {
+                    if (UIDevice.CurrentDevice.Orientation == UIDeviceOrientation.Portrait)
+                    {
+                        rotateCameraButton.Transform = CGAffineTransform.MakeRotation(0);
+                        flashButton.Transform = CGAffineTransform.MakeRotation(0);
+                    }
+                    else if (UIDevice.CurrentDevice.Orientation == UIDeviceOrientation.LandscapeRight)
+                    {
+                        Console.WriteLine("yahooo");
+                        rotateCameraButton.Transform = CGAffineTransform.MakeRotation(-(float)Math.PI / 2);
+                        flashButton.Transform = CGAffineTransform.MakeRotation(-(float)Math.PI / 2);
+                    }
+                    else if (UIDevice.CurrentDevice.Orientation == UIDeviceOrientation.LandscapeLeft)
+                    {
+                        rotateCameraButton.Transform = CGAffineTransform.MakeRotation((float)Math.PI / 2);
+                        flashButton.Transform = CGAffineTransform.MakeRotation((float)Math.PI / 2);
+                    }
+                    else if (UIDevice.CurrentDevice.Orientation == UIDeviceOrientation.PortraitUpsideDown)
+                    {
+                        rotateCameraButton.Transform = CGAffineTransform.MakeRotation(-(float)Math.PI);
+                        flashButton.Transform = CGAffineTransform.MakeRotation(-(float)Math.PI);
+                    }
+                });
+            });
+        }
+
+        private void ConfigRotateCamera()
+        {
+            var animation = CATransition.CreateAnimation();
+            animation.Duration = 0.5;
+            animation.TimingFunction = CAMediaTimingFunction.FromName(CAMediaTimingFunction.EaseInEaseOut);
+
+            captureSession.BeginConfiguration();
+
+            var currentCameraInput = captureSession.Inputs[0];
+            captureSession.RemoveInput(currentCameraInput);
+
+            AVCaptureDevice camera;
+            AVCaptureDeviceInput input = (AVCaptureDeviceInput)currentCameraInput;
+            if (input.Device.Position == AVCaptureDevicePosition.Back)
+            {
+                camera = CameraWithPosition(AVCaptureDevicePosition.Front);
+                animation.Subtype = CAAnimation.TransitionFromLeft;
+            }
+            else
+            {
+                camera = CameraWithPosition(AVCaptureDevicePosition.Back);
+                animation.Subtype = CAAnimation.TransitionFromRight;
+            }
+
+            NSError err;
+            var videoInput = new AVCaptureDeviceInput(camera, out err);
+            if (err == null)
+                captureSession.AddInput(videoInput);
+
+            previewLayer.AddAnimation(animation, null);
+
+            captureSession.CommitConfiguration();
+        }
+
+        private AVCaptureDevice CameraWithPosition(AVCaptureDevicePosition pos)
+        {
+            var devices = AVCaptureDevice.DevicesWithMediaType(AVMediaType.Video);
+            foreach (var dev in devices)
+            {
+                if (dev.Position == pos)
+                {
+                    return dev;
+                }
+            }
+            return null;
+        }
+
         [Export("captureOutput:didFinishProcessingPhotoSampleBuffer:previewPhotoSampleBuffer:resolvedSettings:bracketSettings:error:")]
         public void DidFinishProcessingPhoto(AVCapturePhotoOutput captureOutput, CoreMedia.CMSampleBuffer photoSampleBuffer, CoreMedia.CMSampleBuffer previewPhotoSampleBuffer, AVCaptureResolvedPhotoSettings resolvedSettings, AVCaptureBracketedStillImageSettings bracketSettings, NSError error)
         {
             var imageData = AVCapturePhotoOutput.GetJpegPhotoDataRepresentation(photoSampleBuffer, previewPhotoSampleBuffer);
-            if (imageData != null) {
+            if (imageData != null)
+            {
                 var capturedImage = new UIImage(imageData);
 
                 var storyboard = UIStoryboard.FromName("Main", NSBundle.MainBundle);
@@ -86,7 +200,8 @@ namespace CameraTest
             }
         }
 
-        public void DidSelectedImage(UIImage image) {
+        public void DidSelectedImage(UIImage image)
+        {
             NSNotificationCenter.DefaultCenter.PostNotificationName("GetImageNotification", image);
             this.NavigationController.PopViewController(true);
         }

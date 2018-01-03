@@ -49,6 +49,7 @@
 	-(void) applicationWillEnterForeground:(UIApplication *)p0;
 	-(void) applicationDidBecomeActive:(UIApplication *)p0;
 	-(void) applicationWillTerminate:(UIApplication *)p0;
+	-(NSUInteger) application:(UIApplication *)p0 supportedInterfaceOrientationsForWindow:(UIWindow *)p1;
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end
@@ -73,6 +74,8 @@
 }
 	@property (nonatomic, assign) UIButton * cancelButton;
 	@property (nonatomic, assign) UIButton * captureButton;
+	@property (nonatomic, assign) UIButton * flashButton;
+	@property (nonatomic, assign) UIView * flashOptionView;
 	@property (nonatomic, assign) UIView * previewView;
 	@property (nonatomic, assign) UIButton * rotateCameraButton;
 	-(void) release;
@@ -83,11 +86,18 @@
 	-(void) setCancelButton:(UIButton *)p0;
 	-(UIButton *) captureButton;
 	-(void) setCaptureButton:(UIButton *)p0;
+	-(UIButton *) flashButton;
+	-(void) setFlashButton:(UIButton *)p0;
+	-(UIView *) flashOptionView;
+	-(void) setFlashOptionView:(UIView *)p0;
 	-(UIView *) previewView;
 	-(void) setPreviewView:(UIView *)p0;
 	-(UIButton *) rotateCameraButton;
 	-(void) setRotateCameraButton:(UIButton *)p0;
 	-(void) viewDidLoad;
+	-(void) viewWillAppear:(BOOL)p0;
+	-(void) viewWillDisappear:(BOOL)p0;
+	-(BOOL) prefersStatusBarHidden;
 	-(void) captureOutput:(AVCapturePhotoOutput *)p0 didFinishProcessingPhotoSampleBuffer:(id)p1 previewPhotoSampleBuffer:(id)p2 resolvedSettings:(AVCaptureResolvedPhotoSettings *)p3 bracketSettings:(AVCaptureBracketedStillImageSettings *)p4 error:(NSError *)p5;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
@@ -111,6 +121,9 @@
 	-(UIButton *) usePhotoButton;
 	-(void) setUsePhotoButton:(UIButton *)p0;
 	-(void) viewDidLoad;
+	-(void) viewWillAppear:(BOOL)p0;
+	-(void) viewWillDisappear:(BOOL)p0;
+	-(BOOL) prefersStatusBarHidden;
 	-(UIView *) viewForZoomingInScrollView:(UIScrollView *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end

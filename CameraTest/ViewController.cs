@@ -18,7 +18,7 @@ namespace CameraTest
             NSNotificationCenter.DefaultCenter.AddObserver(new NSString("GetImageNotification"), (obj) => {
                 var image = (UIImage)obj.Object;
                 if (image != null) {
-                    this.imageView.Image = image;
+                    imageView.Image = image;
                 }
             });
 

@@ -10,6 +10,13 @@ namespace CameraTest
     {
         // class-level declarations
 
+        public bool IsLockOrientation;
+
+        public static AppDelegate Instance()
+        {
+            return (AppDelegate)UIApplication.SharedApplication.Delegate;
+        }
+
         public override UIWindow Window
         {
             get;
@@ -53,6 +60,13 @@ namespace CameraTest
         public override void WillTerminate(UIApplication application)
         {
             // Called when the application is about to terminate. Save data, if needed. See also DidEnterBackground.
+        }
+
+        public override UIInterfaceOrientationMask GetSupportedInterfaceOrientations(UIApplication application, UIWindow forWindow)
+        {
+            if (IsLockOrientation)
+                return UIInterfaceOrientationMask.Portrait;
+            return UIInterfaceOrientationMask.All;
         }
     }
 }

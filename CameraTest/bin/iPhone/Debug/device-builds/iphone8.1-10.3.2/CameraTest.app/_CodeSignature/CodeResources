@@ -6,23 +6,23 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Lh1rZS4RKNT/ij1Yoebh8ds9qys=
+		05pdAnIkz3BL9Mxe2Dv30iX0Lpg=
 		</data>
 		<key>CameraTest.aotdata.arm64</key>
 		<data>
-		zoEGFMLIa6js1paNttHEYZAGkm0=
+		cVWc2JwIWTPZM0ywlxOWv7GTu5E=
 		</data>
 		<key>CameraTest.exe</key>
 		<data>
-		EOAVj+sTghoM3GzROlMpJh14dI4=
+		gcAIsw9nWaZ67i+IWABs6IFHk8k=
 		</data>
 		<key>CameraTest.pdb</key>
 		<data>
-		SMIdOlcEQAgQLB9DgUvCcxbk5C8=
+		Tpem6D6u8tpP8pO15tzmuyFw9Ms=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RYm3iqBNZ7UkGbF7n6bf3sJ4FyE=
+		lkOEjW6zKjGMuRk1RI7AeCIaqkA=
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -38,23 +38,23 @@
 		</data>
 		<key>Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		0hO21AfsiY9TI1pztbXBe6zf7qs=
+		Y5g26x2jbGsLcBUBcYqo4MhjNfw=
 		</data>
 		<key>Main.storyboardc/CameraController.nib</key>
 		<data>
-		5ENQ7KuftRfroaOenO+7ouY4tfU=
+		WFILwgE6nDHxmnYtn+b76+v3BgY=
 		</data>
 		<key>Main.storyboardc/Info.plist</key>
 		<data>
-		YU90bSH6PkxBvkJJaBtNnf6jo+0=
+		2AHWG3Cmqdd4Z/nAMeOHvL9anHc=
 		</data>
 		<key>Main.storyboardc/RotateAndScale.nib</key>
 		<data>
-		FeXR19ltPTZd/lQ3TvkQBaIGd7E=
+		NCO1KdjIO5YuGLqFhLL5vEa7ZR4=
 		</data>
 		<key>Main.storyboardc/UINavigationController-tKe-8B-CEz.nib</key>
 		<data>
-		EOBaRJc/4RvNNg4WDdiFkllVmCs=
+		edAjnB2o/FUV47phtGiZRzB+1Dg=
 		</data>
 		<key>Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Main.storyboardc/pjF-Lj-xVb-view-mRt-nU-ct7.nib</key>
 		<data>
-		TJOkvBvMHzenLnauaFbCe7rpX9g=
+		7Gyc7b3hd0lT8YW1fwcehnIJ8WU=
 		</data>
 		<key>Main.storyboardc/wUF-3t-1sU-view-QTf-MO-mjq.nib</key>
 		<data>
-		ifrUKCSzsm+pYJcBCLLDZ2xjXt4=
+		40mqZOgHTB9Lx1S5KhNRoOSvOWg=
 		</data>
 		<key>MonoTouchDebugConfiguration.txt</key>
 		<data>
@@ -86,15 +86,15 @@
 		</data>
 		<key>Xamarin.iOS.aotdata.arm64</key>
 		<data>
-		IGkka92vxyHdw/xKE7KmlPQvfoI=
+		5I2c3kvQcbAdlVcF42xt5Wp+N+k=
 		</data>
 		<key>Xamarin.iOS.dll</key>
 		<data>
-		S13xqo/tUtqLu2m4ydto1WVZvbU=
+		mEa5RWq/y2VxH17sxaD3VP6N6QI=
 		</data>
 		<key>Xamarin.iOS.dll.mdb</key>
 		<data>
-		dp426vuld7uFWkqpwuQqyIRbem8=
+		uVDJnhAwVQvxgPqO/tCAjEHdJLQ=
 		</data>
 		<key>archived-expanded-entitlements.xcent</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>libCameraTest.exe.dylib</key>
 		<data>
-		bSzL4dwRwCgHdm7YWSN6Bz0QApg=
+		0n0/u+I8XTe8Tz1LXMRmMOF+rAU=
 		</data>
 		<key>libXamarin.iOS.dll.dylib</key>
 		<data>
-		Xi2AWHIZ0gfb+ctimhkstudecoY=
+		sbq5g9x+yuNlIw6zYjEHLU0Twck=
 		</data>
 		<key>libmonosgen-2.0.dylib</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>libmscorlib.dll.dylib</key>
 		<data>
-		Qb26gMddl2tduKR/cg+TvU+bAJM=
+		K0S64ohg/t1BTnXkP+frrclQpuQ=
 		</data>
 		<key>libxamarin-debug.dylib</key>
 		<data>
@@ -126,15 +126,15 @@
 		</data>
 		<key>mscorlib.aotdata.arm64</key>
 		<data>
-		9XFaopfdZCFMUnBTTTlVuL5o38I=
+		wFH0/shXwnrFH6CM0XlTbJnVVog=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		BDuBqIMjPHuxoGiFwAU0v9HBSXg=
+		nUna7mLQhi9P9rqh5xNDExxtUS4=
 		</data>
 		<key>mscorlib.pdb</key>
 		<data>
-		py2VTj7OxQhNsjh4ygFlZQeJ7PI=
+		V8sGC2hH4p1QGQdMB0fE2ujTF/s=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -143,44 +143,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Lh1rZS4RKNT/ij1Yoebh8ds9qys=
+			05pdAnIkz3BL9Mxe2Dv30iX0Lpg=
 			</data>
 			<key>hash2</key>
 			<data>
-			2Hod3BPFgYWWm/86Orc0nWeJx60I4bRKpQe8GHdsi/U=
+			oyEkrdUTFMv/oNmvPBvE/POO8AhQg0EBQeMjzU02C38=
 			</data>
 		</dict>
 		<key>CameraTest.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zoEGFMLIa6js1paNttHEYZAGkm0=
+			cVWc2JwIWTPZM0ywlxOWv7GTu5E=
 			</data>
 			<key>hash2</key>
 			<data>
-			L2TRyDXPhX7Q2Vkru9aN4G5ZSJjmyr30UuFU7rPr1IA=
+			BRdtPzlQBeaCBpxVYug+EIDuWZLBXNSfAnOtGcboMaI=
 			</data>
 		</dict>
 		<key>CameraTest.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EOAVj+sTghoM3GzROlMpJh14dI4=
+			gcAIsw9nWaZ67i+IWABs6IFHk8k=
 			</data>
 			<key>hash2</key>
 			<data>
-			C+xTPtSfcycgADMNQjaH21Nc7OTYinyQq2cy27ZOaqc=
+			+I2IP/GnR0jyCcsjEoJ8ZVwiYt/Fl+88DGrKaDVO75c=
 			</data>
 		</dict>
 		<key>CameraTest.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SMIdOlcEQAgQLB9DgUvCcxbk5C8=
+			Tpem6D6u8tpP8pO15tzmuyFw9Ms=
 			</data>
 			<key>hash2</key>
 			<data>
-			6oFRbx9GPJcdSioUF/rs3lSceCJWg5N58UcRNGSA+9Y=
+			hsLWcxIsI/UzvuhJwo6IbmFFL5Ru1liMyr4zk53oRbs=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -220,55 +220,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0hO21AfsiY9TI1pztbXBe6zf7qs=
+			Y5g26x2jbGsLcBUBcYqo4MhjNfw=
 			</data>
 			<key>hash2</key>
 			<data>
-			llVfVFOfTDfl4dgtBgB9fzqGcYbBrGH5UpI6I0A1jZs=
+			t9Mzq41/FuKjv9sHEfEAWXBu9DXu/AP+Fs0HnjAHkqU=
 			</data>
 		</dict>
 		<key>Main.storyboardc/CameraController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5ENQ7KuftRfroaOenO+7ouY4tfU=
+			WFILwgE6nDHxmnYtn+b76+v3BgY=
 			</data>
 			<key>hash2</key>
 			<data>
-			0PpJOObgI2Tedwadt6U3ExPxTo8XXhiLmdPME7bcy1s=
+			C13Qa0lL609dw2sDuJKrXtWnD/RDTxkZ9XZJ0qQDVOA=
 			</data>
 		</dict>
 		<key>Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YU90bSH6PkxBvkJJaBtNnf6jo+0=
+			2AHWG3Cmqdd4Z/nAMeOHvL9anHc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZXwkFDQD7XkWvdYT9q75pxnjvYv6Ppg044VTIh3fgvQ=
+			fXMaL+wLn0hTUTjSLGuj+M+dxfQbDFfTSV/JfAci8ac=
 			</data>
 		</dict>
 		<key>Main.storyboardc/RotateAndScale.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FeXR19ltPTZd/lQ3TvkQBaIGd7E=
+			NCO1KdjIO5YuGLqFhLL5vEa7ZR4=
 			</data>
 			<key>hash2</key>
 			<data>
-			afpsw/EqICtoyRdVnJbjNIq9SHmAgK/+ybSIu3iWM/U=
+			jUuwLd4ekUtT/1K1PO1kxoJ2mE0jlh7b1l79OHRz6GM=
 			</data>
 		</dict>
 		<key>Main.storyboardc/UINavigationController-tKe-8B-CEz.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EOBaRJc/4RvNNg4WDdiFkllVmCs=
+			edAjnB2o/FUV47phtGiZRzB+1Dg=
 			</data>
 			<key>hash2</key>
 			<data>
-			vnOb4AL5eilRAOCT4adtq9t30dVHQELm3feGEnqvb5k=
+			/fJ+6ImxDbLy+5uTpVXg0bSlbj2XI8AiU37ueQuIITk=
 			</data>
 		</dict>
 		<key>Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
@@ -286,22 +286,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TJOkvBvMHzenLnauaFbCe7rpX9g=
+			7Gyc7b3hd0lT8YW1fwcehnIJ8WU=
 			</data>
 			<key>hash2</key>
 			<data>
-			X7JIO48zmZYNLb5I1O5sdR0obewTIK3VBPbM8S0GDpM=
+			HbQc1D1VQ67A19HTF5NG+3XlmciJJvtVriz22v2et48=
 			</data>
 		</dict>
 		<key>Main.storyboardc/wUF-3t-1sU-view-QTf-MO-mjq.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ifrUKCSzsm+pYJcBCLLDZ2xjXt4=
+			40mqZOgHTB9Lx1S5KhNRoOSvOWg=
 			</data>
 			<key>hash2</key>
 			<data>
-			MIVZPhjAI1h7Stge6HDrRn1E7wC5lWcXkhgV5FvNzXg=
+			20gtMytOr5bvwoXBgSFuliFIYxbJ/Z0BDtoT8Nqi96o=
 			</data>
 		</dict>
 		<key>MonoTouchDebugConfiguration.txt</key>
@@ -341,33 +341,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IGkka92vxyHdw/xKE7KmlPQvfoI=
+			5I2c3kvQcbAdlVcF42xt5Wp+N+k=
 			</data>
 			<key>hash2</key>
 			<data>
-			GaDMML+Pchx0rDHgKoq6ISLyrp9BSupuH+ihW+n7h9w=
+			hv4FdU13KK08/j9LIr339kJXf0vEh2nWl752mccuESg=
 			</data>
 		</dict>
 		<key>Xamarin.iOS.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S13xqo/tUtqLu2m4ydto1WVZvbU=
+			mEa5RWq/y2VxH17sxaD3VP6N6QI=
 			</data>
 			<key>hash2</key>
 			<data>
-			XrhbqtSg38+tA1Kle8qnmopIzkBWVXpxwLon7eyp43o=
+			yBn/HZU3/j/SX1kwplBlQ9/BuXjKsRBXfaFqGO02MH8=
 			</data>
 		</dict>
 		<key>Xamarin.iOS.dll.mdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dp426vuld7uFWkqpwuQqyIRbem8=
+			uVDJnhAwVQvxgPqO/tCAjEHdJLQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			agwClkE+efLH0dOmQrXJ5F+B0Dsm/vEBXL6jLCHRNSg=
+			4divreCESZLEDSHSQ3SXqFQ9XkXA5vez/h//ArLHq2o=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -396,22 +396,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bSzL4dwRwCgHdm7YWSN6Bz0QApg=
+			0n0/u+I8XTe8Tz1LXMRmMOF+rAU=
 			</data>
 			<key>hash2</key>
 			<data>
-			9uNEYKThSi6O9Gb9t9Iylzxionkcv1rA1s08OVpvc/o=
+			r3Txk888ha6LK3SWk8YzQKy6MaB9kQnJUITmGrCHoso=
 			</data>
 		</dict>
 		<key>libXamarin.iOS.dll.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Xi2AWHIZ0gfb+ctimhkstudecoY=
+			sbq5g9x+yuNlIw6zYjEHLU0Twck=
 			</data>
 			<key>hash2</key>
 			<data>
-			4qVGK5tOHubZ2hJ5lRqHAB8M31Ba4LthIdSVLhqk+i4=
+			I/U4E1+51//yXMgEClSarzoTUaAn8Ap0+zKvlxncghY=
 			</data>
 		</dict>
 		<key>libmonosgen-2.0.dylib</key>
@@ -429,11 +429,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Qb26gMddl2tduKR/cg+TvU+bAJM=
+			K0S64ohg/t1BTnXkP+frrclQpuQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Sgdfg2Y9u0LR1off1CRsowuo1Oy6c1hi5H4ezkdDssM=
+			F/MLTjK6wK7PlJfimGBvM69l8ox7NWYUgYZ9PyBWwLs=
 			</data>
 		</dict>
 		<key>libxamarin-debug.dylib</key>
@@ -451,33 +451,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9XFaopfdZCFMUnBTTTlVuL5o38I=
+			wFH0/shXwnrFH6CM0XlTbJnVVog=
 			</data>
 			<key>hash2</key>
 			<data>
-			FKdyLBy8smS+29IEw7EkK1nAM6JJzFeUd8W3xkkIg0o=
+			Me7o0jHtqMPeAQdO7/9mLB+Wr7sKS/SBGM5mmI3lDds=
 			</data>
 		</dict>
 		<key>mscorlib.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BDuBqIMjPHuxoGiFwAU0v9HBSXg=
+			nUna7mLQhi9P9rqh5xNDExxtUS4=
 			</data>
 			<key>hash2</key>
 			<data>
-			VfDfLRqGOHsqCPWw9WX7ti7RRozc1Mt0x1LYPholUgk=
+			D+KK3bNxKY8rhglOLJjIdNTXmSwn3PP+lbXkY8vRsW8=
 			</data>
 		</dict>
 		<key>mscorlib.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			py2VTj7OxQhNsjh4ygFlZQeJ7PI=
+			V8sGC2hH4p1QGQdMB0fE2ujTF/s=
 			</data>
 			<key>hash2</key>
 			<data>
-			F6+GH/MshvjR+zkwIDBU4HHeGs0TCcR6YLc4UO+6jJA=
+			gyNPGLKMyvQdlgg4RYlSf/sloH+nhSyjyj9sMAv1nQQ=
 			</data>
 		</dict>
 	</dict>

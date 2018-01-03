@@ -11,17 +11,17 @@
 
 @interface RotateAndScale : UIViewController {
 	UIImageView *_imageView;
+	UIButton *_retakeButton;
 	UIScrollView *_scrollView;
-    UIButton *_retakeButton;
-    UIButton *_usePhotoButton;
+	UIButton *_usePhotoButton;
 }
 
 @property (nonatomic, retain) IBOutlet UIImageView *imageView;
 
+@property (nonatomic, retain) IBOutlet UIButton *retakeButton;
+
 @property (nonatomic, retain) IBOutlet UIScrollView *scrollView;
 
-@property (retain, nonatomic) IBOutlet UIButton *retakeButton;
-
-@property (retain, nonatomic) IBOutlet UIButton *usePhotoButton;
+@property (nonatomic, retain) IBOutlet UIButton *usePhotoButton;
 
 @end

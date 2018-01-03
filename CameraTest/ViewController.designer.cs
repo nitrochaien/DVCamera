@@ -20,14 +20,14 @@ namespace CameraTest
 		
 		void ReleaseDesignerOutlets ()
 		{
-			if (imageView != null) {
-				imageView.Dispose ();
-				imageView = null;
-			}
-
 			if (cameraButton != null) {
 				cameraButton.Dispose ();
 				cameraButton = null;
+			}
+
+			if (imageView != null) {
+				imageView.Dispose ();
+				imageView = null;
 			}
 		}
 	}

@@ -10,17 +10,23 @@
 
 
 @interface CameraController : UIViewController {
+	UIButton *_cancelButton;
 	UIButton *_captureButton;
 	UIView *_previewView;
-    UIButton *_cancelButton;
-    UIButton *_rotateCameraButton;
+	UIButton *_rotateCameraButton;
+    UIButton *_flashButton;
+    UIView *_flashOptionView;
 }
+
+@property (nonatomic, retain) IBOutlet UIButton *cancelButton;
 
 @property (nonatomic, retain) IBOutlet UIButton *captureButton;
 
 @property (nonatomic, retain) IBOutlet UIView *previewView;
 
-@property (retain, nonatomic) IBOutlet UIButton *cancelButton;
+@property (nonatomic, retain) IBOutlet UIButton *rotateCameraButton;
 
-@property (retain, nonatomic) IBOutlet UIButton *rotateCameraButton;
+@property (retain, nonatomic) IBOutlet UIButton *flashButton;
+
+@property (retain, nonatomic) IBOutlet UIView *flashOptionView;
 @end

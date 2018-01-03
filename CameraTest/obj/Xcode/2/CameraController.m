@@ -9,9 +9,11 @@
 
 @implementation CameraController
 
+@synthesize cancelButton = _cancelButton;
 @synthesize captureButton = _captureButton;
 @synthesize previewView = _previewView;
 @synthesize rotateCameraButton = _rotateCameraButton;
-@synthesize cancelButton = _cancelButton;
+@synthesize flashButton = _flashButton;
+@synthesize flashOptionView = _flashOptionView;
 
 @end

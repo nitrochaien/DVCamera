@@ -19,6 +19,12 @@ namespace CameraTest
 		UIKit.UIButton captureButton { get; set; }
 
 		[Outlet]
+		UIKit.UIButton flashButton { get; set; }
+
+		[Outlet]
+		UIKit.UIView flashOptionView { get; set; }
+
+		[Outlet]
 		UIKit.UIView previewView { get; set; }
 
 		[Outlet]
@@ -26,6 +32,11 @@ namespace CameraTest
 		
 		void ReleaseDesignerOutlets ()
 		{
+			if (cancelButton != null) {
+				cancelButton.Dispose ();
+				cancelButton = null;
+			}
+
 			if (captureButton != null) {
 				captureButton.Dispose ();
 				captureButton = null;
@@ -36,14 +47,19 @@ namespace CameraTest
 				previewView = null;
 			}
 
-			if (cancelButton != null) {
-				cancelButton.Dispose ();
-				cancelButton = null;
-			}
-
 			if (rotateCameraButton != null) {
 				rotateCameraButton.Dispose ();
 				rotateCameraButton = null;
+			}
+
+			if (flashButton != null) {
+				flashButton.Dispose ();
+				flashButton = null;
+			}
+
+			if (flashOptionView != null) {
+				flashOptionView.Dispose ();
+				flashOptionView = null;
 			}
 		}
 	}

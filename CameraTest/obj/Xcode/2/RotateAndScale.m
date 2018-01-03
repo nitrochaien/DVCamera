@@ -10,8 +10,8 @@
 @implementation RotateAndScale
 
 @synthesize imageView = _imageView;
-@synthesize scrollView = _scrollView;
 @synthesize retakeButton = _retakeButton;
+@synthesize scrollView = _scrollView;
 @synthesize usePhotoButton = _usePhotoButton;
 
 @end
