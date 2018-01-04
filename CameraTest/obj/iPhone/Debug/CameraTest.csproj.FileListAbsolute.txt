@@ -7,3 +7,4 @@
 /Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/CameraTest.csproj.CoreCompileInputs.cache
 /Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/CameraTest.exe
 /Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/CameraTest.pdb
+/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/obj/iPhone/Debug/CameraTest.csprojResolveAssemblyReference.cache

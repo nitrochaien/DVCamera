@@ -33,25 +33,25 @@ namespace CameraTest
             UIApplication.SharedApplication.StatusBarHidden = true;
             SetNeedsStatusBarAppearanceUpdate();
 
-            DetectRotation();
-
             var captureDevice = AVCaptureDevice.GetDefaultDevice(AVMediaType.Video);
-            NSError err;
-            var input = new AVCaptureDeviceInput(captureDevice, out err);
+            var input = new AVCaptureDeviceInput(captureDevice, out NSError err);
 
             if (err == null)
             {
                 captureSession = new AVCaptureSession();
                 captureSession.AddInput(input);
 
-                previewLayer = new AVCaptureVideoPreviewLayer(captureSession);
-                previewLayer.VideoGravity = AVLayerVideoGravity.ResizeAspectFill;
-                previewLayer.Frame = previewView.Layer.Bounds;
+                previewLayer = new AVCaptureVideoPreviewLayer(captureSession)
+                {
+                    VideoGravity = AVLayerVideoGravity.ResizeAspectFill,
+                    Frame = previewView.Layer.Bounds
+                };
                 previewView.Layer.AddSublayer(previewLayer);
 
-                captureOutput = new AVCapturePhotoOutput();
-                captureOutput.IsHighResolutionCaptureEnabled = true;
-
+                captureOutput = new AVCapturePhotoOutput
+                {
+                    IsHighResolutionCaptureEnabled = true
+                };
                 captureSession.AddOutput(captureOutput);
                 captureSession.StartRunning();
             }
@@ -63,7 +63,7 @@ namespace CameraTest
 
             rotateCameraButton.TouchUpInside += (sender, e) =>
             {
-                ConfigRotateCamera();
+                HandleRotateCamera();
             };
 
             flashOptionView.Hidden = true;
@@ -73,6 +73,8 @@ namespace CameraTest
                 var state = flashOptionView.Hidden;
                 flashOptionView.Hidden = state ? flashOptionView.Hidden = false : flashOptionView.Hidden = true;
             };
+
+            DetectRotation();
         }
 
         public override void ViewWillAppear(bool animated)
@@ -112,37 +114,31 @@ namespace CameraTest
             {
                 UIView.Animate(0.3, () =>
                 {
-                    if (UIDevice.CurrentDevice.Orientation == UIDeviceOrientation.Portrait)
+                    switch (UIDevice.CurrentDevice.Orientation)
                     {
-                        rotateCameraButton.Transform = CGAffineTransform.MakeRotation(0);
-                        flashButton.Transform = CGAffineTransform.MakeRotation(0);
-                    }
-                    else if (UIDevice.CurrentDevice.Orientation == UIDeviceOrientation.LandscapeRight)
-                    {
-                        Console.WriteLine("yahooo");
-                        rotateCameraButton.Transform = CGAffineTransform.MakeRotation(-(float)Math.PI / 2);
-                        flashButton.Transform = CGAffineTransform.MakeRotation(-(float)Math.PI / 2);
-                    }
-                    else if (UIDevice.CurrentDevice.Orientation == UIDeviceOrientation.LandscapeLeft)
-                    {
-                        rotateCameraButton.Transform = CGAffineTransform.MakeRotation((float)Math.PI / 2);
-                        flashButton.Transform = CGAffineTransform.MakeRotation((float)Math.PI / 2);
-                    }
-                    else if (UIDevice.CurrentDevice.Orientation == UIDeviceOrientation.PortraitUpsideDown)
-                    {
-                        rotateCameraButton.Transform = CGAffineTransform.MakeRotation(-(float)Math.PI);
-                        flashButton.Transform = CGAffineTransform.MakeRotation(-(float)Math.PI);
+                        case UIDeviceOrientation.Portrait:
+                            rotateCameraButton.Transform = CGAffineTransform.MakeRotation(0);
+                            flashButton.Transform = CGAffineTransform.MakeRotation(0);
+                            break;
+                        case UIDeviceOrientation.LandscapeRight:
+                            rotateCameraButton.Transform = CGAffineTransform.MakeRotation(-(float)Math.PI / 2);
+                            flashButton.Transform = CGAffineTransform.MakeRotation(-(float)Math.PI / 2);
+                            break;
+                        case UIDeviceOrientation.LandscapeLeft:
+                            rotateCameraButton.Transform = CGAffineTransform.MakeRotation((float)Math.PI / 2);
+                            flashButton.Transform = CGAffineTransform.MakeRotation((float)Math.PI / 2);
+                            break;
+                        case UIDeviceOrientation.PortraitUpsideDown:
+                            rotateCameraButton.Transform = CGAffineTransform.MakeRotation(-(float)Math.PI);
+                            flashButton.Transform = CGAffineTransform.MakeRotation(-(float)Math.PI);
+                            break;
                     }
                 });
             });
         }
 
-        private void ConfigRotateCamera()
+        private void HandleRotateCamera()
         {
-            var animation = CATransition.CreateAnimation();
-            animation.Duration = 0.5;
-            animation.TimingFunction = CAMediaTimingFunction.FromName(CAMediaTimingFunction.EaseInEaseOut);
-
             captureSession.BeginConfiguration();
 
             var currentCameraInput = captureSession.Inputs[0];
@@ -153,22 +149,26 @@ namespace CameraTest
             if (input.Device.Position == AVCaptureDevicePosition.Back)
             {
                 camera = CameraWithPosition(AVCaptureDevicePosition.Front);
-                animation.Subtype = CAAnimation.TransitionFromLeft;
             }
             else
             {
                 camera = CameraWithPosition(AVCaptureDevicePosition.Back);
-                animation.Subtype = CAAnimation.TransitionFromRight;
             }
 
-            NSError err;
-            var videoInput = new AVCaptureDeviceInput(camera, out err);
+            var videoInput = new AVCaptureDeviceInput(camera, out NSError err);
             if (err == null)
                 captureSession.AddInput(videoInput);
 
-            previewLayer.AddAnimation(animation, null);
-
             captureSession.CommitConfiguration();
+            
+            AddFlipAnimation();
+        }
+
+        private void AddFlipAnimation() {
+            captureButton.Enabled = false;
+            UIView.Transition(previewView, 0.5, UIViewAnimationOptions.TransitionFlipFromLeft | UIViewAnimationOptions.AllowAnimatedContent, null, () => {
+                captureButton.Enabled = true;
+            });
         }
 
         private AVCaptureDevice CameraWithPosition(AVCaptureDevicePosition pos)

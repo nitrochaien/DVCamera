@@ -10,15 +10,15 @@
 		</data>
 		<key>CameraTest.aotdata.arm64</key>
 		<data>
-		cVWc2JwIWTPZM0ywlxOWv7GTu5E=
+		yI8BwTdw3ODqGqFKoj95NP+KxXA=
 		</data>
 		<key>CameraTest.exe</key>
 		<data>
-		gcAIsw9nWaZ67i+IWABs6IFHk8k=
+		evpEKBnwxysT8acarksMHoR83OM=
 		</data>
 		<key>CameraTest.pdb</key>
 		<data>
-		Tpem6D6u8tpP8pO15tzmuyFw9Ms=
+		sAgo5qEna6/0ZLXNphJiaJYM0MY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -86,15 +86,15 @@
 		</data>
 		<key>Xamarin.iOS.aotdata.arm64</key>
 		<data>
-		5I2c3kvQcbAdlVcF42xt5Wp+N+k=
+		zxZdm4k+ECNeeYIZkJXZaEUCzDU=
 		</data>
 		<key>Xamarin.iOS.dll</key>
 		<data>
-		mEa5RWq/y2VxH17sxaD3VP6N6QI=
+		0gPyL6aJRxMmkabVIK9yA2j1BIs=
 		</data>
 		<key>Xamarin.iOS.dll.mdb</key>
 		<data>
-		uVDJnhAwVQvxgPqO/tCAjEHdJLQ=
+		AeXCZgCWV0id/Hc2Ok0hJdQ5yuQ=
 		</data>
 		<key>archived-expanded-entitlements.xcent</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>libCameraTest.exe.dylib</key>
 		<data>
-		0n0/u+I8XTe8Tz1LXMRmMOF+rAU=
+		Iw7WSDSr3k+awzieb6L9xQ4ZwUE=
 		</data>
 		<key>libXamarin.iOS.dll.dylib</key>
 		<data>
-		sbq5g9x+yuNlIw6zYjEHLU0Twck=
+		IdXa8VT2ylaXigdmDTXtqDO8VKw=
 		</data>
 		<key>libmonosgen-2.0.dylib</key>
 		<data>
@@ -154,33 +154,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cVWc2JwIWTPZM0ywlxOWv7GTu5E=
+			yI8BwTdw3ODqGqFKoj95NP+KxXA=
 			</data>
 			<key>hash2</key>
 			<data>
-			BRdtPzlQBeaCBpxVYug+EIDuWZLBXNSfAnOtGcboMaI=
+			purC7RQbd8O45mvaWVo6Cr7R6aXi6QaBoWpKW0CDQPA=
 			</data>
 		</dict>
 		<key>CameraTest.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gcAIsw9nWaZ67i+IWABs6IFHk8k=
+			evpEKBnwxysT8acarksMHoR83OM=
 			</data>
 			<key>hash2</key>
 			<data>
-			+I2IP/GnR0jyCcsjEoJ8ZVwiYt/Fl+88DGrKaDVO75c=
+			irmitHUbR5KtoSmCPSvm6krTqscHBcUzZ9cv1UcN3EM=
 			</data>
 		</dict>
 		<key>CameraTest.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Tpem6D6u8tpP8pO15tzmuyFw9Ms=
+			sAgo5qEna6/0ZLXNphJiaJYM0MY=
 			</data>
 			<key>hash2</key>
 			<data>
-			hsLWcxIsI/UzvuhJwo6IbmFFL5Ru1liMyr4zk53oRbs=
+			jGGFcoaYzKBIGvRko9FNRvvEyWtxc3VhPmPhmMNfU10=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -341,33 +341,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5I2c3kvQcbAdlVcF42xt5Wp+N+k=
+			zxZdm4k+ECNeeYIZkJXZaEUCzDU=
 			</data>
 			<key>hash2</key>
 			<data>
-			hv4FdU13KK08/j9LIr339kJXf0vEh2nWl752mccuESg=
+			oVJ2cTcOlMPu+yskwri5wBDo+sTN+ecBkE2ogd4nMyI=
 			</data>
 		</dict>
 		<key>Xamarin.iOS.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mEa5RWq/y2VxH17sxaD3VP6N6QI=
+			0gPyL6aJRxMmkabVIK9yA2j1BIs=
 			</data>
 			<key>hash2</key>
 			<data>
-			yBn/HZU3/j/SX1kwplBlQ9/BuXjKsRBXfaFqGO02MH8=
+			jOmmsFp0HjXlJDJiCyhhMpeE/pM/FH2K/Do55Yiyi9c=
 			</data>
 		</dict>
 		<key>Xamarin.iOS.dll.mdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uVDJnhAwVQvxgPqO/tCAjEHdJLQ=
+			AeXCZgCWV0id/Hc2Ok0hJdQ5yuQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			4divreCESZLEDSHSQ3SXqFQ9XkXA5vez/h//ArLHq2o=
+			zstLKWfVyHvoKYandlFDLPBmZmvByR4kPqn/CqKS6Sw=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -396,22 +396,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0n0/u+I8XTe8Tz1LXMRmMOF+rAU=
+			Iw7WSDSr3k+awzieb6L9xQ4ZwUE=
 			</data>
 			<key>hash2</key>
 			<data>
-			r3Txk888ha6LK3SWk8YzQKy6MaB9kQnJUITmGrCHoso=
+			PvAbsYFFKlAmWq1U3E4ZxaGKIiyiRtFqsVsbwUBcAYg=
 			</data>
 		</dict>
 		<key>libXamarin.iOS.dll.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sbq5g9x+yuNlIw6zYjEHLU0Twck=
+			IdXa8VT2ylaXigdmDTXtqDO8VKw=
 			</data>
 			<key>hash2</key>
 			<data>
-			I/U4E1+51//yXMgEClSarzoTUaAn8Ap0+zKvlxncghY=
+			u11X3mRwFyv/gKniHFUwT2/nm0SlzOaqvzaOZUtDrMQ=
 			</data>
 		</dict>
 		<key>libmonosgen-2.0.dylib</key>
