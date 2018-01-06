@@ -3102,10 +3102,11 @@ Lme_18:
 	.no_dead_strip CameraTest_CameraController__ctor_intptr
 CameraTest_CameraController__ctor_intptr:
 .file 6 "/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/CameraController.cs"
-.loc 6 13 0 prologue_end
+.loc 6 22 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
-.word 0xf9000ba0
+.word 0xf9000bb9
+.word 0xaa0003f9
 .word 0xf9000fa1
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
@@ -3115,7 +3116,7 @@ ldr x16, [x16, #520]
 .word 0xf9400a11
 .word 0xf90017b1
 .word 0xf94013b1
-.word 0xf9403631
+.word 0xf9403a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
@@ -3123,30 +3124,40 @@ ldr x16, [x16, #520]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9405631
+.word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9400ba0
+.word 0xaa1903e0
+.word 0xd2800040
+.word 0xf9004b20
+.loc 6 13 0
+.word 0xf94013b1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
 .word 0xf9400fa1
+.word 0xaa1903e0
 bl _p_27
 .word 0xf94013b1
-.word 0xf9407231
+.word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
 .loc 6 14 0
 .word 0xf94013b1
-.word 0xf9408231
+.word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
 .loc 6 16 0
 .word 0xf94013b1
-.word 0xf9409231
+.word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf940a231
+.word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xf9400bb9
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
@@ -3156,160 +3167,162 @@ Lme_19:
 	.align 4
 	.no_dead_strip CameraTest_CameraController_ViewDidLoad
 CameraTest_CameraController_ViewDidLoad:
-.loc 6 23 0 prologue_end
-.word 0xa9ac7bfd
+.loc 6 25 0 prologue_end
+.word 0xa9aa7bfd
 .word 0x910003fd
-.word 0xa90163b7
-.word 0xa9026bb9
+.word 0xa90157b4
+.word 0xa9025fb6
+.word 0xa90367b8
+.word 0xf90023ba
 .word 0xaa0003fa
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #528]
-.word 0xf9001bb0
+.word 0xf90027b0
 .word 0xf9400a11
-.word 0xf9001fb1
+.word 0xf9002bb1
 .word 0xd2800019
-.word 0xf90057bf
 .word 0xd2800018
-.word 0x910223a0
+.word 0xf90063bf
+.word 0x910283a0
 .word 0xd2800000
-.word 0xf90047a0
-.word 0xf9004ba0
-.word 0xf9004fa0
 .word 0xf90053a0
+.word 0xf90057a0
+.word 0xf9005ba0
+.word 0xf9005fa0
 .word 0xd2800017
-.word 0xf9401bb1
-.word 0xf9406231
+.word 0xf94027b1
+.word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401fb1
+.word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9408231
+.word 0xf94027b1
+.word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 24 0
-.word 0xf9401bb1
-.word 0xf9409231
+.loc 6 26 0
+.word 0xf94027b1
+.word 0xf9409a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_28
-.word 0xf9401bb1
-.word 0xf940ae31
+.word 0xf94027b1
+.word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 26 0
-.word 0xf9401bb1
-.word 0xf940be31
+.loc 6 28 0
+.word 0xf94027b1
+.word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_42
-.word 0xf9009fa0
-.word 0xf9401bb1
-.word 0xf940de31
+.word 0xf900a7a0
+.word 0xf94027b1
+.word 0xf940e631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9409fa1
+.word 0xf940a7a1
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf9414430
 .word 0xd63f0200
-.word 0xf9008ba0
-.word 0xf9401bb1
-.word 0xf9410631
+.word 0xf90093a0
+.word 0xf94027b1
+.word 0xf9410e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_42
-.word 0xf9009ba0
-.word 0xf9401bb1
-.word 0xf9412631
+.word 0xf900a3a0
+.word 0xf94027b1
+.word 0xf9412e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9409ba1
-.word 0x9101a3a0
-.word 0xf9005ba0
+.word 0xf940a3a1
+.word 0x910203a0
+.word 0xf90067a0
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf9415430
 .word 0xd63f0200
-.word 0xf9405bbe
+.word 0xf94067be
 .word 0xfd0003c0
 .word 0xfd0007c1
 .word 0xfd000bc2
 .word 0xfd000fc3
-.word 0xf9401bb1
-.word 0xf9416631
+.word 0xf94027b1
+.word 0xf9416e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x9101a3a0
-.word 0x910223a0
-.word 0xf94037a0
-.word 0xf90047a0
-.word 0xf9403ba0
-.word 0xf9004ba0
-.word 0xf9403fa0
-.word 0xf9004fa0
+.word 0x910203a0
+.word 0x910283a0
 .word 0xf94043a0
 .word 0xf90053a0
-.word 0x910223a0
+.word 0xf94047a0
+.word 0xf90057a0
+.word 0xf9404ba0
+.word 0xf9005ba0
+.word 0xf9404fa0
+.word 0xf9005fa0
+.word 0x910283a0
 bl _p_43
-.word 0xfd0093a0
-.word 0xf9401bb1
-.word 0xf941aa31
+.word 0xfd009ba0
+.word 0xf94027b1
+.word 0xf941b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800040
 .word 0xd2800040
 bl _p_5
-.word 0xfd0097a0
-.word 0xf9401bb1
-.word 0xf941ca31
+.word 0xfd009fa0
+.word 0xf94027b1
+.word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xfd4093a0
-.word 0xfd4097a1
+.word 0xfd409ba0
+.word 0xfd409fa1
 .word 0x1e611800
-.word 0xfd008fa0
-.word 0xf9401bb1
-.word 0xf941ea31
+.word 0xfd0097a0
+.word 0xf94027b1
+.word 0xf941f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9408ba1
-.word 0xfd408fa0
+.word 0xf94093a1
+.word 0xfd4097a0
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf9414c30
 .word 0xd63f0200
-.word 0xf9401bb1
-.word 0xf9421231
+.word 0xf94027b1
+.word 0xf9421a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 27 0
-.word 0xf9401bb1
-.word 0xf9422231
+.loc 6 29 0
+.word 0xf94027b1
+.word 0xf9422a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_42
-.word 0xf90087a0
-.word 0xf9401bb1
-.word 0xf9424231
+.word 0xf9008fa0
+.word 0xf94027b1
+.word 0xf9424a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x54005260
+.word 0x54006c80
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
@@ -3318,7 +3331,7 @@ ldr x0, [x16, #408]
 .word 0xd2800e01
 bl _p_32
 .word 0xaa0003e1
-.word 0xf94087a2
+.word 0xf9408fa2
 .word 0xf900103a
 .word 0x91008020
 .word 0xd349fc00
@@ -3355,13 +3368,13 @@ ldr x0, [x16, #552]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_35
-.word 0xf9401bb1
-.word 0xf9430231
+.word 0xf94027b1
+.word 0xf9430a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 32 0
-.word 0xf9401bb1
-.word 0xf9431231
+.loc 6 34 0
+.word 0xf94027b1
+.word 0xf9431a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3369,57 +3382,57 @@ bl _p_35
 .word 0xf9400341
 .word 0xf9412830
 .word 0xd63f0200
-.word 0xf90083a0
-.word 0xf9401bb1
-.word 0xf9433a31
+.word 0xf9008ba0
+.word 0xf94027b1
+.word 0xf9434231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94083a1
+.word 0xf9408ba1
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf9417430
 .word 0xd63f0200
-.word 0xf9007fa0
-.word 0xf9401bb1
-.word 0xf9436231
+.word 0xf90087a0
+.word 0xf94027b1
+.word 0xf9436a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9407fa2
+.word 0xf94087a2
 .word 0xd2800020
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf9400042
 .word 0xf9414850
 .word 0xd63f0200
-.word 0xf9401bb1
-.word 0xf9438e31
+.word 0xf94027b1
+.word 0xf9439631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 33 0
-.word 0xf9401bb1
-.word 0xf9439e31
+.loc 6 35 0
+.word 0xf94027b1
+.word 0xf943a631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_23
-.word 0xf9007ba0
-.word 0xf9401bb1
-.word 0xf943b631
+.word 0xf90083a0
+.word 0xf94027b1
+.word 0xf943be31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9407ba2
+.word 0xf94083a2
 .word 0xd2800020
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf9400042
 .word 0xf940e450
 .word 0xd63f0200
-.word 0xf9401bb1
-.word 0xf943e231
+.word 0xf94027b1
+.word 0xf943ea31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 34 0
-.word 0xf9401bb1
-.word 0xf943f231
+.loc 6 36 0
+.word 0xf94027b1
+.word 0xf943fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3427,75 +3440,75 @@ bl _p_23
 .word 0xf9400341
 .word 0xf9415030
 .word 0xd63f0200
-.word 0xf9401bb1
-.word 0xf9441631
+.word 0xf94027b1
+.word 0xf9441e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 36 0
-.word 0xf9401bb1
-.word 0xf9442631
+.loc 6 38 0
+.word 0xf94027b1
+.word 0xf9442e31
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_44
+.word 0xf9007fa0
+.word 0xf94027b1
+.word 0xf9444631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407fa0
+bl _p_45
+.word 0xf9007ba0
+.word 0xf94027b1
+.word 0xf9446231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407ba0
 .word 0xf90077a0
-.word 0xf9401bb1
-.word 0xf9443e31
+.word 0xaa0003f9
+.loc 6 39 0
+.word 0xf94027b1
+.word 0xf9447e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94077a0
-bl _p_45
-.word 0xf90073a0
-.word 0xf9401bb1
-.word 0xf9445a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94073a0
 .word 0xf9006fa0
-.word 0xaa0003f9
-.loc 6 38 0
-.word 0xf9401bb1
-.word 0xf9447631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406fa0
-.word 0xf90067a0
-.word 0x9102a3a0
-.word 0xf9006ba0
+.word 0x910303a0
+.word 0xf90073a0
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x0, [x16, #560]
 bl _p_30
-.word 0xf94067a1
-.word 0xf9406ba2
-.word 0xf90063a0
+.word 0xf9406fa1
+.word 0xf94073a2
+.word 0xf9006ba0
 bl _p_46
-.word 0xf9401bb1
-.word 0xf944b631
+.word 0xf94027b1
+.word 0xf944be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9406ba0
+.word 0xaa0003f8
+.loc 6 41 0
+.word 0xf94027b1
+.word 0xf944d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94063a0
-.word 0xaa0003f8
-.loc 6 40 0
-.word 0xf9401bb1
-.word 0xf944ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94057a0
 .word 0xd2800001
 .word 0xeb1f001f
 .word 0x9a9f17e0
 .word 0xaa0003f7
 .word 0xaa1703e0
-.word 0x340020c0
-.loc 6 41 0
-.word 0xf9401bb1
-.word 0xf944fa31
+.word 0x34002060
+.loc 6 42 0
+.word 0xf94027b1
+.word 0xf9450231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 42 0
-.word 0xf9401bb1
-.word 0xf9450a31
+.loc 6 43 0
+.word 0xf94027b1
+.word 0xf9451231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3504,13 +3517,13 @@ adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x0, [x16, #568]
 bl _p_30
-.word 0xf90083a0
+.word 0xf900aba0
 bl _p_47
-.word 0xf9401bb1
-.word 0xf9453631
+.word 0xf94027b1
+.word 0xf9453e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94083a0
+.word 0xf940aba0
 .word 0xf9001b40
 .word 0x9100c341
 .word 0xd349fc21
@@ -3524,9 +3537,9 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 6 43 0
-.word 0xf9401bb1
-.word 0xf9457a31
+.loc 6 44 0
+.word 0xf94027b1
+.word 0xf9458231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3537,29 +3550,97 @@ ldr x2, [x16, #16]
 .word 0xf9400042
 .word 0xf940e850
 .word 0xd63f0200
-.word 0xf9401bb1
-.word 0xf945aa31
+.word 0xf94027b1
+.word 0xf945b231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 45 0
-.word 0xf9401bb1
-.word 0xf945ba31
+.loc 6 46 0
+.word 0xf94027b1
+.word 0xf945c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9401b40
-.word 0xf9007fa0
+.word 0xf90093a0
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x0, [x16, #576]
 bl _p_30
-.word 0xf9407fa1
-.word 0xf9007ba0
+.word 0xf94093a1
+.word 0xf9008fa0
 bl _p_48
-.word 0xf9401bb1
-.word 0xf945f631
+.word 0xf94027b1
+.word 0xf945fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9408fa0
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xf9008ba0
+.word 0xaa1603e0
+.word 0xd2800020
+.word 0xaa1603e0
+.word 0xd2800021
+.word 0xf94002de
+bl _p_49
+.word 0xf94027b1
+.word 0xf9463631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9408ba0
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xf9007ba0
+.word 0xaa1503e0
+.word 0xf9007fa0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_50
+.word 0xf90087a0
+.word 0xf94027b1
+.word 0xf9466e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94087a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9414430
+.word 0xd63f0200
+.word 0xf90083a0
+.word 0xf94027b1
+.word 0xf9469631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94083a1
+.word 0x910183a0
+.word 0xf90067a0
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9415030
+.word 0xd63f0200
+.word 0xf94067be
+.word 0xfd0003c0
+.word 0xfd0007c1
+.word 0xfd000bc2
+.word 0xfd000fc3
+.word 0xf94027b1
+.word 0xf946d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407fa1
+.word 0xaa0103e0
+.word 0x910183a2
+.word 0xfd4033a0
+.word 0xfd4037a1
+.word 0xfd403ba2
+.word 0xfd403fa3
+.word 0xf9400021
+.word 0xf9413830
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf9470e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407ba0
@@ -3576,36 +3657,17 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 6 46 0
-.word 0xf9401bb1
-.word 0xf9463a31
+.loc 6 51 0
+.word 0xf94027b1
+.word 0xf9475231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9401f42
-.word 0xd2800020
-.word 0xaa0203e0
-.word 0xd2800021
-.word 0xf940005e
-bl _p_49
-.word 0xf9401bb1
-.word 0xf9466631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 6 47 0
-.word 0xf9401bb1
-.word 0xf9467631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9401f40
-.word 0xf9006fa0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_50
 .word 0xf90077a0
-.word 0xf9401bb1
-.word 0xf946a231
+.word 0xf94027b1
+.word 0xf9477231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94077a1
@@ -3614,76 +3676,23 @@ bl _p_50
 .word 0xf9414430
 .word 0xd63f0200
 .word 0xf90073a0
-.word 0xf9401bb1
-.word 0xf946ca31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94073a1
-.word 0x910123a0
-.word 0xf9005ba0
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf9415030
-.word 0xd63f0200
-.word 0xf9405bbe
-.word 0xfd0003c0
-.word 0xfd0007c1
-.word 0xfd000bc2
-.word 0xfd000fc3
-.word 0xf9401bb1
-.word 0xf9470a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406fa1
-.word 0xaa0103e0
-.word 0x910123a2
-.word 0xfd4027a0
-.word 0xfd402ba1
-.word 0xfd402fa2
-.word 0xfd4033a3
-.word 0xf9400021
-.word 0xf9413830
-.word 0xd63f0200
-.word 0xf9401bb1
-.word 0xf9474231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 6 48 0
-.word 0xf9401bb1
-.word 0xf9475231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_50
-.word 0xf9006ba0
-.word 0xf9401bb1
-.word 0xf9477231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406ba1
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf9414430
-.word 0xd63f0200
-.word 0xf90067a0
-.word 0xf9401bb1
+.word 0xf94027b1
 .word 0xf9479a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94067a2
+.word 0xf94073a2
 .word 0xaa1a03e0
 .word 0xf9401f41
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9416850
 .word 0xd63f0200
-.word 0xf9401bb1
+.word 0xf94027b1
 .word 0xf947c631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 50 0
-.word 0xf9401bb1
+.loc 6 53 0
+.word 0xf94027b1
 .word 0xf947d631
 .word 0xb4000051
 .word 0xd63f0220
@@ -3693,13 +3702,28 @@ adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x0, [x16, #584]
 bl _p_30
-.word 0xf90063a0
+.word 0xf9006fa0
 bl _p_51
-.word 0xf9401bb1
+.word 0xf94027b1
 .word 0xf9480231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94063a0
+.word 0xf9406fa0
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xf9006ba0
+.word 0xaa1403e0
+.word 0xd2800020
+.word 0xaa1403e0
+.word 0xd2800021
+.word 0xf9400282
+.word 0xf940d050
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf9483e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9406ba0
 .word 0xf9002340
 .word 0x91010341
 .word 0xd349fc21
@@ -3713,26 +3737,9 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 6 51 0
-.word 0xf9401bb1
-.word 0xf9484631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9402342
-.word 0xd2800020
-.word 0xaa0203e0
-.word 0xd2800021
-.word 0xf9400042
-.word 0xf940d050
-.word 0xd63f0200
-.word 0xf9401bb1
-.word 0xf9487631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 6 53 0
-.word 0xf9401bb1
-.word 0xf9488631
+.loc 6 57 0
+.word 0xf94027b1
+.word 0xf9488231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3743,13 +3750,13 @@ ldr x2, [x16, #16]
 .word 0xf9400042
 .word 0xf940e450
 .word 0xd63f0200
-.word 0xf9401bb1
-.word 0xf948b631
+.word 0xf94027b1
+.word 0xf948b231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 54 0
-.word 0xf9401bb1
-.word 0xf948c631
+.loc 6 58 0
+.word 0xf94027b1
+.word 0xf948c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -3758,36 +3765,36 @@ ldr x2, [x16, #16]
 .word 0xf9400021
 .word 0xf940d430
 .word 0xd63f0200
-.word 0xf9401bb1
-.word 0xf948ee31
+.word 0xf94027b1
+.word 0xf948ea31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 55 0
-.word 0xf9401bb1
-.word 0xf948fe31
+.loc 6 59 0
+.word 0xf94027b1
+.word 0xf948fa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 57 0
-.word 0xf9401fb1
+.loc 6 61 0
+.word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9491e31
+.word 0xf94027b1
+.word 0xf9491a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_52
-.word 0xf9006fa0
-.word 0xf9401bb1
-.word 0xf9493e31
+.word 0xf9008ba0
+.word 0xf94027b1
+.word 0xf9493a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x54001a80
+.word 0x54003500
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
@@ -3796,7 +3803,7 @@ ldr x0, [x16, #408]
 .word 0xd2800e01
 bl _p_32
 .word 0xaa0003e1
-.word 0xf9406fa2
+.word 0xf9408ba2
 .word 0xf900103a
 .word 0x91008020
 .word 0xd349fc00
@@ -3833,27 +3840,27 @@ ldr x0, [x16, #608]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_35
-.word 0xf9401bb1
-.word 0xf949fe31
+.word 0xf94027b1
+.word 0xf949fa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 62 0
-.word 0xf9401bb1
-.word 0xf94a0e31
+.loc 6 66 0
+.word 0xf94027b1
+.word 0xf94a0a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_53
-.word 0xf9006ba0
-.word 0xf9401bb1
-.word 0xf94a2e31
+.word 0xf90087a0
+.word 0xf94027b1
+.word 0xf94a2a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x54001300
+.word 0x54002d80
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
@@ -3862,7 +3869,7 @@ ldr x0, [x16, #408]
 .word 0xd2800e01
 bl _p_32
 .word 0xaa0003e1
-.word 0xf9406ba2
+.word 0xf94087a2
 .word 0xf900103a
 .word 0x91008020
 .word 0xd349fc00
@@ -3899,51 +3906,51 @@ ldr x0, [x16, #632]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_35
-.word 0xf9401bb1
-.word 0xf94aee31
+.word 0xf94027b1
+.word 0xf94aea31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 67 0
-.word 0xf9401bb1
-.word 0xf94afe31
+.loc 6 71 0
+.word 0xf94027b1
+.word 0xf94afa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_54
-.word 0xf90067a0
-.word 0xf9401bb1
-.word 0xf94b1e31
+.word 0xf90083a0
+.word 0xf94027b1
+.word 0xf94b1a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94067a2
+.word 0xf94083a2
 .word 0xd2800020
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf9400042
 .word 0xf9414850
 .word 0xd63f0200
-.word 0xf9401bb1
-.word 0xf94b4a31
+.word 0xf94027b1
+.word 0xf94b4631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 69 0
-.word 0xf9401bb1
-.word 0xf94b5a31
+.loc 6 73 0
+.word 0xf94027b1
+.word 0xf94b5631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_55
-.word 0xf90063a0
-.word 0xf9401bb1
-.word 0xf94b7a31
+.word 0xf9007fa0
+.word 0xf94027b1
+.word 0xf94b7631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x540008a0
+.word 0x54002320
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
@@ -3952,7 +3959,7 @@ ldr x0, [x16, #408]
 .word 0xd2800e01
 bl _p_32
 .word 0xaa0003e1
-.word 0xf94063a2
+.word 0xf9407fa2
 .word 0xf900103a
 .word 0x91008020
 .word 0xd349fc00
@@ -3989,35 +3996,266 @@ ldr x0, [x16, #656]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_35
-.word 0xf9401bb1
-.word 0xf94c3a31
+.word 0xf94027b1
+.word 0xf94c3631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 75 0
-.word 0xf9401bb1
-.word 0xf94c4a31
+.loc 6 78 0
+.word 0xf94027b1
+.word 0xf94c4631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_56
-.word 0xf9401bb1
+.word 0xf9007ba0
+.word 0xf94027b1
 .word 0xf94c6631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 76 0
-.word 0xf9401bb1
-.word 0xf94c7631
+.word 0xaa1a03e0
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x54001ba0
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x0, [x16, #408]
+.word 0xd2800e01
+.word 0xd2800e01
+bl _p_32
+.word 0xaa0003e1
+.word 0xf9407ba2
+.word 0xf900103a
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x0, [x16, #664]
+.word 0xf9001420
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x0, [x16, #672]
+.word 0xf9002020
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x0, [x16, #680]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901803f
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_35
+.word 0xf94027b1
+.word 0xf94d2631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf94c8631
+.loc 6 86 0
+.word 0xf94027b1
+.word 0xf94d3631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa94163b7
-.word 0xa9426bb9
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_56
+.word 0xf90077a0
+.word 0xf94027b1
+.word 0xf94d5631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_57
+.word 0xf90073a0
+.word 0xf94027b1
+.word 0xf94d6e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94073a1
+.word 0xf94077a3
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf941c070
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf94d9e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 88 0
+.word 0xf94027b1
+.word 0xf94dae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_58
+.word 0xf9006fa0
+.word 0xf94027b1
+.word 0xf94dce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x54001060
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x0, [x16, #408]
+.word 0xd2800e01
+.word 0xd2800e01
+bl _p_32
+.word 0xaa0003e1
+.word 0xf9406fa2
+.word 0xf900103a
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x0, [x16, #688]
+.word 0xf9001420
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x0, [x16, #696]
+.word 0xf9002020
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x0, [x16, #704]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901803f
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_35
+.word 0xf94027b1
+.word 0xf94e8e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 100 0
+.word 0xf94027b1
+.word 0xf94e9e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_59
+.word 0xf9006ba0
+.word 0xf94027b1
+.word 0xf94ebe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x540008e0
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x0, [x16, #408]
+.word 0xd2800e01
+.word 0xd2800e01
+bl _p_32
+.word 0xaa0003e1
+.word 0xf9406ba2
+.word 0xf900103a
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x0, [x16, #712]
+.word 0xf9001420
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x0, [x16, #720]
+.word 0xf9002020
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x0, [x16, #728]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901803f
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_35
+.word 0xf94027b1
+.word 0xf94f7e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 112 0
+.word 0xf94027b1
+.word 0xf94f8e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_60
+.word 0xf94027b1
+.word 0xf94faa31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 113 0
+.word 0xf94027b1
+.word 0xf94fba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf94fca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94157b4
+.word 0xa9425fb6
+.word 0xa94367b8
+.word 0xf94023ba
 .word 0x910003bf
-.word 0xa8d47bfd
+.word 0xa8d67bfd
 .word 0xd65f03c0
 .word 0xd2800840
 .word 0xaa1103e1
@@ -4026,9 +4264,167 @@ bl _p_25
 Lme_1a:
 .text
 	.align 4
+	.no_dead_strip CameraTest_CameraController_UpdateFlashView
+CameraTest_CameraController_UpdateFlashView:
+.loc 6 116 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90157b4
+.word 0xa9025fb6
+.word 0xa90367b8
+.word 0xf90023ba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #736]
+.word 0xf90027b0
+.word 0xf9400a11
+.word 0xf9002bb1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xf94027b1
+.word 0xf9404a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 117 0
+.word 0xf94027b1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_54
+.word 0xf9003ba0
+.word 0xf94027b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9414c30
+.word 0xd63f0200
+.word 0x53001c00
+.word 0xf90037a0
+.word 0xf94027b1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0xaa0003f9
+.loc 6 118 0
+.word 0xf94027b1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_54
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf940fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a1
+.word 0xaa1903e0
+.word 0xaa0103f7
+.word 0x35000380
+.word 0xaa1703e0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_54
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf9413231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a2
+.word 0xd2800020
+.word 0xd2800034
+.word 0xd2800020
+.word 0xd2800020
+.word 0xd2800038
+.word 0xaa0203e0
+.word 0xd2800021
+.word 0xf9400042
+.word 0xf9414850
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf9416e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800020
+.word 0xd2800035
+.word 0x1400001b
+.word 0xaa1703e0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_54
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf9419e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a2
+.word 0xd2800000
+.word 0xd2800016
+.word 0xd2800000
+.word 0xd2800000
+.word 0xd2800018
+.word 0xaa0203e0
+.word 0xd2800001
+.word 0xf9400042
+.word 0xf9414850
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf941da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xd2800015
+.word 0xaa1703e0
+.word 0xaa1503e0
+.word 0xaa1703e0
+.word 0xaa1503e1
+.word 0xf94002e2
+.word 0xf9414850
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf9420e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 119 0
+.word 0xf94027b1
+.word 0xf9421e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9422e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94157b4
+.word 0xa9425fb6
+.word 0xa94367b8
+.word 0xf94023ba
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+
+Lme_1b:
+.text
+	.align 4
 	.no_dead_strip CameraTest_CameraController_ViewWillAppear_bool
 CameraTest_CameraController_ViewWillAppear_bool:
-.loc 6 79 0 prologue_end
+.loc 6 122 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4036,7 +4432,7 @@ CameraTest_CameraController_ViewWillAppear_bool:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #664]
+ldr x16, [x16, #744]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4052,24 +4448,24 @@ ldr x16, [x16, #664]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 80 0
+.loc 6 123 0
 .word 0xf94013b1
 .word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0x394063a1
-bl _p_57
+bl _p_61
 .word 0xf94013b1
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 82 0
+.loc 6 125 0
 .word 0xf94013b1
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_58
+bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf940aa31
@@ -4079,7 +4475,7 @@ bl _p_58
 .word 0xd2800021
 .word 0xd280003e
 .word 0x3900c01e
-.loc 6 83 0
+.loc 6 126 0
 .word 0xf94013b1
 .word 0xf940ca31
 .word 0xb4000051
@@ -4092,12 +4488,12 @@ bl _p_58
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_1b:
+Lme_1c:
 .text
 	.align 4
 	.no_dead_strip CameraTest_CameraController_ViewWillDisappear_bool
 CameraTest_CameraController_ViewWillDisappear_bool:
-.loc 6 86 0 prologue_end
+.loc 6 129 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4105,7 +4501,7 @@ CameraTest_CameraController_ViewWillDisappear_bool:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #672]
+ldr x16, [x16, #752]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4121,24 +4517,24 @@ ldr x16, [x16, #672]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 87 0
+.loc 6 130 0
 .word 0xf94013b1
 .word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0x394063a1
-bl _p_59
+bl _p_63
 .word 0xf94013b1
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 89 0
+.loc 6 132 0
 .word 0xf94013b1
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_58
+bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf940aa31
@@ -4147,7 +4543,7 @@ bl _p_58
 .word 0xf94023a0
 .word 0xd2800001
 .word 0x3900c01f
-.loc 6 90 0
+.loc 6 133 0
 .word 0xf94013b1
 .word 0xf940c631
 .word 0xb4000051
@@ -4160,12 +4556,12 @@ bl _p_58
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_1c:
+Lme_1d:
 .text
 	.align 4
 	.no_dead_strip CameraTest_CameraController_PrefersStatusBarHidden
 CameraTest_CameraController_PrefersStatusBarHidden:
-.loc 6 93 0 prologue_end
+.loc 6 136 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -4173,7 +4569,7 @@ CameraTest_CameraController_PrefersStatusBarHidden:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #680]
+ldr x16, [x16, #760]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4190,13 +4586,13 @@ ldr x16, [x16, #680]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 94 0
+.loc 6 137 0
 .word 0xf94013b1
 .word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd280003a
-.loc 6 95 0
+.loc 6 138 0
 .word 0xf94013b1
 .word 0xf9407e31
 .word 0xb4000051
@@ -4212,12 +4608,12 @@ ldr x16, [x16, #680]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_1d:
+Lme_1e:
 .text
 	.align 4
 	.no_dead_strip CameraTest_CameraController_HandleCapture
 CameraTest_CameraController_HandleCapture:
-.loc 6 98 0 prologue_end
+.loc 6 141 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -4226,7 +4622,7 @@ CameraTest_CameraController_HandleCapture:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #688]
+ldr x16, [x16, #768]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -4244,7 +4640,7 @@ ldr x16, [x16, #688]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 99 0
+.loc 6 142 0
 .word 0xf94017b1
 .word 0xf9407231
 .word 0xb4000051
@@ -4262,12 +4658,12 @@ ldr x16, [x16, #688]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400004d
-.loc 6 101 0
+.loc 6 144 0
 .word 0xf94017b1
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_60
+bl _p_64
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf940ce31
@@ -4276,7 +4672,7 @@ bl _p_60
 .word 0xf94027a0
 .word 0xf90023a0
 .word 0xaa0003f9
-.loc 6 102 0
+.loc 6 145 0
 .word 0xf94017b1
 .word 0xf940ea31
 .word 0xb4000051
@@ -4293,7 +4689,7 @@ bl _p_60
 .word 0xf9411a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 103 0
+.loc 6 146 0
 .word 0xf94017b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -4309,15 +4705,15 @@ bl _p_60
 .word 0xf9415631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 104 0
+.loc 6 147 0
 .word 0xf94017b1
 .word 0xf9416631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e2
-.word 0xd2800040
+.word 0xaa1a03e0
+.word 0xf9404b41
 .word 0xaa0203e0
-.word 0xd2800041
 .word 0xf9400042
 .word 0xf940dc50
 .word 0xd63f0200
@@ -4325,7 +4721,7 @@ bl _p_60
 .word 0xf9419231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 106 0
+.loc 6 149 0
 .word 0xf94017b1
 .word 0xf941a231
 .word 0xb4000051
@@ -4343,7 +4739,7 @@ bl _p_60
 .word 0xf941d631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 107 0
+.loc 6 150 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -4362,19 +4758,19 @@ bl _p_60
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_1e:
+Lme_1f:
 .text
 	.align 4
 	.no_dead_strip CameraTest_CameraController_DetectRotation
 CameraTest_CameraController_DetectRotation:
-.loc 6 110 0 prologue_end
+.loc 6 153 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #696]
+ldr x16, [x16, #776]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4390,7 +4786,7 @@ ldr x16, [x16, #696]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 111 0
+.loc 6 154 0
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
@@ -4403,7 +4799,7 @@ ldr x16, [x16, #696]
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #784]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_32
@@ -4424,29 +4820,29 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x1, [x16, #712]
+ldr x1, [x16, #792]
 .word 0xf9001401
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x1, [x16, #720]
+ldr x1, [x16, #800]
 .word 0xf9002001
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x1, [x16, #728]
+ldr x1, [x16, #808]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
 .word 0xf9000801
 .word 0xd2800001
 .word 0x3901801f
-bl _p_61
+bl _p_65
 .word 0xf9400fb1
 .word 0xf9411a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 138 0
+.loc 6 179 0
 .word 0xf9400fb1
 .word 0xf9412a31
 .word 0xb4000051
@@ -4462,12 +4858,12 @@ bl _p_61
 .word 0xaa1103e1
 bl _p_25
 
-Lme_1f:
+Lme_20:
 .text
 	.align 4
 	.no_dead_strip CameraTest_CameraController_HandleRotateCamera
 CameraTest_CameraController_HandleRotateCamera:
-.loc 6 141 0 prologue_end
+.loc 6 182 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -4478,15 +4874,15 @@ CameraTest_CameraController_HandleRotateCamera:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #816]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
 .word 0xd2800019
 .word 0xd2800018
 .word 0xd2800017
-.word 0xf90037bf
 .word 0xd2800016
+.word 0xf90037bf
 .word 0xd2800015
 .word 0xd2800014
 .word 0xf9402bb1
@@ -4501,7 +4897,7 @@ ldr x16, [x16, #736]
 .word 0xf9407e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 142 0
+.loc 6 183 0
 .word 0xf9402bb1
 .word 0xf9408e31
 .word 0xb4000051
@@ -4516,7 +4912,7 @@ ldr x16, [x16, #736]
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 144 0
+.loc 6 185 0
 .word 0xf9402bb1
 .word 0xf940c631
 .word 0xb4000051
@@ -4540,7 +4936,7 @@ ldr x16, [x16, #736]
 .word 0x54001b29
 .word 0xf9401000
 .word 0xaa0003f9
-.loc 6 145 0
+.loc 6 186 0
 .word 0xf9402bb1
 .word 0xf9412231
 .word 0xb4000051
@@ -4557,7 +4953,7 @@ ldr x16, [x16, #736]
 .word 0xf9415231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 148 0
+.loc 6 189 0
 .word 0xf9402bb1
 .word 0xf9416231
 .word 0xb4000051
@@ -4571,13 +4967,13 @@ ldr x16, [x16, #736]
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x1, [x16, #744]
+ldr x1, [x16, #824]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54001681
 .word 0xaa1303e0
 .word 0xaa1303f7
-.loc 6 149 0
+.loc 6 190 0
 .word 0xf9402bb1
 .word 0xf941aa31
 .word 0xb4000051
@@ -4610,12 +5006,12 @@ ldr x1, [x16, #744]
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0x34000340
-.loc 6 150 0
+.loc 6 191 0
 .word 0xf9402bb1
 .word 0xf9422a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 151 0
+.loc 6 192 0
 .word 0xf9402bb1
 .word 0xf9423a31
 .word 0xb4000051
@@ -4624,7 +5020,7 @@ ldr x1, [x16, #744]
 .word 0xd2800040
 .word 0xaa1a03e0
 .word 0xd2800041
-bl _p_62
+bl _p_66
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf9426231
@@ -4632,18 +5028,18 @@ bl _p_62
 .word 0xd63f0220
 .word 0xf9403ba0
 .word 0xaa0003f8
-.loc 6 152 0
+.loc 6 193 0
 .word 0xf9402bb1
 .word 0xf9427a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000019
-.loc 6 154 0
+.loc 6 195 0
 .word 0xf9402bb1
 .word 0xf9428e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 155 0
+.loc 6 196 0
 .word 0xf9402bb1
 .word 0xf9429e31
 .word 0xb4000051
@@ -4652,7 +5048,7 @@ bl _p_62
 .word 0xd2800020
 .word 0xaa1a03e0
 .word 0xd2800021
-bl _p_62
+bl _p_66
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf942c631
@@ -4660,12 +5056,12 @@ bl _p_62
 .word 0xd63f0220
 .word 0xf9403ba0
 .word 0xaa0003f8
-.loc 6 156 0
+.loc 6 197 0
 .word 0xf9402bb1
 .word 0xf942de31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 159 0
+.loc 6 199 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -4692,7 +5088,7 @@ bl _p_46
 .word 0xd63f0220
 .word 0xf9403ba0
 .word 0xaa0003f6
-.loc 6 160 0
+.loc 6 200 0
 .word 0xf9402bb1
 .word 0xf9435231
 .word 0xb4000051
@@ -4704,7 +5100,7 @@ bl _p_46
 .word 0xaa0003f4
 .word 0xaa1403e0
 .word 0x34000220
-.loc 6 161 0
+.loc 6 201 0
 .word 0xf9402bb1
 .word 0xf9437e31
 .word 0xb4000051
@@ -4721,7 +5117,7 @@ bl _p_46
 .word 0xf943ae31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 163 0
+.loc 6 203 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -4731,28 +5127,28 @@ bl _p_46
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_63
-.word 0xf9402bb1
-.word 0xf943ea31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 6 165 0
-.word 0xf9402bb1
-.word 0xf943fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
 .word 0xf9401b41
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf940dc30
 .word 0xd63f0200
 .word 0xf9402bb1
+.word 0xf943f631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 205 0
+.word 0xf9402bb1
+.word 0xf9440631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_67
+.word 0xf9402bb1
 .word 0xf9442231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 166 0
+.loc 6 206 0
 .word 0xf9402bb1
 .word 0xf9443231
 .word 0xb4000051
@@ -4775,12 +5171,12 @@ bl _p_25
 .word 0xaa1103e1
 bl _p_25
 
-Lme_20:
+Lme_21:
 .text
 	.align 4
 	.no_dead_strip CameraTest_CameraController_AddFlipAnimation
 CameraTest_CameraController_AddFlipAnimation:
-.loc 6 168 0 prologue_end
+.loc 6 208 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -4788,7 +5184,7 @@ CameraTest_CameraController_AddFlipAnimation:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #832]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4804,7 +5200,7 @@ ldr x16, [x16, #752]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 169 0
+.loc 6 209 0
 .word 0xf9400fb1
 .word 0xf9406631
 .word 0xb4000051
@@ -4828,7 +5224,7 @@ bl _p_42
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 170 0
+.loc 6 210 0
 .word 0xf9400fb1
 .word 0xf940c231
 .word 0xb4000051
@@ -4854,7 +5250,7 @@ bl _p_50
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x0, [x16, #760]
+ldr x0, [x16, #840]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_32
@@ -4876,17 +5272,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x1, [x16, #768]
+ldr x1, [x16, #848]
 .word 0xf9001461
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x1, [x16, #776]
+ldr x1, [x16, #856]
 .word 0xf9002061
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x1, [x16, #784]
+ldr x1, [x16, #864]
 .word 0xf9401422
 .word 0xf9000c62
 .word 0xf9401021
@@ -4899,12 +5295,12 @@ ldr x1, [x16, #784]
 .word 0xd2801001
 .word 0xf2a00201
 .word 0xd2800002
-bl _p_64
+bl _p_68
 .word 0xf9400fb1
 .word 0xf941ca31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 173 0
+.loc 6 213 0
 .word 0xf9400fb1
 .word 0xf941da31
 .word 0xb4000051
@@ -4921,12 +5317,12 @@ bl _p_64
 .word 0xaa1103e1
 bl _p_25
 
-Lme_21:
+Lme_22:
 .text
 	.align 4
 	.no_dead_strip CameraTest_CameraController_CameraWithPosition_AVFoundation_AVCaptureDevicePosition
 CameraTest_CameraController_CameraWithPosition_AVFoundation_AVCaptureDevicePosition:
-.loc 6 176 0 prologue_end
+.loc 6 216 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90157b4
@@ -4938,7 +5334,7 @@ CameraTest_CameraController_CameraWithPosition_AVFoundation_AVCaptureDevicePosit
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #872]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4960,7 +5356,7 @@ ldr x16, [x16, #792]
 .word 0xf9407e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 177 0
+.loc 6 217 0
 .word 0xf9402bb1
 .word 0xf9408e31
 .word 0xb4000051
@@ -4972,14 +5368,14 @@ bl _p_44
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94047a0
-bl _p_65
+bl _p_69
 .word 0xf90043a0
 .word 0xf9402bb1
 .word 0xf940c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a0
-bl _p_66
+bl _p_70
 .word 0xf9003fa0
 .word 0xf9402bb1
 .word 0xf940de31
@@ -4988,7 +5384,7 @@ bl _p_66
 .word 0xf9403fa0
 .word 0xf9003ba0
 .word 0xaa0003f9
-.loc 6 178 0
+.loc 6 218 0
 .word 0xf9402bb1
 .word 0xf940fa31
 .word 0xb4000051
@@ -5018,12 +5414,12 @@ bl _p_66
 .word 0x91008000
 .word 0xf9400000
 .word 0xaa0003f6
-.loc 6 179 0
+.loc 6 219 0
 .word 0xf9402bb1
 .word 0xf9416e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 180 0
+.loc 6 220 0
 .word 0xf9402bb1
 .word 0xf9417e31
 .word 0xb4000051
@@ -5045,12 +5441,12 @@ bl _p_66
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0x34000180
-.loc 6 181 0
+.loc 6 221 0
 .word 0xf9402bb1
 .word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 182 0
+.loc 6 222 0
 .word 0xf9402bb1
 .word 0xf941e231
 .word 0xb4000051
@@ -5058,7 +5454,7 @@ bl _p_66
 .word 0xaa1603e0
 .word 0xaa1603f4
 .word 0x1400001a
-.loc 6 184 0
+.loc 6 224 0
 .word 0xf9402bb1
 .word 0xf941fe31
 .word 0xb4000051
@@ -5066,7 +5462,7 @@ bl _p_66
 .word 0xaa1703e0
 .word 0x110006e0
 .word 0xaa0003f7
-.loc 6 178 0
+.loc 6 218 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5080,13 +5476,13 @@ bl _p_66
 .word 0xb9801b00
 .word 0x6b0002ff
 .word 0x54fff72b
-.loc 6 185 0
+.loc 6 225 0
 .word 0xf9402bb1
 .word 0xf9424e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800014
-.loc 6 186 0
+.loc 6 226 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5112,12 +5508,12 @@ bl _p_66
 .word 0xaa1103e1
 bl _p_25
 
-Lme_22:
+Lme_23:
 .text
 	.align 4
 	.no_dead_strip CameraTest_CameraController_DidFinishProcessingPhoto_AVFoundation_AVCapturePhotoOutput_CoreMedia_CMSampleBuffer_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureResolvedPhotoSettings_AVFoundation_AVCaptureBracketedStillImageSettings_Foundation_NSError
 CameraTest_CameraController_DidFinishProcessingPhoto_AVFoundation_AVCapturePhotoOutput_CoreMedia_CMSampleBuffer_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureResolvedPhotoSettings_AVFoundation_AVCaptureBracketedStillImageSettings_Foundation_NSError:
-.loc 6 190 0 prologue_end
+.loc 6 230 0 prologue_end
 .word 0xa9b47bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -5133,7 +5529,7 @@ CameraTest_CameraController_DidFinishProcessingPhoto_AVFoundation_AVCapturePhoto
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #880]
 .word 0xf9003fb0
 .word 0xf9400a11
 .word 0xf90043b1
@@ -5154,14 +5550,14 @@ ldr x16, [x16, #800]
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 191 0
+.loc 6 231 0
 .word 0xf9403fb1
 .word 0xf9409a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9402fa1
-bl _p_67
+bl _p_71
 .word 0xf9004fa0
 .word 0xf9403fb1
 .word 0xf940ba31
@@ -5170,7 +5566,7 @@ bl _p_67
 .word 0xf9404fa0
 .word 0xf9004ba0
 .word 0xaa0003f7
-.loc 6 192 0
+.loc 6 232 0
 .word 0xf9403fb1
 .word 0xf940d631
 .word 0xb4000051
@@ -5183,12 +5579,12 @@ bl _p_67
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0x340010c0
-.loc 6 193 0
+.loc 6 233 0
 .word 0xf9403fb1
 .word 0xf9410631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 194 0
+.loc 6 234 0
 .word 0xf9403fb1
 .word 0xf9411631
 .word 0xb4000051
@@ -5197,18 +5593,18 @@ bl _p_67
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x0, [x16, #808]
+ldr x0, [x16, #888]
 bl _p_30
 .word 0xf9005ba0
 .word 0xaa1703e1
-bl _p_68
+bl _p_72
 .word 0xf9403fb1
 .word 0xf9414631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405ba0
 .word 0xaa0003f5
-.loc 6 196 0
+.loc 6 236 0
 .word 0xf9403fb1
 .word 0xf9415e31
 .word 0xb4000051
@@ -5235,7 +5631,7 @@ bl _p_41
 .word 0xf9404fa0
 .word 0xf9004ba0
 .word 0xaa0003f4
-.loc 6 197 0
+.loc 6 237 0
 .word 0xf9403fb1
 .word 0xf941c231
 .word 0xb4000051
@@ -5245,7 +5641,7 @@ bl _p_41
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x1, [x16, #816]
+ldr x1, [x16, #896]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940d050
@@ -5263,13 +5659,13 @@ ldr x1, [x16, #816]
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x1, [x16, #824]
+ldr x1, [x16, #904]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000981
 .word 0xaa1803e0
 .word 0xaa1803f3
-.loc 6 198 0
+.loc 6 238 0
 .word 0xf9403fb1
 .word 0xf9423e31
 .word 0xb4000051
@@ -5279,12 +5675,12 @@ ldr x1, [x16, #824]
 .word 0xaa1803e0
 .word 0xaa1503e1
 .word 0xf940031e
-bl _p_69
+bl _p_73
 .word 0xf9403fb1
 .word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 199 0
+.loc 6 239 0
 .word 0xf9403fb1
 .word 0xf9427631
 .word 0xb4000051
@@ -5304,7 +5700,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 6 200 0
+.loc 6 240 0
 .word 0xf9403fb1
 .word 0xf942be31
 .word 0xb4000051
@@ -5324,12 +5720,12 @@ ldr x2, [x16, #16]
 .word 0xf942fa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 201 0
+.loc 6 241 0
 .word 0xf9403fb1
 .word 0xf9430a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 202 0
+.loc 6 242 0
 .word 0xf94043b1
 .word 0xf9400231
 .word 0xb4000051
@@ -5352,12 +5748,12 @@ ldr x2, [x16, #16]
 .word 0xaa1103e1
 bl _p_25
 
-Lme_23:
+Lme_24:
 .text
 	.align 4
 	.no_dead_strip CameraTest_CameraController_DidSelectedImage_UIKit_UIImage
 CameraTest_CameraController_DidSelectedImage_UIKit_UIImage:
-.loc 6 205 0 prologue_end
+.loc 6 245 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -5365,7 +5761,7 @@ CameraTest_CameraController_DidSelectedImage_UIKit_UIImage:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #912]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5381,7 +5777,7 @@ ldr x16, [x16, #832]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 206 0
+.loc 6 246 0
 .word 0xf94013b1
 .word 0xf9406631
 .word 0xb4000051
@@ -5406,7 +5802,7 @@ ldr x1, [x16, #360]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 207 0
+.loc 6 247 0
 .word 0xf94013b1
 .word 0xf940c231
 .word 0xb4000051
@@ -5432,7 +5828,7 @@ ldr x1, [x16, #360]
 .word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 208 0
+.loc 6 248 0
 .word 0xf94013b1
 .word 0xf9412631
 .word 0xb4000051
@@ -5445,11 +5841,11 @@ ldr x1, [x16, #360]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_24:
+Lme_25:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController_get_cancelButton
-CameraTest_CameraController_get_cancelButton:
+	.no_dead_strip CameraTest_CameraController_get_autoFlashButton
+CameraTest_CameraController_get_autoFlashButton:
 .file 7 "/Users/namvu/Programming/Dev/cross-platform/CameraTest/CameraTest/CameraController.designer.cs"
 .loc 7 16 0 prologue_end
 .word 0xa9bd7bfd
@@ -5458,7 +5854,7 @@ CameraTest_CameraController_get_cancelButton:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #920]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5484,11 +5880,11 @@ ldr x16, [x16, #840]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_25:
+Lme_26:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController_set_cancelButton_UIKit_UIButton
-CameraTest_CameraController_set_cancelButton_UIKit_UIButton:
+	.no_dead_strip CameraTest_CameraController_set_autoFlashButton_UIKit_UIButton
+CameraTest_CameraController_set_autoFlashButton_UIKit_UIButton:
 .loc 7 16 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -5497,7 +5893,7 @@ CameraTest_CameraController_set_cancelButton_UIKit_UIButton:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #928]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5536,11 +5932,11 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_26:
+Lme_27:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController_get_captureButton
-CameraTest_CameraController_get_captureButton:
+	.no_dead_strip CameraTest_CameraController_get_cancelButton
+CameraTest_CameraController_get_cancelButton:
 .loc 7 19 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -5548,7 +5944,7 @@ CameraTest_CameraController_get_captureButton:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #936]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5574,11 +5970,11 @@ ldr x16, [x16, #856]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_27:
+Lme_28:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController_set_captureButton_UIKit_UIButton
-CameraTest_CameraController_set_captureButton_UIKit_UIButton:
+	.no_dead_strip CameraTest_CameraController_set_cancelButton_UIKit_UIButton
+CameraTest_CameraController_set_cancelButton_UIKit_UIButton:
 .loc 7 19 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -5587,7 +5983,7 @@ CameraTest_CameraController_set_captureButton_UIKit_UIButton:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #944]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5626,11 +6022,11 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_28:
+Lme_29:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController_get_flashButton
-CameraTest_CameraController_get_flashButton:
+	.no_dead_strip CameraTest_CameraController_get_captureButton
+CameraTest_CameraController_get_captureButton:
 .loc 7 22 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -5638,7 +6034,7 @@ CameraTest_CameraController_get_flashButton:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #952]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5664,11 +6060,11 @@ ldr x16, [x16, #872]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_29:
+Lme_2a:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController_set_flashButton_UIKit_UIButton
-CameraTest_CameraController_set_flashButton_UIKit_UIButton:
+	.no_dead_strip CameraTest_CameraController_set_captureButton_UIKit_UIButton
+CameraTest_CameraController_set_captureButton_UIKit_UIButton:
 .loc 7 22 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -5677,7 +6073,7 @@ CameraTest_CameraController_set_flashButton_UIKit_UIButton:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #960]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5716,11 +6112,11 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2a:
+Lme_2b:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController_get_flashOptionView
-CameraTest_CameraController_get_flashOptionView:
+	.no_dead_strip CameraTest_CameraController_get_flashButton
+CameraTest_CameraController_get_flashButton:
 .loc 7 25 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -5728,7 +6124,7 @@ CameraTest_CameraController_get_flashOptionView:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #968]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5754,11 +6150,11 @@ ldr x16, [x16, #888]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2b:
+Lme_2c:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController_set_flashOptionView_UIKit_UIView
-CameraTest_CameraController_set_flashOptionView_UIKit_UIView:
+	.no_dead_strip CameraTest_CameraController_set_flashButton_UIKit_UIButton
+CameraTest_CameraController_set_flashButton_UIKit_UIButton:
 .loc 7 25 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -5767,7 +6163,7 @@ CameraTest_CameraController_set_flashOptionView_UIKit_UIView:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #976]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5806,11 +6202,11 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2c:
+Lme_2d:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController_get_previewView
-CameraTest_CameraController_get_previewView:
+	.no_dead_strip CameraTest_CameraController_get_flashOptionView
+CameraTest_CameraController_get_flashOptionView:
 .loc 7 28 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -5818,7 +6214,7 @@ CameraTest_CameraController_get_previewView:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #984]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5844,11 +6240,11 @@ ldr x16, [x16, #904]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2d:
+Lme_2e:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController_set_previewView_UIKit_UIView
-CameraTest_CameraController_set_previewView_UIKit_UIView:
+	.no_dead_strip CameraTest_CameraController_set_flashOptionView_UIKit_UIView
+CameraTest_CameraController_set_flashOptionView_UIKit_UIView:
 .loc 7 28 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -5857,7 +6253,7 @@ CameraTest_CameraController_set_previewView_UIKit_UIView:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #992]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5896,11 +6292,11 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2e:
+Lme_2f:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController_get_rotateCameraButton
-CameraTest_CameraController_get_rotateCameraButton:
+	.no_dead_strip CameraTest_CameraController_get_offFlashButton
+CameraTest_CameraController_get_offFlashButton:
 .loc 7 31 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -5908,7 +6304,7 @@ CameraTest_CameraController_get_rotateCameraButton:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #1000]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5934,11 +6330,11 @@ ldr x16, [x16, #920]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2f:
+Lme_30:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton
-CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton:
+	.no_dead_strip CameraTest_CameraController_set_offFlashButton_UIKit_UIButton
+CameraTest_CameraController_set_offFlashButton_UIKit_UIButton:
 .loc 7 31 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -5947,7 +6343,7 @@ CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #1008]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5986,364 +6382,365 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_30:
+Lme_31:
+.text
+	.align 4
+	.no_dead_strip CameraTest_CameraController_get_onFlashButton
+CameraTest_CameraController_get_onFlashButton:
+.loc 7 34 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #1016]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9403c00
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_32:
+.text
+	.align 4
+	.no_dead_strip CameraTest_CameraController_set_onFlashButton_UIKit_UIButton
+CameraTest_CameraController_set_onFlashButton_UIKit_UIButton:
+.loc 7 34 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #1024]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba1
+.word 0xf9400fa0
+.word 0xf9003c20
+.word 0x9101e021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94013b1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_33:
+.text
+	.align 4
+	.no_dead_strip CameraTest_CameraController_get_previewView
+CameraTest_CameraController_get_previewView:
+.loc 7 37 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #1032]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9404000
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_34:
+.text
+	.align 4
+	.no_dead_strip CameraTest_CameraController_set_previewView_UIKit_UIView
+CameraTest_CameraController_set_previewView_UIKit_UIView:
+.loc 7 37 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #1040]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba1
+.word 0xf9400fa0
+.word 0xf9004020
+.word 0x91020021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94013b1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_35:
+.text
+	.align 4
+	.no_dead_strip CameraTest_CameraController_get_rotateCameraButton
+CameraTest_CameraController_get_rotateCameraButton:
+.loc 7 40 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #1048]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9404400
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_36:
+.text
+	.align 4
+	.no_dead_strip CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton
+CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton:
+.loc 7 40 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #1056]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba1
+.word 0xf9400fa0
+.word 0xf9004420
+.word 0x91022021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94013b1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_37:
 .text
 	.align 4
 	.no_dead_strip CameraTest_CameraController_ReleaseDesignerOutlets
 CameraTest_CameraController_ReleaseDesignerOutlets:
-.loc 7 34 0 prologue_end
-.word 0xa9b97bfd
+.loc 7 43 0 prologue_end
+.word 0xa9b77bfd
 .word 0x910003fd
-.word 0xa90157b4
-.word 0xa9025fb6
-.word 0xa90367b8
-.word 0xf90023ba
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
 .word 0xaa0003fa
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #936]
-.word 0xf90027b0
+ldr x16, [x16, #1064]
+.word 0xf9002bb0
 .word 0xf9400a11
-.word 0xf9002bb1
+.word 0xf9002fb1
 .word 0xd2800019
 .word 0xd2800018
 .word 0xd2800017
 .word 0xd2800016
 .word 0xd2800015
 .word 0xd2800014
-.word 0xf94027b1
-.word 0xf9405a31
+.word 0xd2800013
+.word 0x3901a3bf
+.word 0x3901c3bf
+.word 0xf9402bb1
+.word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402bb1
+.word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9407a31
+.word 0xf9402bb1
+.word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 35 0
-.word 0xf94027b1
-.word 0xf9408a31
+.loc 7 44 0
+.word 0xf9402bb1
+.word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_52
-.word 0xf90033a0
-.word 0xf94027b1
-.word 0xf940aa31
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94033a0
+.word 0xf94043a0
 .word 0xd2800001
 .word 0xeb1f001f
 .word 0x9a9f97e0
 .word 0xaa0003f9
 .word 0xaa1903e0
 .word 0x34000540
-.word 0xf94027b1
-.word 0xf940d631
+.word 0xf9402bb1
+.word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 36 0
-.word 0xf94027b1
-.word 0xf940e631
+.loc 7 45 0
+.word 0xf9402bb1
+.word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_52
-.word 0xf90033a0
-.word 0xf94027b1
-.word 0xf9410631
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf9411231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94033a1
+.word 0xf94043a1
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_36
-.word 0xf94027b1
-.word 0xf9412631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 37 0
-.word 0xf94027b1
-.word 0xf9413631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xd2800000
-.word 0xaa1a03e0
-.word 0xd2800001
-bl _p_70
-.word 0xf94027b1
-.word 0xf9415a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 38 0
-.word 0xf94027b1
-.word 0xf9416a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 40 0
 .word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9418a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_42
-.word 0xf90033a0
-.word 0xf94027b1
-.word 0xf941aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0xd2800001
-.word 0xeb1f001f
-.word 0x9a9f97e0
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0x34000540
-.word 0xf94027b1
-.word 0xf941d631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 41 0
-.word 0xf94027b1
-.word 0xf941e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_42
-.word 0xf90033a0
-.word 0xf94027b1
-.word 0xf9420631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a1
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_36
-.word 0xf94027b1
-.word 0xf9422631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 42 0
-.word 0xf94027b1
-.word 0xf9423631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xd2800000
-.word 0xaa1a03e0
-.word 0xd2800001
-bl _p_71
-.word 0xf94027b1
-.word 0xf9425a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 43 0
-.word 0xf94027b1
-.word 0xf9426a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 45 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9428a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_50
-.word 0xf90033a0
-.word 0xf94027b1
-.word 0xf942aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0xd2800001
-.word 0xeb1f001f
-.word 0x9a9f97e0
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0x34000540
-.word 0xf94027b1
-.word 0xf942d631
+.word 0xf9413231
 .word 0xb4000051
 .word 0xd63f0220
 .loc 7 46 0
-.word 0xf94027b1
-.word 0xf942e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_50
-.word 0xf90033a0
-.word 0xf94027b1
-.word 0xf9430631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a1
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_36
-.word 0xf94027b1
-.word 0xf9432631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 47 0
-.word 0xf94027b1
-.word 0xf9433631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xd2800000
-.word 0xaa1a03e0
-.word 0xd2800001
-bl _p_72
-.word 0xf94027b1
-.word 0xf9435a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 48 0
-.word 0xf94027b1
-.word 0xf9436a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 50 0
 .word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9438a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_53
-.word 0xf90033a0
-.word 0xf94027b1
-.word 0xf943aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0xd2800001
-.word 0xeb1f001f
-.word 0x9a9f97e0
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0x34000540
-.word 0xf94027b1
-.word 0xf943d631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 51 0
-.word 0xf94027b1
-.word 0xf943e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_53
-.word 0xf90033a0
-.word 0xf94027b1
-.word 0xf9440631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a1
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_36
-.word 0xf94027b1
-.word 0xf9442631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 52 0
-.word 0xf94027b1
-.word 0xf9443631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xd2800000
-.word 0xaa1a03e0
-.word 0xd2800001
-bl _p_73
-.word 0xf94027b1
-.word 0xf9445a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 53 0
-.word 0xf94027b1
-.word 0xf9446a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 55 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9448a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_55
-.word 0xf90033a0
-.word 0xf94027b1
-.word 0xf944aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0xd2800001
-.word 0xeb1f001f
-.word 0x9a9f97e0
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0x34000540
-.word 0xf94027b1
-.word 0xf944d631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 56 0
-.word 0xf94027b1
-.word 0xf944e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_55
-.word 0xf90033a0
-.word 0xf94027b1
-.word 0xf9450631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a1
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_36
-.word 0xf94027b1
-.word 0xf9452631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 57 0
-.word 0xf94027b1
-.word 0xf9453631
+.word 0xf9414231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -6351,67 +6748,67 @@ bl _p_36
 .word 0xaa1a03e0
 .word 0xd2800001
 bl _p_74
-.word 0xf94027b1
-.word 0xf9455a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 58 0
-.word 0xf94027b1
-.word 0xf9456a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 60 0
 .word 0xf9402bb1
+.word 0xf9416631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 47 0
+.word 0xf9402bb1
+.word 0xf9417631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 49 0
+.word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9458a31
+.word 0xf9402bb1
+.word 0xf9419631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_54
-.word 0xf90033a0
-.word 0xf94027b1
-.word 0xf945aa31
+bl _p_42
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf941b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94033a0
+.word 0xf94043a0
 .word 0xd2800001
 .word 0xeb1f001f
 .word 0x9a9f97e0
-.word 0xaa0003f4
-.word 0xaa1403e0
+.word 0xaa0003f8
+.word 0xaa1803e0
 .word 0x34000540
-.word 0xf94027b1
-.word 0xf945d631
+.word 0xf9402bb1
+.word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 61 0
-.word 0xf94027b1
-.word 0xf945e631
+.loc 7 50 0
+.word 0xf9402bb1
+.word 0xf941f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_54
-.word 0xf90033a0
-.word 0xf94027b1
-.word 0xf9460631
+bl _p_42
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf9421231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94033a1
+.word 0xf94043a1
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_36
-.word 0xf94027b1
-.word 0xf9462631
+.word 0xf9402bb1
+.word 0xf9423231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 62 0
-.word 0xf94027b1
-.word 0xf9463631
+.loc 7 51 0
+.word 0xf9402bb1
+.word 0xf9424231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -6419,42 +6816,518 @@ bl _p_36
 .word 0xaa1a03e0
 .word 0xd2800001
 bl _p_75
-.word 0xf94027b1
-.word 0xf9465a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 63 0
-.word 0xf94027b1
-.word 0xf9466a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 64 0
 .word 0xf9402bb1
+.word 0xf9426631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 52 0
+.word 0xf9402bb1
+.word 0xf9427631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 54 0
+.word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9468a31
+.word 0xf9402bb1
+.word 0xf9429631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9469a31
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_55
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf942b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa94157b4
-.word 0xa9425fb6
-.word 0xa94367b8
-.word 0xf94023ba
+.word 0xf94043a0
+.word 0xd2800001
+.word 0xeb1f001f
+.word 0x9a9f97e0
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0x34000540
+.word 0xf9402bb1
+.word 0xf942e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 55 0
+.word 0xf9402bb1
+.word 0xf942f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_55
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf9431231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a1
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_36
+.word 0xf9402bb1
+.word 0xf9433231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 56 0
+.word 0xf9402bb1
+.word 0xf9434231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_76
+.word 0xf9402bb1
+.word 0xf9436631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 57 0
+.word 0xf9402bb1
+.word 0xf9437631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 59 0
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9439631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_54
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf943b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xd2800001
+.word 0xeb1f001f
+.word 0x9a9f97e0
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0x34000540
+.word 0xf9402bb1
+.word 0xf943e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 60 0
+.word 0xf9402bb1
+.word 0xf943f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_54
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf9441231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a1
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_36
+.word 0xf9402bb1
+.word 0xf9443231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 61 0
+.word 0xf9402bb1
+.word 0xf9444231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_77
+.word 0xf9402bb1
+.word 0xf9446631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 62 0
+.word 0xf9402bb1
+.word 0xf9447631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 64 0
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9449631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_50
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf944b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xd2800001
+.word 0xeb1f001f
+.word 0x9a9f97e0
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0x34000540
+.word 0xf9402bb1
+.word 0xf944e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 65 0
+.word 0xf9402bb1
+.word 0xf944f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_50
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf9451231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a1
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_36
+.word 0xf9402bb1
+.word 0xf9453231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 66 0
+.word 0xf9402bb1
+.word 0xf9454231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_78
+.word 0xf9402bb1
+.word 0xf9456631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 67 0
+.word 0xf9402bb1
+.word 0xf9457631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 69 0
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9459631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_53
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf945b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xd2800001
+.word 0xeb1f001f
+.word 0x9a9f97e0
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0x34000540
+.word 0xf9402bb1
+.word 0xf945e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 70 0
+.word 0xf9402bb1
+.word 0xf945f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_53
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf9461231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a1
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_36
+.word 0xf9402bb1
+.word 0xf9463231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 71 0
+.word 0xf9402bb1
+.word 0xf9464231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_79
+.word 0xf9402bb1
+.word 0xf9466631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 72 0
+.word 0xf9402bb1
+.word 0xf9467631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 74 0
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9469631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_56
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf946b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xd2800001
+.word 0xeb1f001f
+.word 0x9a9f97e0
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0x34000540
+.word 0xf9402bb1
+.word 0xf946e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 75 0
+.word 0xf9402bb1
+.word 0xf946f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_56
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf9471231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a1
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_36
+.word 0xf9402bb1
+.word 0xf9473231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 76 0
+.word 0xf9402bb1
+.word 0xf9474231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_80
+.word 0xf9402bb1
+.word 0xf9476631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 77 0
+.word 0xf9402bb1
+.word 0xf9477631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 79 0
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9479631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_58
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf947b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xd2800001
+.word 0xeb1f001f
+.word 0x9a9f97e0
+.word 0x3901a3a0
+.word 0x3941a3a0
+.word 0x34000540
+.word 0xf9402bb1
+.word 0xf947e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 80 0
+.word 0xf9402bb1
+.word 0xf947f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_58
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf9481231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a1
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_36
+.word 0xf9402bb1
+.word 0xf9483231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 81 0
+.word 0xf9402bb1
+.word 0xf9484231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_81
+.word 0xf9402bb1
+.word 0xf9486631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 82 0
+.word 0xf9402bb1
+.word 0xf9487631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 84 0
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9489631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_59
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf948b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xd2800001
+.word 0xeb1f001f
+.word 0x9a9f97e0
+.word 0x3901c3a0
+.word 0x3941c3a0
+.word 0x34000540
+.word 0xf9402bb1
+.word 0xf948e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 85 0
+.word 0xf9402bb1
+.word 0xf948f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_59
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf9491231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a1
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_36
+.word 0xf9402bb1
+.word 0xf9493231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 86 0
+.word 0xf9402bb1
+.word 0xf9494231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_82
+.word 0xf9402bb1
+.word 0xf9496631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 87 0
+.word 0xf9402bb1
+.word 0xf9497631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 88 0
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9499631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf949a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
 .word 0x910003bf
-.word 0xa8c77bfd
+.word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_31:
+Lme_38:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController__ViewDidLoadb__4_0_object_System_EventArgs
-CameraTest_CameraController__ViewDidLoadb__4_0_object_System_EventArgs:
-.loc 6 28 0 prologue_end
+	.no_dead_strip CameraTest_CameraController__ViewDidLoadb__5_0_object_System_EventArgs
+CameraTest_CameraController__ViewDidLoadb__5_0_object_System_EventArgs:
+.loc 6 30 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -6463,7 +7336,7 @@ CameraTest_CameraController__ViewDidLoadb__4_0_object_System_EventArgs:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #1072]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -6479,18 +7352,18 @@ ldr x16, [x16, #944]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 29 0
+.loc 6 31 0
 .word 0xf94017b1
 .word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_76
+bl _p_83
 .word 0xf94017b1
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 30 0
+.loc 6 32 0
 .word 0xf94017b1
 .word 0xf9409231
 .word 0xb4000051
@@ -6503,12 +7376,12 @@ bl _p_76
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_32:
+Lme_39:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController__ViewDidLoadb__4_1_object_System_EventArgs
-CameraTest_CameraController__ViewDidLoadb__4_1_object_System_EventArgs:
-.loc 6 58 0 prologue_end
+	.no_dead_strip CameraTest_CameraController__ViewDidLoadb__5_1_object_System_EventArgs
+CameraTest_CameraController__ViewDidLoadb__5_1_object_System_EventArgs:
+.loc 6 62 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -6517,7 +7390,7 @@ CameraTest_CameraController__ViewDidLoadb__4_1_object_System_EventArgs:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #1080]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -6533,7 +7406,7 @@ ldr x16, [x16, #952]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 59 0
+.loc 6 63 0
 .word 0xf94017b1
 .word 0xf9406a31
 .word 0xb4000051
@@ -6559,7 +7432,7 @@ ldr x16, [x16, #952]
 .word 0xf940be31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 60 0
+.loc 6 64 0
 .word 0xf94017b1
 .word 0xf940ce31
 .word 0xb4000051
@@ -6572,12 +7445,12 @@ ldr x16, [x16, #952]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_33:
+Lme_3a:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController__ViewDidLoadb__4_2_object_System_EventArgs
-CameraTest_CameraController__ViewDidLoadb__4_2_object_System_EventArgs:
-.loc 6 63 0 prologue_end
+	.no_dead_strip CameraTest_CameraController__ViewDidLoadb__5_2_object_System_EventArgs
+CameraTest_CameraController__ViewDidLoadb__5_2_object_System_EventArgs:
+.loc 6 67 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -6586,7 +7459,7 @@ CameraTest_CameraController__ViewDidLoadb__4_2_object_System_EventArgs:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #1088]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -6602,18 +7475,18 @@ ldr x16, [x16, #960]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 64 0
+.loc 6 68 0
 .word 0xf94017b1
 .word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_77
+bl _p_84
 .word 0xf94017b1
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 65 0
+.loc 6 69 0
 .word 0xf94017b1
 .word 0xf9409231
 .word 0xb4000051
@@ -6626,173 +7499,13 @@ bl _p_77
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_34:
+Lme_3b:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController__ViewDidLoadb__4_3_object_System_EventArgs
-CameraTest_CameraController__ViewDidLoadb__4_3_object_System_EventArgs:
-.loc 6 70 0 prologue_end
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90157b4
-.word 0xa9025fb6
-.word 0xa90367b8
-.word 0xf90023ba
-.word 0xaa0003fa
-.word 0xf90027a1
-.word 0xf9002ba2
-
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #968]
-.word 0xf9002fb0
-.word 0xf9400a11
-.word 0xf90033b1
-.word 0xd2800019
-.word 0xd2800018
-.word 0xf9402fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 6 71 0
-.word 0xf9402fb1
-.word 0xf9408231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_54
-.word 0xf90043a0
-.word 0xf9402fb1
-.word 0xf940a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a1
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf9414c30
-.word 0xd63f0200
-.word 0x53001c00
-.word 0xf9003fa0
-.word 0xf9402fb1
-.word 0xf940ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403fa0
-.word 0xaa0003f9
-.loc 6 72 0
-.word 0xf9402fb1
-.word 0xf940e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_54
-.word 0xf9003ba0
-.word 0xf9402fb1
-.word 0xf9410631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba1
-.word 0xaa1903e0
-.word 0xaa0103f7
-.word 0x35000380
-.word 0xaa1703e0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_54
-.word 0xf9003ba0
-.word 0xf9402fb1
-.word 0xf9413a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba2
-.word 0xd2800020
-.word 0xd2800034
-.word 0xd2800020
-.word 0xd2800020
-.word 0xd2800038
-.word 0xaa0203e0
-.word 0xd2800021
-.word 0xf9400042
-.word 0xf9414850
-.word 0xd63f0200
-.word 0xf9402fb1
-.word 0xf9417631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800020
-.word 0xd2800035
-.word 0x1400001b
-.word 0xaa1703e0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_54
-.word 0xf9003ba0
-.word 0xf9402fb1
-.word 0xf941a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba2
-.word 0xd2800000
-.word 0xd2800016
-.word 0xd2800000
-.word 0xd2800000
-.word 0xd2800018
-.word 0xaa0203e0
-.word 0xd2800001
-.word 0xf9400042
-.word 0xf9414850
-.word 0xd63f0200
-.word 0xf9402fb1
-.word 0xf941e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xd2800015
-.word 0xaa1703e0
-.word 0xaa1503e0
-.word 0xaa1703e0
-.word 0xaa1503e1
-.word 0xf94002e2
-.word 0xf9414850
-.word 0xd63f0200
-.word 0xf9402fb1
-.word 0xf9421631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 6 73 0
-.word 0xf9402fb1
-.word 0xf9422631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9423631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94157b4
-.word 0xa9425fb6
-.word 0xa94367b8
-.word 0xf94023ba
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-
-Lme_35:
-.text
-	.align 4
-	.no_dead_strip CameraTest_CameraController__DetectRotationb__9_0_object_Foundation_NSNotificationEventArgs
-CameraTest_CameraController__DetectRotationb__9_0_object_Foundation_NSNotificationEventArgs:
-.loc 6 112 0 prologue_end
-.word 0xa9bb7bfd
+	.no_dead_strip CameraTest_CameraController__ViewDidLoadb__5_3_object_System_EventArgs
+CameraTest_CameraController__ViewDidLoadb__5_3_object_System_EventArgs:
+.loc 6 74 0 prologue_end
+.word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
@@ -6800,7 +7513,7 @@ CameraTest_CameraController__DetectRotationb__9_0_object_Foundation_NSNotificati
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #1096]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -6816,7 +7529,667 @@ ldr x16, [x16, #976]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 113 0
+.loc 6 75 0
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_85
+.word 0xf94017b1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 76 0
+.word 0xf94017b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_3c:
+.text
+	.align 4
+	.no_dead_strip CameraTest_CameraController__ViewDidLoadb__5_4_object_System_EventArgs
+CameraTest_CameraController__ViewDidLoadb__5_4_object_System_EventArgs:
+.loc 6 78 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #1104]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 79 0
+.word 0xf94017b1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800040
+.word 0xf9004b40
+.loc 6 80 0
+.word 0xf94017b1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_85
+.word 0xf94017b1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 82 0
+.word 0xf94017b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_56
+.word 0xf90037a0
+.word 0xf94017b1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_57
+.word 0xf90033a0
+.word 0xf94017b1
+.word 0xf940ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a1
+.word 0xf94037a3
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf941c070
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf9411e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 83 0
+.word 0xf94017b1
+.word 0xf9412e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_58
+.word 0xf9002fa0
+.word 0xf94017b1
+.word 0xf9414e31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf9002ba0
+.word 0xf94017b1
+.word 0xf9416631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba1
+.word 0xf9402fa3
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf941c070
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf9419631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 84 0
+.word 0xf94017b1
+.word 0xf941a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_59
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf941c631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf941de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a3
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf941c070
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf9420e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 85 0
+.word 0xf94017b1
+.word 0xf9421e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9422e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_3d:
+.text
+	.align 4
+	.no_dead_strip CameraTest_CameraController__ViewDidLoadb__5_5_object_System_EventArgs
+CameraTest_CameraController__ViewDidLoadb__5_5_object_System_EventArgs:
+.loc 6 88 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003fa
+.word 0xf90013a1
+.word 0xf90017a2
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #1112]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xd2800019
+.word 0xf9401bb1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 89 0
+.word 0xf9401bb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9404b40
+.word 0xd2800021
+.word 0xd280003e
+.word 0xeb1e001f
+.word 0x9a9f17e0
+.word 0xd2800001
+.word 0x6b1f001f
+.word 0x9a9f17e0
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0x340005e0
+.word 0xf9401bb1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 90 0
+.word 0xf9401bb1
+.word 0xf940c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800020
+.word 0xf9004b40
+.loc 6 91 0
+.word 0xf9401bb1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_58
+.word 0xf9002fa0
+.word 0xf9401bb1
+.word 0xf940fe31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_57
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf9411631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba1
+.word 0xf9402fa3
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf941c070
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 92 0
+.word 0xf9401bb1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400002e
+.word 0xf9401bb1
+.word 0xf9416a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 93 0
+.word 0xf9401bb1
+.word 0xf9417a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800040
+.word 0xf9004b40
+.loc 6 94 0
+.word 0xf9401bb1
+.word 0xf9419631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_58
+.word 0xf9002fa0
+.word 0xf9401bb1
+.word 0xf941b631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba1
+.word 0xf9402fa3
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf941c070
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf941fe31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 95 0
+.word 0xf9401bb1
+.word 0xf9420e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 96 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9422e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_56
+.word 0xf90037a0
+.word 0xf9401bb1
+.word 0xf9424e31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf90033a0
+.word 0xf9401bb1
+.word 0xf9426631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a1
+.word 0xf94037a3
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf941c070
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf9429631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 97 0
+.word 0xf9401bb1
+.word 0xf942a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_59
+.word 0xf9002fa0
+.word 0xf9401bb1
+.word 0xf942c631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf942de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba1
+.word 0xf9402fa3
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf941c070
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf9430e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 98 0
+.word 0xf9401bb1
+.word 0xf9431e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9432e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_3e:
+.text
+	.align 4
+	.no_dead_strip CameraTest_CameraController__ViewDidLoadb__5_6_object_System_EventArgs
+CameraTest_CameraController__ViewDidLoadb__5_6_object_System_EventArgs:
+.loc 6 100 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003fa
+.word 0xf90013a1
+.word 0xf90017a2
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #1120]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xd2800019
+.word 0xf9401bb1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 101 0
+.word 0xf9401bb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9404b40
+.word 0xd2800001
+.word 0xeb1f001f
+.word 0x9a9f97e0
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0x340005e0
+.word 0xf9401bb1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 102 0
+.word 0xf9401bb1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xf9004b40
+.loc 6 103 0
+.word 0xf9401bb1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_59
+.word 0xf9002fa0
+.word 0xf9401bb1
+.word 0xf940ee31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_57
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf9410631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba1
+.word 0xf9402fa3
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf941c070
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 104 0
+.word 0xf9401bb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400002e
+.word 0xf9401bb1
+.word 0xf9415a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 105 0
+.word 0xf9401bb1
+.word 0xf9416a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800040
+.word 0xf9004b40
+.loc 6 106 0
+.word 0xf9401bb1
+.word 0xf9418631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_59
+.word 0xf9002fa0
+.word 0xf9401bb1
+.word 0xf941a631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf941be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba1
+.word 0xf9402fa3
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf941c070
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf941ee31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 107 0
+.word 0xf9401bb1
+.word 0xf941fe31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 108 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9421e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_56
+.word 0xf90037a0
+.word 0xf9401bb1
+.word 0xf9423e31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf90033a0
+.word 0xf9401bb1
+.word 0xf9425631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a1
+.word 0xf94037a3
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf941c070
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf9428631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 109 0
+.word 0xf9401bb1
+.word 0xf9429631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_58
+.word 0xf9002fa0
+.word 0xf9401bb1
+.word 0xf942b631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf942ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba1
+.word 0xf9402fa3
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf941c070
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf942fe31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 110 0
+.word 0xf9401bb1
+.word 0xf9430e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9431e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_3f:
+.text
+	.align 4
+	.no_dead_strip CameraTest_CameraController__DetectRotationb__11_0_object_Foundation_NSNotificationEventArgs
+CameraTest_CameraController__DetectRotationb__11_0_object_Foundation_NSNotificationEventArgs:
+.loc 6 155 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #1128]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 156 0
 .word 0xf94017b1
 .word 0xf9406a31
 .word 0xb4000051
@@ -6834,7 +8207,7 @@ ldr x16, [x16, #976]
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x0, [x16, #760]
+ldr x0, [x16, #840]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_32
@@ -6855,17 +8228,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x1, [x16, #984]
+ldr x1, [x16, #1136]
 .word 0xf9001401
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x1, [x16, #992]
+ldr x1, [x16, #1144]
 .word 0xf9002001
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x1, [x16, #1000]
+ldr x1, [x16, #1152]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -6877,12 +8250,12 @@ ldr x1, [x16, #1000]
 .word 0xf2c6667e
 .word 0xf2e7fa7e
 .word 0x9e6703c0
-bl _p_78
+bl _p_87
 .word 0xf94017b1
 .word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 137 0
+.loc 6 178 0
 .word 0xf94017b1
 .word 0xf9415a31
 .word 0xb4000051
@@ -6898,12 +8271,12 @@ bl _p_78
 .word 0xaa1103e1
 bl _p_25
 
-Lme_36:
+Lme_40:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController__DetectRotationb__9_1
-CameraTest_CameraController__DetectRotationb__9_1:
-.loc 6 114 0 prologue_end
+	.no_dead_strip CameraTest_CameraController__DetectRotationb__11_1
+CameraTest_CameraController__DetectRotationb__11_1:
+.loc 6 157 0 prologue_end
 .word 0xd2807010
 .word 0x910003f1
 .word 0xcb100231
@@ -6917,16 +8290,13 @@ CameraTest_CameraController__DetectRotationb__9_1:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1160]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
 .word 0xd2800019
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
 .word 0xf9401fb1
-.word 0xf9405e31
+.word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023b1
@@ -6934,18 +8304,18 @@ ldr x16, [x16, #1008]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf9407e31
+.word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 115 0
+.loc 6 158 0
 .word 0xf9401fb1
-.word 0xf9408e31
+.word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_79
+bl _p_88
 .word 0xf901afa0
 .word 0xf9401fb1
-.word 0xf940a631
+.word 0xf9409a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf941afa1
@@ -6955,25 +8325,40 @@ bl _p_79
 .word 0xd63f0200
 .word 0xf901aba0
 .word 0xf9401fb1
-.word 0xf940ce31
+.word 0xf940c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf941aba0
-.word 0xd2800021
-.word 0xd280003e
-.word 0xeb1e001f
-.word 0x9a9f17e0
 .word 0xaa0003f9
-.word 0xaa1903e0
-.word 0x34000e40
-.loc 6 116 0
+.word 0xaa0003e1
+.word 0xd1000400
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1803e1
+.word 0xd2800061
+.word 0xaa0003f7
+.word 0xd280007e
+.word 0xeb1e031f
+.word 0x54000069
+.word 0xaa1703e0
+.word 0x140001c7
+.word 0xaa1703e0
+.word 0xaa1703f6
+.word 0xd280009e
+.word 0x6b1e02df
+.word 0x54003842
+.word 0xd37df2c0
+.word 0x2a0003e1
+
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x0, [x16, #1168]
+.word 0x8b010000
+.word 0xf9400000
+.word 0xd61f0000
+.loc 6 161 0
 .word 0xf9401fb1
-.word 0xf940fe31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 6 117 0
-.word 0xf9401fb1
-.word 0xf9410e31
+.word 0xf9413e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -6981,7 +8366,7 @@ bl _p_79
 bl _p_53
 .word 0xf901b7a0
 .word 0xf9401fb1
-.word 0xf9412e31
+.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
@@ -6989,15 +8374,15 @@ bl _p_53
 bl _p_5
 .word 0xfd01bba0
 .word 0xf9401fb1
-.word 0xf9414e31
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xfd41bba0
 .word 0x910c83a0
 .word 0xaa0003e8
-bl _p_80
+bl _p_89
 .word 0xf9401fb1
-.word 0xf9416e31
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf941b7a2
@@ -7021,12 +8406,12 @@ bl _p_80
 .word 0xf9413450
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf941ce31
+.word 0xf941fe31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 118 0
+.loc 6 162 0
 .word 0xf9401fb1
-.word 0xf941de31
+.word 0xf9420e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -7034,7 +8419,7 @@ bl _p_80
 bl _p_55
 .word 0xf901aba0
 .word 0xf9401fb1
-.word 0xf941fe31
+.word 0xf9422e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
@@ -7042,15 +8427,15 @@ bl _p_55
 bl _p_5
 .word 0xfd01b3a0
 .word 0xf9401fb1
-.word 0xf9421e31
+.word 0xf9424e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xfd41b3a0
 .word 0x910bc3a0
 .word 0xaa0003e8
-bl _p_80
+bl _p_89
 .word 0xf9401fb1
-.word 0xf9423e31
+.word 0xf9426e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf941aba2
@@ -7074,66 +8459,18 @@ bl _p_80
 .word 0xf9413450
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf9429e31
+.word 0xf942ce31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 119 0
+.loc 6 163 0
 .word 0xf9401fb1
-.word 0xf942ae31
+.word 0xf942de31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x140001b9
-.loc 6 120 0
+.word 0x1400014d
+.loc 6 165 0
 .word 0xf9401fb1
-.word 0xf942c231
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_79
-.word 0xf901afa0
-.word 0xf9401fb1
-.word 0xf942da31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf941afa1
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf940d430
-.word 0xd63f0200
-.word 0xf901aba0
-.word 0xf9401fb1
-.word 0xf9430231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf941aba0
-.word 0xd2800081
-.word 0xd280009e
-.word 0xeb1e001f
-.word 0x9a9f17e0
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0x34001000
-.loc 6 121 0
-.word 0xf9401fb1
-.word 0xf9433231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 6 122 0
-.word 0xf9401fb1
-.word 0xf9434231
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x0, [x16, #1016]
-bl _p_81
-.word 0xf9401fb1
-.word 0xf9436231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 6 123 0
-.word 0xf9401fb1
-.word 0xf9437231
+.word 0xf942f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -7141,7 +8478,7 @@ bl _p_81
 bl _p_53
 .word 0xf901b7a0
 .word 0xf9401fb1
-.word 0xf9439231
+.word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd281fb7e
@@ -7150,15 +8487,15 @@ bl _p_53
 .word 0x1e22c000
 .word 0xfd01bba0
 .word 0xf9401fb1
-.word 0xf943b631
+.word 0xf9433631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xfd41bba0
 .word 0x910b03a0
 .word 0xaa0003e8
-bl _p_80
+bl _p_89
 .word 0xf9401fb1
-.word 0xf943d631
+.word 0xf9435631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf941b7a2
@@ -7182,12 +8519,12 @@ bl _p_80
 .word 0xf9413450
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf9443631
+.word 0xf943b631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 124 0
+.loc 6 166 0
 .word 0xf9401fb1
-.word 0xf9444631
+.word 0xf943c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -7195,7 +8532,7 @@ bl _p_80
 bl _p_55
 .word 0xf901aba0
 .word 0xf9401fb1
-.word 0xf9446631
+.word 0xf943e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd281fb7e
@@ -7204,15 +8541,15 @@ bl _p_55
 .word 0x1e22c000
 .word 0xfd01b3a0
 .word 0xf9401fb1
-.word 0xf9448a31
+.word 0xf9440a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xfd41b3a0
 .word 0x910a43a0
 .word 0xaa0003e8
-bl _p_80
+bl _p_89
 .word 0xf9401fb1
-.word 0xf944aa31
+.word 0xf9442a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf941aba2
@@ -7236,52 +8573,18 @@ bl _p_80
 .word 0xf9413450
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf9450a31
+.word 0xf9448a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 125 0
+.loc 6 167 0
 .word 0xf9401fb1
-.word 0xf9451a31
+.word 0xf9449a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x1400011e
-.loc 6 126 0
+.word 0x140000de
+.loc 6 169 0
 .word 0xf9401fb1
-.word 0xf9452e31
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_79
-.word 0xf901afa0
-.word 0xf9401fb1
-.word 0xf9454631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf941afa1
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf940d430
-.word 0xd63f0200
-.word 0xf901aba0
-.word 0xf9401fb1
-.word 0xf9456e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf941aba0
-.word 0xd2800061
-.word 0xd280007e
-.word 0xeb1e001f
-.word 0x9a9f17e0
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0x34000e80
-.loc 6 127 0
-.word 0xf9401fb1
-.word 0xf9459e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 6 128 0
-.word 0xf9401fb1
-.word 0xf945ae31
+.word 0xf944ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -7289,7 +8592,7 @@ bl _p_79
 bl _p_53
 .word 0xf901b7a0
 .word 0xf9401fb1
-.word 0xf945ce31
+.word 0xf944ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd281fb7e
@@ -7298,15 +8601,15 @@ bl _p_53
 .word 0x1e22c000
 .word 0xfd01bba0
 .word 0xf9401fb1
-.word 0xf945f231
+.word 0xf944f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xfd41bba0
 .word 0x910983a0
 .word 0xaa0003e8
-bl _p_80
+bl _p_89
 .word 0xf9401fb1
-.word 0xf9461231
+.word 0xf9451231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf941b7a2
@@ -7330,12 +8633,12 @@ bl _p_80
 .word 0xf9413450
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf9467231
+.word 0xf9457231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 129 0
+.loc 6 170 0
 .word 0xf9401fb1
-.word 0xf9468231
+.word 0xf9458231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -7343,7 +8646,7 @@ bl _p_80
 bl _p_55
 .word 0xf901aba0
 .word 0xf9401fb1
-.word 0xf946a231
+.word 0xf945a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd281fb7e
@@ -7352,15 +8655,15 @@ bl _p_55
 .word 0x1e22c000
 .word 0xfd01b3a0
 .word 0xf9401fb1
-.word 0xf946c631
+.word 0xf945c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xfd41b3a0
 .word 0x9108c3a0
 .word 0xaa0003e8
-bl _p_80
+bl _p_89
 .word 0xf9401fb1
-.word 0xf946e631
+.word 0xf945e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf941aba2
@@ -7384,52 +8687,18 @@ bl _p_80
 .word 0xf9413450
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf9474631
+.word 0xf9464631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 130 0
+.loc 6 171 0
 .word 0xf9401fb1
-.word 0xf9475631
+.word 0xf9465631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x1400008f
-.loc 6 131 0
+.word 0x1400006f
+.loc 6 173 0
 .word 0xf9401fb1
-.word 0xf9476a31
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_79
-.word 0xf901afa0
-.word 0xf9401fb1
-.word 0xf9478231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf941afa1
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf940d430
-.word 0xd63f0200
-.word 0xf901aba0
-.word 0xf9401fb1
-.word 0xf947aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf941aba0
-.word 0xd2800041
-.word 0xd280005e
-.word 0xeb1e001f
-.word 0x9a9f17e0
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0x34000e60
-.loc 6 132 0
-.word 0xf9401fb1
-.word 0xf947da31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 6 133 0
-.word 0xf9401fb1
-.word 0xf947ea31
+.word 0xf9466a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -7437,7 +8706,7 @@ bl _p_79
 bl _p_53
 .word 0xf901b7a0
 .word 0xf9401fb1
-.word 0xf9480a31
+.word 0xf9468a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd281fb7e
@@ -7446,15 +8715,15 @@ bl _p_53
 .word 0x1e22c000
 .word 0xfd01bba0
 .word 0xf9401fb1
-.word 0xf9482e31
+.word 0xf946ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xfd41bba0
 .word 0x910803a0
 .word 0xaa0003e8
-bl _p_80
+bl _p_89
 .word 0xf9401fb1
-.word 0xf9484e31
+.word 0xf946ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf941b7a2
@@ -7478,12 +8747,12 @@ bl _p_80
 .word 0xf9413450
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf948ae31
+.word 0xf9472e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 134 0
+.loc 6 174 0
 .word 0xf9401fb1
-.word 0xf948be31
+.word 0xf9473e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -7491,7 +8760,7 @@ bl _p_80
 bl _p_55
 .word 0xf901aba0
 .word 0xf9401fb1
-.word 0xf948de31
+.word 0xf9475e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd281fb7e
@@ -7500,15 +8769,15 @@ bl _p_55
 .word 0x1e22c000
 .word 0xfd01b3a0
 .word 0xf9401fb1
-.word 0xf9490231
+.word 0xf9478231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xfd41b3a0
 .word 0x910743a0
 .word 0xaa0003e8
-bl _p_80
+bl _p_89
 .word 0xf9401fb1
-.word 0xf9492231
+.word 0xf947a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf941aba2
@@ -7532,25 +8801,25 @@ bl _p_80
 .word 0xf9413450
 .word 0xd63f0200
 .word 0xf9401fb1
-.word 0xf9498231
+.word 0xf9480231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 135 0
+.loc 6 175 0
 .word 0xf9401fb1
-.word 0xf9499231
+.word 0xf9481231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 136 0
+.loc 6 177 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf949b231
+.word 0xf9483231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf949c231
+.word 0xf9484231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9415fb6
@@ -7564,19 +8833,19 @@ bl _p_80
 .word 0x9100023f
 .word 0xd65f03c0
 
-Lme_37:
+Lme_41:
 .text
 	.align 4
-	.no_dead_strip CameraTest_CameraController__AddFlipAnimationb__11_0
-CameraTest_CameraController__AddFlipAnimationb__11_0:
-.loc 6 170 0 prologue_end
+	.no_dead_strip CameraTest_CameraController__AddFlipAnimationb__13_0
+CameraTest_CameraController__AddFlipAnimationb__13_0:
+.loc 6 210 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1176]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -7592,7 +8861,7 @@ ldr x16, [x16, #1024]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 171 0
+.loc 6 211 0
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
@@ -7615,7 +8884,7 @@ bl _p_42
 .word 0xf940aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 172 0
+.loc 6 212 0
 .word 0xf9400fb1
 .word 0xf940ba31
 .word 0xb4000051
@@ -7628,7 +8897,7 @@ bl _p_42
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_38:
+Lme_42:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale__ctor_intptr
@@ -7642,7 +8911,7 @@ CameraTest_RotateAndScale__ctor_intptr:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1184]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -7669,7 +8938,7 @@ ldr x16, [x16, #1032]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
-bl _p_82
+bl _p_90
 .word 0xf90077a0
 .word 0xf94013b1
 .word 0xf9409e31
@@ -7733,7 +9002,7 @@ bl _p_4
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
-bl _p_82
+bl _p_90
 .word 0xf9006fa0
 .word 0xf94013b1
 .word 0xf9419a31
@@ -7823,7 +9092,7 @@ bl _p_27
 .word 0xa8cf7bfd
 .word 0xd65f03c0
 
-Lme_3a:
+Lme_44:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_get_CropArea
@@ -7840,7 +9109,7 @@ CameraTest_RotateAndScale_get_CropArea:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1192]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -7901,7 +9170,7 @@ ldr x16, [x16, #1040]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_83
+bl _p_91
 .word 0xf9016fa0
 .word 0xf9402fb1
 .word 0xf9412e31
@@ -8012,7 +9281,7 @@ bl _p_5
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_84
+bl _p_92
 .word 0xf90157a0
 .word 0xf9402fb1
 .word 0xf942e631
@@ -8045,7 +9314,7 @@ bl _p_84
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_83
+bl _p_91
 .word 0xf90147a0
 .word 0xf9402fb1
 .word 0xf9436631
@@ -8054,7 +9323,7 @@ bl _p_83
 .word 0xf94147a0
 .word 0x9103c3a1
 .word 0xf900fba1
-bl _p_85
+bl _p_93
 .word 0xf940fbbe
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -8081,7 +9350,7 @@ bl _p_85
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_84
+bl _p_92
 .word 0xf90143a0
 .word 0xf9402fb1
 .word 0xf943f231
@@ -8108,7 +9377,7 @@ bl _p_84
 .word 0xf94077a0
 .word 0xf900b7a0
 .word 0x910583a0
-bl _p_86
+bl _p_94
 .word 0xfd013ba0
 .word 0xf9402fb1
 .word 0xf9445e31
@@ -8170,7 +9439,7 @@ bl _p_9
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_84
+bl _p_92
 .word 0xf90123a0
 .word 0xf9402fb1
 .word 0xf9455231
@@ -8197,7 +9466,7 @@ bl _p_84
 .word 0xf9406fa0
 .word 0xf900b7a0
 .word 0x910583a0
-bl _p_87
+bl _p_95
 .word 0xfd011fa0
 .word 0xf9402fb1
 .word 0xf945be31
@@ -8359,7 +9628,7 @@ bl _p_6
 .word 0x9100023f
 .word 0xd65f03c0
 
-Lme_3b:
+Lme_45:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_ViewDidLoad
@@ -8372,7 +9641,7 @@ CameraTest_RotateAndScale_ViewDidLoad:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1200]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -8407,7 +9676,7 @@ bl _p_28
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_84
+bl _p_92
 .word 0xf90037a0
 .word 0xf9400fb1
 .word 0xf940b231
@@ -8438,7 +9707,7 @@ bl _p_5
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_84
+bl _p_92
 .word 0xf90033a0
 .word 0xf9400fb1
 .word 0xf9412a31
@@ -8470,7 +9739,7 @@ bl _p_84
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_84
+bl _p_92
 .word 0xf9002fa0
 .word 0xf9400fb1
 .word 0xf941a631
@@ -8481,7 +9750,7 @@ bl _p_84
 .word 0xaa0203e0
 .word 0xaa1a03e1
 .word 0xf940005e
-bl _p_88
+bl _p_96
 .word 0xf9400fb1
 .word 0xf941ce31
 .word 0xb4000051
@@ -8493,7 +9762,7 @@ bl _p_88
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_84
+bl _p_92
 .word 0xf9002ba0
 .word 0xf9400fb1
 .word 0xf941fe31
@@ -8517,7 +9786,7 @@ bl _p_84
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_84
+bl _p_92
 .word 0xf90027a0
 .word 0xf9400fb1
 .word 0xf9425a31
@@ -8541,7 +9810,7 @@ bl _p_84
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_83
+bl _p_91
 .word 0xf90023a0
 .word 0xf9400fb1
 .word 0xf942b631
@@ -8565,7 +9834,7 @@ bl _p_83
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_89
+bl _p_97
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf9431231
@@ -8600,17 +9869,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x0, [x16, #1056]
+ldr x0, [x16, #1208]
 .word 0xf9001420
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1216]
 .word 0xf9002020
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x0, [x16, #1072]
+ldr x0, [x16, #1224]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -8631,7 +9900,7 @@ bl _p_35
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_90
+bl _p_98
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9440231
@@ -8666,17 +9935,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x0, [x16, #1080]
+ldr x0, [x16, #1232]
 .word 0xf9001420
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x0, [x16, #1088]
+ldr x0, [x16, #1240]
 .word 0xf9002020
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x0, [x16, #1096]
+ldr x0, [x16, #1248]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -8697,7 +9966,7 @@ bl _p_35
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_91
+bl _p_99
 .word 0xf9400fb1
 .word 0xf944ee31
 .word 0xb4000051
@@ -8719,7 +9988,7 @@ bl _p_91
 .word 0xaa1103e1
 bl _p_25
 
-Lme_3c:
+Lme_46:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_ViewWillAppear_bool
@@ -8732,7 +10001,7 @@ CameraTest_RotateAndScale_ViewWillAppear_bool:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1256]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8755,7 +10024,7 @@ ldr x16, [x16, #1104]
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0x394063a1
-bl _p_57
+bl _p_61
 .word 0xf94013b1
 .word 0xf9408231
 .word 0xb4000051
@@ -8765,7 +10034,7 @@ bl _p_57
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_58
+bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf940aa31
@@ -8788,7 +10057,7 @@ bl _p_58
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_3d:
+Lme_47:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_ViewWillDisappear_bool
@@ -8801,7 +10070,7 @@ CameraTest_RotateAndScale_ViewWillDisappear_bool:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1264]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8824,7 +10093,7 @@ ldr x16, [x16, #1112]
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0x394063a1
-bl _p_59
+bl _p_63
 .word 0xf94013b1
 .word 0xf9408231
 .word 0xb4000051
@@ -8834,7 +10103,7 @@ bl _p_59
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_58
+bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf940aa31
@@ -8856,7 +10125,7 @@ bl _p_58
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_3e:
+Lme_48:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_PrefersStatusBarHidden
@@ -8869,7 +10138,7 @@ CameraTest_RotateAndScale_PrefersStatusBarHidden:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1272]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8908,7 +10177,7 @@ ldr x16, [x16, #1120]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_3f:
+Lme_49:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_ViewForZoomingInScrollView_UIKit_UIScrollView
@@ -8922,7 +10191,7 @@ CameraTest_RotateAndScale_ViewForZoomingInScrollView_UIKit_UIScrollView:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1280]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -8945,7 +10214,7 @@ ldr x16, [x16, #1128]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_83
+bl _p_91
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf9408a31
@@ -8970,7 +10239,7 @@ bl _p_83
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_40:
+Lme_4a:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_SetImage_UIKit_UIImage
@@ -8983,7 +10252,7 @@ CameraTest_RotateAndScale_SetImage_UIKit_UIImage:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1288]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9032,7 +10301,7 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_41:
+Lme_4b:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_AddCircleOverlay
@@ -9052,7 +10321,7 @@ CameraTest_RotateAndScale_AddCircleOverlay:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1296]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -9092,7 +10361,7 @@ bl _p_18
 .word 0xf940ca31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_92
+bl _p_100
 .word 0xf90177a0
 .word 0xf9402bb1
 .word 0xf940e231
@@ -9194,10 +10463,10 @@ bl _p_5
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x0, [x16, #1152]
+ldr x0, [x16, #1304]
 bl _p_30
 .word 0xf90157a0
-bl _p_93
+bl _p_101
 .word 0xf9402bb1
 .word 0xf9427231
 .word 0xb4000051
@@ -9428,7 +10697,7 @@ bl _p_5
 .word 0xfd404ba1
 .word 0xfd404fa2
 .word 0xfd4053a3
-bl _p_94
+bl _p_102
 .word 0xf9011ba0
 .word 0xf9402bb1
 .word 0xf945fa31
@@ -9477,10 +10746,10 @@ bl _p_94
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x0, [x16, #1152]
+ldr x0, [x16, #1304]
 bl _p_30
 .word 0xf90113a0
-bl _p_93
+bl _p_101
 .word 0xf9402bb1
 .word 0xf946b631
 .word 0xb4000051
@@ -9517,7 +10786,7 @@ bl _p_93
 .word 0xf900fba0
 .word 0xf94097a0
 .word 0xf90103a0
-bl _p_95
+bl _p_103
 .word 0xf900ffa0
 .word 0xf9402bb1
 .word 0xf9474e31
@@ -9604,10 +10873,10 @@ bl _p_95
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x0, [x16, #1160]
+ldr x0, [x16, #1312]
 bl _p_30
 .word 0xf900e3a0
-bl _p_96
+bl _p_104
 .word 0xf9402bb1
 .word 0xf948a631
 .word 0xb4000051
@@ -9693,7 +10962,7 @@ bl _p_6
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x1, [x16, #1168]
+ldr x1, [x16, #1320]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf941ac50
@@ -9723,7 +10992,7 @@ ldr x1, [x16, #1168]
 .word 0xf900b7a0
 .word 0xf940aba0
 .word 0xf900bfa0
-bl _p_97
+bl _p_86
 .word 0xf900bba0
 .word 0xf9402bb1
 .word 0xf94a7631
@@ -9787,7 +11056,7 @@ bl _p_97
 .word 0x9100023f
 .word 0xd65f03c0
 
-Lme_42:
+Lme_4c:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_get_imageView
@@ -9800,7 +11069,7 @@ CameraTest_RotateAndScale_get_imageView:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1328]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -9826,7 +11095,7 @@ ldr x16, [x16, #1176]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_43:
+Lme_4d:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_set_imageView_UIKit_UIImageView
@@ -9839,7 +11108,7 @@ CameraTest_RotateAndScale_set_imageView_UIKit_UIImageView:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1336]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9878,7 +11147,7 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_44:
+Lme_4e:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_get_retakeButton
@@ -9890,7 +11159,7 @@ CameraTest_RotateAndScale_get_retakeButton:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1344]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -9916,7 +11185,7 @@ ldr x16, [x16, #1192]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_45:
+Lme_4f:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_set_retakeButton_UIKit_UIButton
@@ -9929,7 +11198,7 @@ CameraTest_RotateAndScale_set_retakeButton_UIKit_UIButton:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1352]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9968,7 +11237,7 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_46:
+Lme_50:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_get_scrollView
@@ -9980,7 +11249,7 @@ CameraTest_RotateAndScale_get_scrollView:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1360]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10006,7 +11275,7 @@ ldr x16, [x16, #1208]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_47:
+Lme_51:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_set_scrollView_UIKit_UIScrollView
@@ -10019,7 +11288,7 @@ CameraTest_RotateAndScale_set_scrollView_UIKit_UIScrollView:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1368]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10058,7 +11327,7 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_48:
+Lme_52:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_get_usePhotoButton
@@ -10070,7 +11339,7 @@ CameraTest_RotateAndScale_get_usePhotoButton:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1376]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10096,7 +11365,7 @@ ldr x16, [x16, #1224]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_49:
+Lme_53:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_set_usePhotoButton_UIKit_UIButton
@@ -10109,7 +11378,7 @@ CameraTest_RotateAndScale_set_usePhotoButton_UIKit_UIButton:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1384]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10148,7 +11417,7 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_4a:
+Lme_54:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale_ReleaseDesignerOutlets
@@ -10163,7 +11432,7 @@ CameraTest_RotateAndScale_ReleaseDesignerOutlets:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1392]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -10190,7 +11459,7 @@ ldr x16, [x16, #1240]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_83
+bl _p_91
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf9409e31
@@ -10214,7 +11483,7 @@ bl _p_83
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_83
+bl _p_91
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf940fa31
@@ -10237,7 +11506,7 @@ bl _p_36
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_98
+bl _p_105
 .word 0xf9401fb1
 .word 0xf9414e31
 .word 0xb4000051
@@ -10258,7 +11527,7 @@ bl _p_98
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_84
+bl _p_92
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf9419e31
@@ -10282,7 +11551,7 @@ bl _p_84
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_84
+bl _p_92
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf941fa31
@@ -10305,7 +11574,7 @@ bl _p_36
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_99
+bl _p_106
 .word 0xf9401fb1
 .word 0xf9424e31
 .word 0xb4000051
@@ -10326,7 +11595,7 @@ bl _p_99
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_89
+bl _p_97
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf9429e31
@@ -10350,7 +11619,7 @@ bl _p_89
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_89
+bl _p_97
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf942fa31
@@ -10373,7 +11642,7 @@ bl _p_36
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_100
+bl _p_107
 .word 0xf9401fb1
 .word 0xf9434e31
 .word 0xb4000051
@@ -10394,7 +11663,7 @@ bl _p_100
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_90
+bl _p_98
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf9439e31
@@ -10418,7 +11687,7 @@ bl _p_90
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_90
+bl _p_98
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf943fa31
@@ -10441,7 +11710,7 @@ bl _p_36
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_101
+bl _p_108
 .word 0xf9401fb1
 .word 0xf9444e31
 .word 0xb4000051
@@ -10471,7 +11740,7 @@ bl _p_101
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_4b:
+Lme_55:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale__ViewDidLoadb__10_0_object_System_EventArgs
@@ -10485,7 +11754,7 @@ CameraTest_RotateAndScale__ViewDidLoadb__10_0_object_System_EventArgs:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1400]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -10532,7 +11801,7 @@ ldr x16, [x16, #1248]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_4c:
+Lme_56:
 .text
 	.align 4
 	.no_dead_strip CameraTest_RotateAndScale__ViewDidLoadb__10_1_object_System_EventArgs
@@ -10547,7 +11816,7 @@ CameraTest_RotateAndScale__ViewDidLoadb__10_1_object_System_EventArgs:
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1408]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -10613,7 +11882,7 @@ ldr x16, [x16, #1256]
 .word 0x910123a0
 .word 0xf90037a0
 .word 0xaa1a03e0
-bl _p_102
+bl _p_109
 .word 0xf94037be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -10629,7 +11898,7 @@ bl _p_102
 .word 0xfd402ba1
 .word 0xfd402fa2
 .word 0xfd4033a3
-bl _p_103
+bl _p_110
 .word 0xf9003ba0
 .word 0xf9401bb1
 .word 0xf9416e31
@@ -10663,7 +11932,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x15, [x16, #1264]
+ldr x15, [x16, #1416]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -10695,7 +11964,7 @@ ldr x15, [x16, #1264]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_4d:
+Lme_57:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
@@ -10711,7 +11980,7 @@ wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1424]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -10727,17 +11996,17 @@ ldr x16, [x16, #1272]
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x0, [x16, #1280]
+ldr x0, [x16, #1432]
 .word 0xb9400000
 .word 0x34000140
-bl _p_104
+bl _p_111
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_105
+bl _p_112
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -10829,7 +12098,7 @@ bl _p_105
 .word 0xaa1103e1
 bl _p_25
 
-Lme_4f:
+Lme_59:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs
@@ -10846,7 +12115,7 @@ wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1288]
+ldr x16, [x16, #1440]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -10862,17 +12131,17 @@ ldr x16, [x16, #1288]
 
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x0, [x16, #1280]
+ldr x0, [x16, #1432]
 .word 0xb9400000
 .word 0x34000140
-bl _p_104
+bl _p_111
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_105
+bl _p_112
 .word 0xf9403ba0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -10970,7 +12239,7 @@ bl _p_105
 .word 0xaa1103e1
 bl _p_25
 
-Lme_50:
+Lme_5a:
 .text
 	.align 3
 jit_code_end:
@@ -11007,6 +12276,7 @@ bl CameraTest_ViewController__ViewDidLoadb__1_0_Foundation_NSNotification
 bl CameraTest_ViewController__ViewDidLoadb__1_1_object_System_EventArgs
 bl CameraTest_CameraController__ctor_intptr
 bl CameraTest_CameraController_ViewDidLoad
+bl CameraTest_CameraController_UpdateFlashView
 bl CameraTest_CameraController_ViewWillAppear_bool
 bl CameraTest_CameraController_ViewWillDisappear_bool
 bl CameraTest_CameraController_PrefersStatusBarHidden
@@ -11017,6 +12287,8 @@ bl CameraTest_CameraController_AddFlipAnimation
 bl CameraTest_CameraController_CameraWithPosition_AVFoundation_AVCaptureDevicePosition
 bl CameraTest_CameraController_DidFinishProcessingPhoto_AVFoundation_AVCapturePhotoOutput_CoreMedia_CMSampleBuffer_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureResolvedPhotoSettings_AVFoundation_AVCaptureBracketedStillImageSettings_Foundation_NSError
 bl CameraTest_CameraController_DidSelectedImage_UIKit_UIImage
+bl CameraTest_CameraController_get_autoFlashButton
+bl CameraTest_CameraController_set_autoFlashButton_UIKit_UIButton
 bl CameraTest_CameraController_get_cancelButton
 bl CameraTest_CameraController_set_cancelButton_UIKit_UIButton
 bl CameraTest_CameraController_get_captureButton
@@ -11025,18 +12297,25 @@ bl CameraTest_CameraController_get_flashButton
 bl CameraTest_CameraController_set_flashButton_UIKit_UIButton
 bl CameraTest_CameraController_get_flashOptionView
 bl CameraTest_CameraController_set_flashOptionView_UIKit_UIView
+bl CameraTest_CameraController_get_offFlashButton
+bl CameraTest_CameraController_set_offFlashButton_UIKit_UIButton
+bl CameraTest_CameraController_get_onFlashButton
+bl CameraTest_CameraController_set_onFlashButton_UIKit_UIButton
 bl CameraTest_CameraController_get_previewView
 bl CameraTest_CameraController_set_previewView_UIKit_UIView
 bl CameraTest_CameraController_get_rotateCameraButton
 bl CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton
 bl CameraTest_CameraController_ReleaseDesignerOutlets
-bl CameraTest_CameraController__ViewDidLoadb__4_0_object_System_EventArgs
-bl CameraTest_CameraController__ViewDidLoadb__4_1_object_System_EventArgs
-bl CameraTest_CameraController__ViewDidLoadb__4_2_object_System_EventArgs
-bl CameraTest_CameraController__ViewDidLoadb__4_3_object_System_EventArgs
-bl CameraTest_CameraController__DetectRotationb__9_0_object_Foundation_NSNotificationEventArgs
-bl CameraTest_CameraController__DetectRotationb__9_1
-bl CameraTest_CameraController__AddFlipAnimationb__11_0
+bl CameraTest_CameraController__ViewDidLoadb__5_0_object_System_EventArgs
+bl CameraTest_CameraController__ViewDidLoadb__5_1_object_System_EventArgs
+bl CameraTest_CameraController__ViewDidLoadb__5_2_object_System_EventArgs
+bl CameraTest_CameraController__ViewDidLoadb__5_3_object_System_EventArgs
+bl CameraTest_CameraController__ViewDidLoadb__5_4_object_System_EventArgs
+bl CameraTest_CameraController__ViewDidLoadb__5_5_object_System_EventArgs
+bl CameraTest_CameraController__ViewDidLoadb__5_6_object_System_EventArgs
+bl CameraTest_CameraController__DetectRotationb__11_0_object_Foundation_NSNotificationEventArgs
+bl CameraTest_CameraController__DetectRotationb__11_1
+bl CameraTest_CameraController__AddFlipAnimationb__13_0
 bl method_addresses
 bl CameraTest_RotateAndScale__ctor_intptr
 bl CameraTest_RotateAndScale_get_CropArea
@@ -11085,19 +12364,21 @@ unwind_info:
 	.byte 0,68,14,80,157,10,158,9,68,13,29,68,154,8,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153
 	.byte 7,21,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6,21,12,31,0,68,14,96,157,12
 	.byte 158,11,68,13,29,68,150,10,151,9,68,152,8,19,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14,153
-	.byte 13,24,12,31,0,68,14,192,2,157,40,158,39,68,13,29,68,151,38,152,37,68,153,36,154,35,13,12,31,0,68,14
-	.byte 80,157,10,158,9,68,13,29,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,34,12,31,0,68,14,128
-	.byte 1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7,32,12,31,0
-	.byte 68,14,144,1,157,18,158,17,68,13,29,68,148,16,149,15,68,150,14,151,13,68,152,12,153,11,68,154,10,29,12,31
-	.byte 0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,31,12,31,0,68
-	.byte 14,112,157,14,158,13,68,13,29,68,148,12,149,11,68,150,10,151,9,68,152,8,153,7,68,154,6,27,12,31,0,84
-	.byte 14,128,7,157,112,158,111,68,13,29,68,150,110,151,109,68,152,108,153,107,68,154,106,17,12,31,0,68,14,240,1,157
-	.byte 30,158,29,68,13,29,68,153,28,17,12,31,0,84,14,224,5,157,92,158,91,68,13,29,68,154,90,17,12,31,0,68
-	.byte 14,128,1,157,16,158,15,68,13,29,68,154,14,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,34,12
-	.byte 31,0,84,14,128,6,157,96,158,95,68,13,29,68,147,94,148,93,68,149,92,150,91,68,151,90,152,89,68,153,88,154
-	.byte 87,26,12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6,19,12,31,0
-	.byte 68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68
-	.byte 147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9
+	.byte 13,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,32,12,31,0,68,14,224,2,157,44,158,43,68,13
+	.byte 29,68,148,42,149,41,68,150,40,151,39,68,152,38,153,37,68,154,36,32,12,31,0,68,14,128,1,157,16,158,15,68
+	.byte 13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154,8,13,12,31,0,68,14,80,157,10,158,9,68
+	.byte 13,29,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,34,12,31,0,68,14,128,1,157,16,158,15,68
+	.byte 13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7,32,12,31,0,68,14,144,1,157,18
+	.byte 158,17,68,13,29,68,148,16,149,15,68,150,14,151,13,68,152,12,153,11,68,154,10,29,12,31,0,68,14,192,1,157
+	.byte 24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,34,12,31,0,68,14,144,1,157,18,158
+	.byte 17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,16,12,31,0,68,14,112,157
+	.byte 14,158,13,68,13,29,68,154,12,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11,27,12,31,0
+	.byte 84,14,128,7,157,112,158,111,68,13,29,68,150,110,151,109,68,152,108,153,107,68,154,106,17,12,31,0,68,14,240,1
+	.byte 157,30,158,29,68,13,29,68,153,28,17,12,31,0,84,14,224,5,157,92,158,91,68,13,29,68,154,90,17,12,31,0
+	.byte 68,14,128,1,157,16,158,15,68,13,29,68,154,14,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,34
+	.byte 12,31,0,84,14,128,6,157,96,158,95,68,13,29,68,147,94,148,93,68,149,92,150,91,68,151,90,152,89,68,153,88
+	.byte 154,87,26,12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6,19,12,31
+	.byte 0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13
 
 .text
 	.align 4
@@ -11108,845 +12389,901 @@ plt_CoreGraphics_CGRect_get_Size:
 _p_1:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1456]
 br x16
-.word 1027
+.word 1161
 	.no_dead_strip plt_CoreGraphics_CGRect_get_Null
 plt_CoreGraphics_CGRect_get_Null:
 _p_2:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1312]
+ldr x16, [x16, #1464]
 br x16
-.word 1032
+.word 1166
 	.no_dead_strip plt_CoreGraphics_CGSize_get_Width
 plt_CoreGraphics_CGSize_get_Width:
 _p_3:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1320]
+ldr x16, [x16, #1472]
 br x16
-.word 1037
+.word 1171
 	.no_dead_strip plt_CoreGraphics_CGSize_get_Height
 plt_CoreGraphics_CGSize_get_Height:
 _p_4:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1480]
 br x16
-.word 1042
+.word 1176
 	.no_dead_strip plt_System_nfloat_op_Implicit_int
 plt_System_nfloat_op_Implicit_int:
 _p_5:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1336]
+ldr x16, [x16, #1488]
 br x16
-.word 1047
+.word 1181
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat
 plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat:
 _p_6:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1496]
 br x16
-.word 1052
+.word 1186
 	.no_dead_strip plt_System_Math_Min_double_double
 plt_System_Math_Min_double_double:
 _p_7:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1504]
 br x16
-.word 1057
+.word 1191
 	.no_dead_strip plt_UIKit_UIGraphics_BeginImageContextWithOptions_CoreGraphics_CGSize_bool_System_nfloat
 plt_UIKit_UIGraphics_BeginImageContextWithOptions_CoreGraphics_CGSize_bool_System_nfloat:
 _p_8:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1512]
 br x16
-.word 1060
+.word 1194
 	.no_dead_strip plt_CoreGraphics_CGRect_get_X
 plt_CoreGraphics_CGRect_get_X:
 _p_9:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1520]
 br x16
-.word 1065
+.word 1199
 	.no_dead_strip plt_CoreGraphics_CGRect_get_Y
 plt_CoreGraphics_CGRect_get_Y:
 _p_10:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1376]
+ldr x16, [x16, #1528]
 br x16
-.word 1070
+.word 1204
 	.no_dead_strip plt_CoreGraphics_CGPoint__ctor_System_nfloat_System_nfloat
 plt_CoreGraphics_CGPoint__ctor_System_nfloat_System_nfloat:
 _p_11:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1384]
+ldr x16, [x16, #1536]
 br x16
-.word 1075
+.word 1209
 	.no_dead_strip plt_UIKit_UIGraphics_GetImageFromCurrentImageContext
 plt_UIKit_UIGraphics_GetImageFromCurrentImageContext:
 _p_12:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1544]
 br x16
-.word 1080
+.word 1214
 	.no_dead_strip plt_UIKit_UIGraphics_EndImageContext
 plt_UIKit_UIGraphics_EndImageContext:
 _p_13:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1552]
 br x16
-.word 1085
+.word 1219
 	.no_dead_strip plt_Extension_RoundedImage_UIKit_UIImage
 plt_Extension_RoundedImage_UIKit_UIImage:
 _p_14:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1560]
 br x16
-.word 1090
+.word 1224
 	.no_dead_strip plt_UIKit_UIGraphics_GetCurrentContext
 plt_UIKit_UIGraphics_GetCurrentContext:
 _p_15:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1568]
 br x16
-.word 1095
+.word 1229
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_CoreGraphics_CGPoint_CoreGraphics_CGSize
 plt_CoreGraphics_CGRect__ctor_CoreGraphics_CGPoint_CoreGraphics_CGSize:
 _p_16:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1424]
+ldr x16, [x16, #1576]
 br x16
-.word 1100
+.word 1234
 	.no_dead_strip plt_CoreGraphics_CGContext_SetBlendMode_CoreGraphics_CGBlendMode
 plt_CoreGraphics_CGContext_SetBlendMode_CoreGraphics_CGBlendMode:
 _p_17:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1584]
 br x16
-.word 1105
+.word 1239
 	.no_dead_strip plt_UIKit_UIColor_get_Clear
 plt_UIKit_UIColor_get_Clear:
 _p_18:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1592]
 br x16
-.word 1110
+.word 1244
 	.no_dead_strip plt_CoreGraphics_CGContext_SetFillColor_CoreGraphics_CGColor
 plt_CoreGraphics_CGContext_SetFillColor_CoreGraphics_CGColor:
 _p_19:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1600]
 br x16
-.word 1115
+.word 1249
 	.no_dead_strip plt_UIKit_UIBezierPath_FromRect_CoreGraphics_CGRect
 plt_UIKit_UIBezierPath_FromRect_CoreGraphics_CGRect:
 _p_20:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1608]
 br x16
-.word 1120
+.word 1254
 	.no_dead_strip plt_UIKit_UIBezierPath_FromOval_CoreGraphics_CGRect
 plt_UIKit_UIBezierPath_FromOval_CoreGraphics_CGRect:
 _p_21:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1616]
 br x16
-.word 1125
+.word 1259
 	.no_dead_strip plt_UIKit_UIApplication_Main_string___string_string
 plt_UIKit_UIApplication_Main_string___string_string:
 _p_22:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1624]
 br x16
-.word 1130
+.word 1264
 	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
 plt_UIKit_UIApplication_get_SharedApplication:
 _p_23:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1632]
 br x16
-.word 1135
+.word 1269
 	.no_dead_strip plt_UIKit_UIApplication_get_Delegate
 plt_UIKit_UIApplication_get_Delegate:
 _p_24:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1640]
 br x16
-.word 1140
+.word 1274
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_25:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1648]
 br x16
-.word 1145
+.word 1279
 	.no_dead_strip plt_UIKit_UIApplicationDelegate__ctor
 plt_UIKit_UIApplicationDelegate__ctor:
 _p_26:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1656]
 br x16
-.word 1180
+.word 1314
 	.no_dead_strip plt_UIKit_UIViewController__ctor_intptr
 plt_UIKit_UIViewController__ctor_intptr:
 _p_27:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1664]
 br x16
-.word 1185
+.word 1319
 	.no_dead_strip plt_UIKit_UIViewController_ViewDidLoad
 plt_UIKit_UIViewController_ViewDidLoad:
 _p_28:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1672]
 br x16
-.word 1190
+.word 1324
 	.no_dead_strip plt_Foundation_NSNotificationCenter_get_DefaultCenter
 plt_Foundation_NSNotificationCenter_get_DefaultCenter:
 _p_29:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1680]
 br x16
-.word 1195
+.word 1329
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_30:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1688]
 br x16
-.word 1200
+.word 1334
 	.no_dead_strip plt_Foundation_NSString__ctor_string
 plt_Foundation_NSString__ctor_string:
 _p_31:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1696]
 br x16
-.word 1232
+.word 1366
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_32:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1704]
 br x16
-.word 1237
+.word 1371
 	.no_dead_strip plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification
 plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification:
 _p_33:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1712]
 br x16
-.word 1245
+.word 1379
 	.no_dead_strip plt_CameraTest_ViewController_get_cameraButton
 plt_CameraTest_ViewController_get_cameraButton:
 _p_34:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1720]
 br x16
-.word 1250
+.word 1384
 	.no_dead_strip plt_UIKit_UIControl_add_TouchUpInside_System_EventHandler
 plt_UIKit_UIControl_add_TouchUpInside_System_EventHandler:
 _p_35:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1728]
 br x16
-.word 1255
+.word 1389
 	.no_dead_strip plt_Foundation_NSObject_Dispose
 plt_Foundation_NSObject_Dispose:
 _p_36:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1736]
 br x16
-.word 1260
+.word 1394
 	.no_dead_strip plt_CameraTest_ViewController_set_cameraButton_UIKit_UIButton
 plt_CameraTest_ViewController_set_cameraButton_UIKit_UIButton:
 _p_37:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1744]
 br x16
-.word 1265
+.word 1399
 	.no_dead_strip plt_CameraTest_ViewController_get_imageView
 plt_CameraTest_ViewController_get_imageView:
 _p_38:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1752]
 br x16
-.word 1270
+.word 1404
 	.no_dead_strip plt_CameraTest_ViewController_set_imageView_UIKit_UIImageView
 plt_CameraTest_ViewController_set_imageView_UIKit_UIImageView:
 _p_39:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1760]
 br x16
-.word 1275
+.word 1409
 	.no_dead_strip plt_Foundation_NSBundle_get_MainBundle
 plt_Foundation_NSBundle_get_MainBundle:
 _p_40:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #1768]
 br x16
-.word 1280
+.word 1414
 	.no_dead_strip plt_UIKit_UIStoryboard_FromName_string_Foundation_NSBundle
 plt_UIKit_UIStoryboard_FromName_string_Foundation_NSBundle:
 _p_41:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1776]
 br x16
-.word 1285
+.word 1419
 	.no_dead_strip plt_CameraTest_CameraController_get_captureButton
 plt_CameraTest_CameraController_get_captureButton:
 _p_42:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1784]
 br x16
-.word 1290
+.word 1424
 	.no_dead_strip plt_CoreGraphics_CGRect_get_Width
 plt_CoreGraphics_CGRect_get_Width:
 _p_43:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #1792]
 br x16
-.word 1295
+.word 1429
 	.no_dead_strip plt_AVFoundation_AVMediaType_get_Video
 plt_AVFoundation_AVMediaType_get_Video:
 _p_44:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #1800]
 br x16
-.word 1300
+.word 1434
 	.no_dead_strip plt_AVFoundation_AVCaptureDevice_GetDefaultDevice_Foundation_NSString
 plt_AVFoundation_AVCaptureDevice_GetDefaultDevice_Foundation_NSString:
 _p_45:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1808]
 br x16
-.word 1305
+.word 1439
 	.no_dead_strip plt_AVFoundation_AVCaptureDeviceInput__ctor_AVFoundation_AVCaptureDevice_Foundation_NSError_
 plt_AVFoundation_AVCaptureDeviceInput__ctor_AVFoundation_AVCaptureDevice_Foundation_NSError_:
 _p_46:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1816]
 br x16
-.word 1310
+.word 1444
 	.no_dead_strip plt_AVFoundation_AVCaptureSession__ctor
 plt_AVFoundation_AVCaptureSession__ctor:
 _p_47:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1824]
 br x16
-.word 1315
+.word 1449
 	.no_dead_strip plt_AVFoundation_AVCaptureVideoPreviewLayer__ctor_AVFoundation_AVCaptureSession
 plt_AVFoundation_AVCaptureVideoPreviewLayer__ctor_AVFoundation_AVCaptureSession:
 _p_48:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #1832]
 br x16
-.word 1320
+.word 1454
 	.no_dead_strip plt_AVFoundation_AVCaptureVideoPreviewLayer_set_VideoGravity_AVFoundation_AVLayerVideoGravity
 plt_AVFoundation_AVCaptureVideoPreviewLayer_set_VideoGravity_AVFoundation_AVLayerVideoGravity:
 _p_49:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #1840]
 br x16
-.word 1325
+.word 1459
 	.no_dead_strip plt_CameraTest_CameraController_get_previewView
 plt_CameraTest_CameraController_get_previewView:
 _p_50:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1848]
 br x16
-.word 1330
+.word 1464
 	.no_dead_strip plt_AVFoundation_AVCapturePhotoOutput__ctor
 plt_AVFoundation_AVCapturePhotoOutput__ctor:
 _p_51:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1856]
 br x16
-.word 1335
+.word 1469
 	.no_dead_strip plt_CameraTest_CameraController_get_cancelButton
 plt_CameraTest_CameraController_get_cancelButton:
 _p_52:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1864]
 br x16
-.word 1340
+.word 1474
 	.no_dead_strip plt_CameraTest_CameraController_get_rotateCameraButton
 plt_CameraTest_CameraController_get_rotateCameraButton:
 _p_53:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1872]
 br x16
-.word 1345
+.word 1479
 	.no_dead_strip plt_CameraTest_CameraController_get_flashOptionView
 plt_CameraTest_CameraController_get_flashOptionView:
 _p_54:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #1880]
 br x16
-.word 1350
+.word 1484
 	.no_dead_strip plt_CameraTest_CameraController_get_flashButton
 plt_CameraTest_CameraController_get_flashButton:
 _p_55:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1736]
-br x16
-.word 1355
-	.no_dead_strip plt_CameraTest_CameraController_DetectRotation
-plt_CameraTest_CameraController_DetectRotation:
-_p_56:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1744]
-br x16
-.word 1360
-	.no_dead_strip plt_UIKit_UIViewController_ViewWillAppear_bool
-plt_UIKit_UIViewController_ViewWillAppear_bool:
-_p_57:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1752]
-br x16
-.word 1365
-	.no_dead_strip plt_CameraTest_AppDelegate_Instance
-plt_CameraTest_AppDelegate_Instance:
-_p_58:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1760]
-br x16
-.word 1370
-	.no_dead_strip plt_UIKit_UIViewController_ViewWillDisappear_bool
-plt_UIKit_UIViewController_ViewWillDisappear_bool:
-_p_59:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1768]
-br x16
-.word 1375
-	.no_dead_strip plt_AVFoundation_AVCapturePhotoSettings_Create
-plt_AVFoundation_AVCapturePhotoSettings_Create:
-_p_60:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1776]
-br x16
-.word 1380
-	.no_dead_strip plt_UIKit_UIDevice_Notifications_ObserveOrientationDidChange_System_EventHandler_1_Foundation_NSNotificationEventArgs
-plt_UIKit_UIDevice_Notifications_ObserveOrientationDidChange_System_EventHandler_1_Foundation_NSNotificationEventArgs:
-_p_61:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1784]
-br x16
-.word 1385
-	.no_dead_strip plt_CameraTest_CameraController_CameraWithPosition_AVFoundation_AVCaptureDevicePosition
-plt_CameraTest_CameraController_CameraWithPosition_AVFoundation_AVCaptureDevicePosition:
-_p_62:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1792]
-br x16
-.word 1390
-	.no_dead_strip plt_CameraTest_CameraController_AddFlipAnimation
-plt_CameraTest_CameraController_AddFlipAnimation:
-_p_63:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1800]
-br x16
-.word 1395
-	.no_dead_strip plt_UIKit_UIView_Transition_UIKit_UIView_double_UIKit_UIViewAnimationOptions_System_Action_System_Action
-plt_UIKit_UIView_Transition_UIKit_UIView_double_UIKit_UIViewAnimationOptions_System_Action_System_Action:
-_p_64:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1808]
-br x16
-.word 1400
-	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
-plt_Foundation_NSString_op_Implicit_Foundation_NSString:
-_p_65:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1816]
-br x16
-.word 1405
-	.no_dead_strip plt_AVFoundation_AVCaptureDevice_DevicesWithMediaType_string
-plt_AVFoundation_AVCaptureDevice_DevicesWithMediaType_string:
-_p_66:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1824]
-br x16
-.word 1410
-	.no_dead_strip plt_AVFoundation_AVCapturePhotoOutput_GetJpegPhotoDataRepresentation_CoreMedia_CMSampleBuffer_CoreMedia_CMSampleBuffer
-plt_AVFoundation_AVCapturePhotoOutput_GetJpegPhotoDataRepresentation_CoreMedia_CMSampleBuffer_CoreMedia_CMSampleBuffer:
-_p_67:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1832]
-br x16
-.word 1415
-	.no_dead_strip plt_UIKit_UIImage__ctor_Foundation_NSData
-plt_UIKit_UIImage__ctor_Foundation_NSData:
-_p_68:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1840]
-br x16
-.word 1420
-	.no_dead_strip plt_CameraTest_RotateAndScale_SetImage_UIKit_UIImage
-plt_CameraTest_RotateAndScale_SetImage_UIKit_UIImage:
-_p_69:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1848]
-br x16
-.word 1425
-	.no_dead_strip plt_CameraTest_CameraController_set_cancelButton_UIKit_UIButton
-plt_CameraTest_CameraController_set_cancelButton_UIKit_UIButton:
-_p_70:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1856]
-br x16
-.word 1430
-	.no_dead_strip plt_CameraTest_CameraController_set_captureButton_UIKit_UIButton
-plt_CameraTest_CameraController_set_captureButton_UIKit_UIButton:
-_p_71:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1864]
-br x16
-.word 1435
-	.no_dead_strip plt_CameraTest_CameraController_set_previewView_UIKit_UIView
-plt_CameraTest_CameraController_set_previewView_UIKit_UIView:
-_p_72:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1872]
-br x16
-.word 1440
-	.no_dead_strip plt_CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton
-plt_CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton:
-_p_73:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
-ldr x16, [x16, #1880]
-br x16
-.word 1445
-	.no_dead_strip plt_CameraTest_CameraController_set_flashButton_UIKit_UIButton
-plt_CameraTest_CameraController_set_flashButton_UIKit_UIButton:
-_p_74:
-adrp x16, mono_aot_CameraTest_got@PAGE+0
-add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 1450
-	.no_dead_strip plt_CameraTest_CameraController_set_flashOptionView_UIKit_UIView
-plt_CameraTest_CameraController_set_flashOptionView_UIKit_UIView:
-_p_75:
+.word 1489
+	.no_dead_strip plt_CameraTest_CameraController_get_autoFlashButton
+plt_CameraTest_CameraController_get_autoFlashButton:
+_p_56:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 1455
-	.no_dead_strip plt_CameraTest_CameraController_HandleCapture
-plt_CameraTest_CameraController_HandleCapture:
-_p_76:
+.word 1494
+	.no_dead_strip plt_UIKit_UIColor_get_Yellow
+plt_UIKit_UIColor_get_Yellow:
+_p_57:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 1460
-	.no_dead_strip plt_CameraTest_CameraController_HandleRotateCamera
-plt_CameraTest_CameraController_HandleRotateCamera:
-_p_77:
+.word 1499
+	.no_dead_strip plt_CameraTest_CameraController_get_onFlashButton
+plt_CameraTest_CameraController_get_onFlashButton:
+_p_58:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 1465
-	.no_dead_strip plt_UIKit_UIView_Animate_double_System_Action
-plt_UIKit_UIView_Animate_double_System_Action:
-_p_78:
+.word 1504
+	.no_dead_strip plt_CameraTest_CameraController_get_offFlashButton
+plt_CameraTest_CameraController_get_offFlashButton:
+_p_59:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 1470
-	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
-plt_UIKit_UIDevice_get_CurrentDevice:
-_p_79:
+.word 1509
+	.no_dead_strip plt_CameraTest_CameraController_DetectRotation
+plt_CameraTest_CameraController_DetectRotation:
+_p_60:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 1475
-	.no_dead_strip plt_CoreGraphics_CGAffineTransform_MakeRotation_System_nfloat
-plt_CoreGraphics_CGAffineTransform_MakeRotation_System_nfloat:
-_p_80:
+.word 1514
+	.no_dead_strip plt_UIKit_UIViewController_ViewWillAppear_bool
+plt_UIKit_UIViewController_ViewWillAppear_bool:
+_p_61:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 1480
-	.no_dead_strip plt_System_Console_WriteLine_string
-plt_System_Console_WriteLine_string:
-_p_81:
+.word 1519
+	.no_dead_strip plt_CameraTest_AppDelegate_Instance
+plt_CameraTest_AppDelegate_Instance:
+_p_62:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 1485
-	.no_dead_strip plt_UIKit_UIScreen_get_MainScreen
-plt_UIKit_UIScreen_get_MainScreen:
-_p_82:
+.word 1524
+	.no_dead_strip plt_UIKit_UIViewController_ViewWillDisappear_bool
+plt_UIKit_UIViewController_ViewWillDisappear_bool:
+_p_63:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 1488
-	.no_dead_strip plt_CameraTest_RotateAndScale_get_imageView
-plt_CameraTest_RotateAndScale_get_imageView:
-_p_83:
+.word 1529
+	.no_dead_strip plt_AVFoundation_AVCapturePhotoSettings_Create
+plt_AVFoundation_AVCapturePhotoSettings_Create:
+_p_64:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 1493
-	.no_dead_strip plt_CameraTest_RotateAndScale_get_scrollView
-plt_CameraTest_RotateAndScale_get_scrollView:
-_p_84:
+.word 1534
+	.no_dead_strip plt_UIKit_UIDevice_Notifications_ObserveOrientationDidChange_System_EventHandler_1_Foundation_NSNotificationEventArgs
+plt_UIKit_UIDevice_Notifications_ObserveOrientationDidChange_System_EventHandler_1_Foundation_NSNotificationEventArgs:
+_p_65:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 1498
-	.no_dead_strip plt_Extension_ImageFrame_UIKit_UIImageView
-plt_Extension_ImageFrame_UIKit_UIImageView:
-_p_85:
+.word 1539
+	.no_dead_strip plt_CameraTest_CameraController_CameraWithPosition_AVFoundation_AVCaptureDevicePosition
+plt_CameraTest_CameraController_CameraWithPosition_AVFoundation_AVCaptureDevicePosition:
+_p_66:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 1503
-	.no_dead_strip plt_CoreGraphics_CGPoint_get_X
-plt_CoreGraphics_CGPoint_get_X:
-_p_86:
+.word 1544
+	.no_dead_strip plt_CameraTest_CameraController_AddFlipAnimation
+plt_CameraTest_CameraController_AddFlipAnimation:
+_p_67:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 1508
-	.no_dead_strip plt_CoreGraphics_CGPoint_get_Y
-plt_CoreGraphics_CGPoint_get_Y:
-_p_87:
+.word 1549
+	.no_dead_strip plt_UIKit_UIView_Transition_UIKit_UIView_double_UIKit_UIViewAnimationOptions_System_Action_System_Action
+plt_UIKit_UIView_Transition_UIKit_UIView_double_UIKit_UIViewAnimationOptions_System_Action_System_Action:
+_p_68:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 1513
-	.no_dead_strip plt_UIKit_UIScrollView_set_Delegate_UIKit_IUIScrollViewDelegate
-plt_UIKit_UIScrollView_set_Delegate_UIKit_IUIScrollViewDelegate:
-_p_88:
+.word 1554
+	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
+plt_Foundation_NSString_op_Implicit_Foundation_NSString:
+_p_69:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 1518
-	.no_dead_strip plt_CameraTest_RotateAndScale_get_retakeButton
-plt_CameraTest_RotateAndScale_get_retakeButton:
-_p_89:
+.word 1559
+	.no_dead_strip plt_AVFoundation_AVCaptureDevice_DevicesWithMediaType_string
+plt_AVFoundation_AVCaptureDevice_DevicesWithMediaType_string:
+_p_70:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 1523
-	.no_dead_strip plt_CameraTest_RotateAndScale_get_usePhotoButton
-plt_CameraTest_RotateAndScale_get_usePhotoButton:
-_p_90:
+.word 1564
+	.no_dead_strip plt_AVFoundation_AVCapturePhotoOutput_GetJpegPhotoDataRepresentation_CoreMedia_CMSampleBuffer_CoreMedia_CMSampleBuffer
+plt_AVFoundation_AVCapturePhotoOutput_GetJpegPhotoDataRepresentation_CoreMedia_CMSampleBuffer_CoreMedia_CMSampleBuffer:
+_p_71:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 1528
-	.no_dead_strip plt_CameraTest_RotateAndScale_AddCircleOverlay
-plt_CameraTest_RotateAndScale_AddCircleOverlay:
-_p_91:
+.word 1569
+	.no_dead_strip plt_UIKit_UIImage__ctor_Foundation_NSData
+plt_UIKit_UIImage__ctor_Foundation_NSData:
+_p_72:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 1533
-	.no_dead_strip plt_UIKit_UIColor_get_Black
-plt_UIKit_UIColor_get_Black:
-_p_92:
+.word 1574
+	.no_dead_strip plt_CameraTest_RotateAndScale_SetImage_UIKit_UIImage
+plt_CameraTest_RotateAndScale_SetImage_UIKit_UIImage:
+_p_73:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 1538
-	.no_dead_strip plt_CoreAnimation_CAShapeLayer__ctor
-plt_CoreAnimation_CAShapeLayer__ctor:
-_p_93:
+.word 1579
+	.no_dead_strip plt_CameraTest_CameraController_set_cancelButton_UIKit_UIButton
+plt_CameraTest_CameraController_set_cancelButton_UIKit_UIButton:
+_p_74:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 1543
-	.no_dead_strip plt_UIKit_UIBezierPath_FromRoundedRect_CoreGraphics_CGRect_System_nfloat
-plt_UIKit_UIBezierPath_FromRoundedRect_CoreGraphics_CGRect_System_nfloat:
-_p_94:
+.word 1584
+	.no_dead_strip plt_CameraTest_CameraController_set_captureButton_UIKit_UIButton
+plt_CameraTest_CameraController_set_captureButton_UIKit_UIButton:
+_p_75:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 1548
-	.no_dead_strip plt_CoreAnimation_CAShapeLayer_get_FillRuleEvenOdd
-plt_CoreAnimation_CAShapeLayer_get_FillRuleEvenOdd:
-_p_95:
+.word 1589
+	.no_dead_strip plt_CameraTest_CameraController_set_flashButton_UIKit_UIButton
+plt_CameraTest_CameraController_set_flashButton_UIKit_UIButton:
+_p_76:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 1553
-	.no_dead_strip plt_UIKit_UILabel__ctor
-plt_UIKit_UILabel__ctor:
-_p_96:
+.word 1594
+	.no_dead_strip plt_CameraTest_CameraController_set_flashOptionView_UIKit_UIView
+plt_CameraTest_CameraController_set_flashOptionView_UIKit_UIView:
+_p_77:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 1558
-	.no_dead_strip plt_UIKit_UIColor_get_White
-plt_UIKit_UIColor_get_White:
-_p_97:
+.word 1599
+	.no_dead_strip plt_CameraTest_CameraController_set_previewView_UIKit_UIView
+plt_CameraTest_CameraController_set_previewView_UIKit_UIView:
+_p_78:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 1563
-	.no_dead_strip plt_CameraTest_RotateAndScale_set_imageView_UIKit_UIImageView
-plt_CameraTest_RotateAndScale_set_imageView_UIKit_UIImageView:
-_p_98:
+.word 1604
+	.no_dead_strip plt_CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton
+plt_CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton:
+_p_79:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 1568
-	.no_dead_strip plt_CameraTest_RotateAndScale_set_scrollView_UIKit_UIScrollView
-plt_CameraTest_RotateAndScale_set_scrollView_UIKit_UIScrollView:
-_p_99:
+.word 1609
+	.no_dead_strip plt_CameraTest_CameraController_set_autoFlashButton_UIKit_UIButton
+plt_CameraTest_CameraController_set_autoFlashButton_UIKit_UIButton:
+_p_80:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 1573
-	.no_dead_strip plt_CameraTest_RotateAndScale_set_retakeButton_UIKit_UIButton
-plt_CameraTest_RotateAndScale_set_retakeButton_UIKit_UIButton:
-_p_100:
+.word 1614
+	.no_dead_strip plt_CameraTest_CameraController_set_onFlashButton_UIKit_UIButton
+plt_CameraTest_CameraController_set_onFlashButton_UIKit_UIButton:
+_p_81:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 1578
-	.no_dead_strip plt_CameraTest_RotateAndScale_set_usePhotoButton_UIKit_UIButton
-plt_CameraTest_RotateAndScale_set_usePhotoButton_UIKit_UIButton:
-_p_101:
+.word 1619
+	.no_dead_strip plt_CameraTest_CameraController_set_offFlashButton_UIKit_UIButton
+plt_CameraTest_CameraController_set_offFlashButton_UIKit_UIButton:
+_p_82:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 1583
-	.no_dead_strip plt_CameraTest_RotateAndScale_get_CropArea
-plt_CameraTest_RotateAndScale_get_CropArea:
-_p_102:
+.word 1624
+	.no_dead_strip plt_CameraTest_CameraController_HandleCapture
+plt_CameraTest_CameraController_HandleCapture:
+_p_83:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 1588
-	.no_dead_strip plt_Extension_CenterCrop_UIKit_UIImage_CoreGraphics_CGRect
-plt_Extension_CenterCrop_UIKit_UIImage_CoreGraphics_CGRect:
-_p_103:
+.word 1629
+	.no_dead_strip plt_CameraTest_CameraController_HandleRotateCamera
+plt_CameraTest_CameraController_HandleRotateCamera:
+_p_84:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 1593
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_104:
+.word 1634
+	.no_dead_strip plt_CameraTest_CameraController_UpdateFlashView
+plt_CameraTest_CameraController_UpdateFlashView:
+_p_85:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 1598
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
-_p_105:
+.word 1639
+	.no_dead_strip plt_UIKit_UIColor_get_White
+plt_UIKit_UIColor_get_White:
+_p_86:
 adrp x16, mono_aot_CameraTest_got@PAGE+0
 add x16, x16, mono_aot_CameraTest_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 1636
+.word 1644
+	.no_dead_strip plt_UIKit_UIView_Animate_double_System_Action
+plt_UIKit_UIView_Animate_double_System_Action:
+_p_87:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2144]
+br x16
+.word 1649
+	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
+plt_UIKit_UIDevice_get_CurrentDevice:
+_p_88:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2152]
+br x16
+.word 1654
+	.no_dead_strip plt_CoreGraphics_CGAffineTransform_MakeRotation_System_nfloat
+plt_CoreGraphics_CGAffineTransform_MakeRotation_System_nfloat:
+_p_89:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2160]
+br x16
+.word 1659
+	.no_dead_strip plt_UIKit_UIScreen_get_MainScreen
+plt_UIKit_UIScreen_get_MainScreen:
+_p_90:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2168]
+br x16
+.word 1664
+	.no_dead_strip plt_CameraTest_RotateAndScale_get_imageView
+plt_CameraTest_RotateAndScale_get_imageView:
+_p_91:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2176]
+br x16
+.word 1669
+	.no_dead_strip plt_CameraTest_RotateAndScale_get_scrollView
+plt_CameraTest_RotateAndScale_get_scrollView:
+_p_92:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2184]
+br x16
+.word 1674
+	.no_dead_strip plt_Extension_ImageFrame_UIKit_UIImageView
+plt_Extension_ImageFrame_UIKit_UIImageView:
+_p_93:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2192]
+br x16
+.word 1679
+	.no_dead_strip plt_CoreGraphics_CGPoint_get_X
+plt_CoreGraphics_CGPoint_get_X:
+_p_94:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2200]
+br x16
+.word 1684
+	.no_dead_strip plt_CoreGraphics_CGPoint_get_Y
+plt_CoreGraphics_CGPoint_get_Y:
+_p_95:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2208]
+br x16
+.word 1689
+	.no_dead_strip plt_UIKit_UIScrollView_set_Delegate_UIKit_IUIScrollViewDelegate
+plt_UIKit_UIScrollView_set_Delegate_UIKit_IUIScrollViewDelegate:
+_p_96:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2216]
+br x16
+.word 1694
+	.no_dead_strip plt_CameraTest_RotateAndScale_get_retakeButton
+plt_CameraTest_RotateAndScale_get_retakeButton:
+_p_97:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2224]
+br x16
+.word 1699
+	.no_dead_strip plt_CameraTest_RotateAndScale_get_usePhotoButton
+plt_CameraTest_RotateAndScale_get_usePhotoButton:
+_p_98:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2232]
+br x16
+.word 1704
+	.no_dead_strip plt_CameraTest_RotateAndScale_AddCircleOverlay
+plt_CameraTest_RotateAndScale_AddCircleOverlay:
+_p_99:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2240]
+br x16
+.word 1709
+	.no_dead_strip plt_UIKit_UIColor_get_Black
+plt_UIKit_UIColor_get_Black:
+_p_100:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2248]
+br x16
+.word 1714
+	.no_dead_strip plt_CoreAnimation_CAShapeLayer__ctor
+plt_CoreAnimation_CAShapeLayer__ctor:
+_p_101:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2256]
+br x16
+.word 1719
+	.no_dead_strip plt_UIKit_UIBezierPath_FromRoundedRect_CoreGraphics_CGRect_System_nfloat
+plt_UIKit_UIBezierPath_FromRoundedRect_CoreGraphics_CGRect_System_nfloat:
+_p_102:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2264]
+br x16
+.word 1724
+	.no_dead_strip plt_CoreAnimation_CAShapeLayer_get_FillRuleEvenOdd
+plt_CoreAnimation_CAShapeLayer_get_FillRuleEvenOdd:
+_p_103:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2272]
+br x16
+.word 1729
+	.no_dead_strip plt_UIKit_UILabel__ctor
+plt_UIKit_UILabel__ctor:
+_p_104:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2280]
+br x16
+.word 1734
+	.no_dead_strip plt_CameraTest_RotateAndScale_set_imageView_UIKit_UIImageView
+plt_CameraTest_RotateAndScale_set_imageView_UIKit_UIImageView:
+_p_105:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2288]
+br x16
+.word 1739
+	.no_dead_strip plt_CameraTest_RotateAndScale_set_scrollView_UIKit_UIScrollView
+plt_CameraTest_RotateAndScale_set_scrollView_UIKit_UIScrollView:
+_p_106:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2296]
+br x16
+.word 1744
+	.no_dead_strip plt_CameraTest_RotateAndScale_set_retakeButton_UIKit_UIButton
+plt_CameraTest_RotateAndScale_set_retakeButton_UIKit_UIButton:
+_p_107:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2304]
+br x16
+.word 1749
+	.no_dead_strip plt_CameraTest_RotateAndScale_set_usePhotoButton_UIKit_UIButton
+plt_CameraTest_RotateAndScale_set_usePhotoButton_UIKit_UIButton:
+_p_108:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2312]
+br x16
+.word 1754
+	.no_dead_strip plt_CameraTest_RotateAndScale_get_CropArea
+plt_CameraTest_RotateAndScale_get_CropArea:
+_p_109:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2320]
+br x16
+.word 1759
+	.no_dead_strip plt_Extension_CenterCrop_UIKit_UIImage_CoreGraphics_CGRect
+plt_Extension_CenterCrop_UIKit_UIImage_CoreGraphics_CGRect:
+_p_110:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2328]
+br x16
+.word 1764
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_111:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2336]
+br x16
+.word 1769
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
+_p_112:
+adrp x16, mono_aot_CameraTest_got@PAGE+0
+add x16, x16, mono_aot_CameraTest_got@PAGEOFF
+ldr x16, [x16, #2344]
+br x16
+.word 1807
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_CameraTest_got, 2144
+.lcomm mono_aot_CameraTest_got, 2352
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -11969,7 +13306,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "07226BC3-B139-449F-B92C-581878D6BB12"
+	.asciz "3208F252-CD7D-4AE8-848A-F468F652B238"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -12046,13 +13383,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 162,2144,106,81,70,391195135,0,16542
-	.long 128,8,8,10,0,24,17632,1080
-	.long 824,304,0,632,792,400,0,280
-	.long 136,0,0,0,0,0,0,0
+	.long 181,2352,113,91,70,391195135,0,18445
+	.long 128,8,8,10,0,24,19600,1144
+	.long 888,320,0,672,848,416,0,296
+	.long 152,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 33,15,67,61,82,111,171,219,45,105,90,6,123,19,35,170
+	.byte 111,173,196,124,42,7,191,212,237,56,237,209,240,168,5,194
 	.globl _mono_aot_module_CameraTest_info
 	.align 3
 _mono_aot_module_CameraTest_info:
@@ -14036,260 +15373,356 @@ LTDIE_31_REFERENCE:
 	.byte 14
 LDIFF_SYM277=LTDIE_31 - Ldebug_info_start
 	.long LDIFF_SYM277
+LTDIE_33:
+
+	.byte 8
+	.asciz "AVFoundation_AVCaptureFlashMode"
+
+	.byte 8
+LDIFF_SYM278=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM278
+	.byte 9
+	.asciz "Off"
+
+	.byte 0,9
+	.asciz "On"
+
+	.byte 1,9
+	.asciz "Auto"
+
+	.byte 2,0,7
+	.asciz "AVFoundation_AVCaptureFlashMode"
+
+LDIFF_SYM279=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM279
+LTDIE_33_POINTER:
+
+	.byte 13
+LDIFF_SYM280=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM280
+LTDIE_33_REFERENCE:
+
+	.byte 14
+LDIFF_SYM281=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM281
 LTDIE_26:
 
 	.byte 5
 	.asciz "CameraTest_CameraController"
 
-	.byte 120,16
-LDIFF_SYM278=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM278
+	.byte 152,1,16
+LDIFF_SYM282=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM282
 	.byte 2,35,0,6
 	.asciz "captureSession"
 
-LDIFF_SYM279=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM279
+LDIFF_SYM283=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM283
 	.byte 2,35,48,6
 	.asciz "previewLayer"
 
-LDIFF_SYM280=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM280
+LDIFF_SYM284=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM284
 	.byte 2,35,56,6
 	.asciz "captureOutput"
 
-LDIFF_SYM281=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM281
-	.byte 2,35,64,6
-	.asciz "<cancelButton>k__BackingField"
-
-LDIFF_SYM282=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM282
-	.byte 2,35,72,6
-	.asciz "<captureButton>k__BackingField"
-
-LDIFF_SYM283=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM283
-	.byte 2,35,80,6
-	.asciz "<flashButton>k__BackingField"
-
-LDIFF_SYM284=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM284
-	.byte 2,35,88,6
-	.asciz "<flashOptionView>k__BackingField"
-
-LDIFF_SYM285=LTDIE_1_REFERENCE - Ldebug_info_start
+LDIFF_SYM285=LTDIE_31_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM285
-	.byte 2,35,96,6
-	.asciz "<previewView>k__BackingField"
+	.byte 2,35,64,6
+	.asciz "flashMode"
 
-LDIFF_SYM286=LTDIE_1_REFERENCE - Ldebug_info_start
+LDIFF_SYM286=LTDIE_33 - Ldebug_info_start
 	.long LDIFF_SYM286
-	.byte 2,35,104,6
-	.asciz "<rotateCameraButton>k__BackingField"
+	.byte 3,35,144,1,6
+	.asciz "<autoFlashButton>k__BackingField"
 
 LDIFF_SYM287=LTDIE_21_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM287
-	.byte 2,35,112,0,7
+	.byte 2,35,72,6
+	.asciz "<cancelButton>k__BackingField"
+
+LDIFF_SYM288=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM288
+	.byte 2,35,80,6
+	.asciz "<captureButton>k__BackingField"
+
+LDIFF_SYM289=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM289
+	.byte 2,35,88,6
+	.asciz "<flashButton>k__BackingField"
+
+LDIFF_SYM290=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM290
+	.byte 2,35,96,6
+	.asciz "<flashOptionView>k__BackingField"
+
+LDIFF_SYM291=LTDIE_1_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM291
+	.byte 2,35,104,6
+	.asciz "<offFlashButton>k__BackingField"
+
+LDIFF_SYM292=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM292
+	.byte 2,35,112,6
+	.asciz "<onFlashButton>k__BackingField"
+
+LDIFF_SYM293=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM293
+	.byte 2,35,120,6
+	.asciz "<previewView>k__BackingField"
+
+LDIFF_SYM294=LTDIE_1_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM294
+	.byte 3,35,128,1,6
+	.asciz "<rotateCameraButton>k__BackingField"
+
+LDIFF_SYM295=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM295
+	.byte 3,35,136,1,0,7
 	.asciz "CameraTest_CameraController"
 
-LDIFF_SYM288=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM288
+LDIFF_SYM296=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM296
 LTDIE_26_POINTER:
 
 	.byte 13
-LDIFF_SYM289=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM289
+LDIFF_SYM297=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM297
 LTDIE_26_REFERENCE:
 
 	.byte 14
-LDIFF_SYM290=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM290
+LDIFF_SYM298=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM298
 	.byte 2
 	.asciz "CameraTest.CameraController:.ctor"
 	.asciz "CameraTest_CameraController__ctor_intptr"
 
-	.byte 6,13
+	.byte 6,22
 	.quad CameraTest_CameraController__ctor_intptr
 	.quad Lme_19
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM291=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM291
-	.byte 2,141,16,3
+LDIFF_SYM299=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM299
+	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM292=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM292
+LDIFF_SYM300=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM300
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM293=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM293
+LDIFF_SYM301=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM301
 Lfde25_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_CameraController__ctor_intptr
 
-LDIFF_SYM294=Lme_19 - CameraTest_CameraController__ctor_intptr
-	.long LDIFF_SYM294
+LDIFF_SYM302=Lme_19 - CameraTest_CameraController__ctor_intptr
+	.long LDIFF_SYM302
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
 Lfde25_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_33:
-
-	.byte 5
-	.asciz "AVFoundation_AVCaptureDevice"
-
-	.byte 40,16
-LDIFF_SYM295=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM295
-	.byte 2,35,0,0,7
-	.asciz "AVFoundation_AVCaptureDevice"
-
-LDIFF_SYM296=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM296
-LTDIE_33_POINTER:
-
-	.byte 13
-LDIFF_SYM297=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM297
-LTDIE_33_REFERENCE:
-
-	.byte 14
-LDIFF_SYM298=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM298
 LTDIE_34:
 
 	.byte 5
-	.asciz "Foundation_NSError"
+	.asciz "AVFoundation_AVCaptureDevice"
 
 	.byte 40,16
-LDIFF_SYM299=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM299
+LDIFF_SYM303=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM303
 	.byte 2,35,0,0,7
-	.asciz "Foundation_NSError"
+	.asciz "AVFoundation_AVCaptureDevice"
 
-LDIFF_SYM300=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM300
+LDIFF_SYM304=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM304
 LTDIE_34_POINTER:
 
 	.byte 13
-LDIFF_SYM301=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM301
+LDIFF_SYM305=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM305
 LTDIE_34_REFERENCE:
 
 	.byte 14
-LDIFF_SYM302=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM302
+LDIFF_SYM306=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM306
 LTDIE_36:
 
 	.byte 5
 	.asciz "AVFoundation_AVCaptureInput"
 
 	.byte 40,16
-LDIFF_SYM303=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM303
+LDIFF_SYM307=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM307
 	.byte 2,35,0,0,7
 	.asciz "AVFoundation_AVCaptureInput"
 
-LDIFF_SYM304=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM304
+LDIFF_SYM308=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM308
 LTDIE_36_POINTER:
 
 	.byte 13
-LDIFF_SYM305=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM305
+LDIFF_SYM309=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM309
 LTDIE_36_REFERENCE:
 
 	.byte 14
-LDIFF_SYM306=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM306
+LDIFF_SYM310=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM310
 LTDIE_35:
 
 	.byte 5
 	.asciz "AVFoundation_AVCaptureDeviceInput"
 
 	.byte 40,16
-LDIFF_SYM307=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM307
+LDIFF_SYM311=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM311
 	.byte 2,35,0,0,7
 	.asciz "AVFoundation_AVCaptureDeviceInput"
 
-LDIFF_SYM308=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM308
+LDIFF_SYM312=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM312
 LTDIE_35_POINTER:
 
 	.byte 13
-LDIFF_SYM309=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM309
+LDIFF_SYM313=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM313
 LTDIE_35_REFERENCE:
 
 	.byte 14
-LDIFF_SYM310=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM310
+LDIFF_SYM314=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM314
+LTDIE_37:
+
+	.byte 5
+	.asciz "Foundation_NSError"
+
+	.byte 40,16
+LDIFF_SYM315=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM315
+	.byte 2,35,0,0,7
+	.asciz "Foundation_NSError"
+
+LDIFF_SYM316=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM316
+LTDIE_37_POINTER:
+
+	.byte 13
+LDIFF_SYM317=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM317
+LTDIE_37_REFERENCE:
+
+	.byte 14
+LDIFF_SYM318=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM318
 	.byte 2
 	.asciz "CameraTest.CameraController:ViewDidLoad"
 	.asciz "CameraTest_CameraController_ViewDidLoad"
 
-	.byte 6,23
+	.byte 6,25
 	.quad CameraTest_CameraController_ViewDidLoad
 	.quad Lme_1a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM311=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM311
+LDIFF_SYM319=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM319
 	.byte 1,106,11
 	.asciz "captureDevice"
 
-LDIFF_SYM312=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM312
+LDIFF_SYM320=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM320
 	.byte 1,105,11
-	.asciz "err"
-
-LDIFF_SYM313=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM313
-	.byte 3,141,168,1,11
 	.asciz "input"
 
-LDIFF_SYM314=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM314
+LDIFF_SYM321=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM321
 	.byte 1,104,11
+	.asciz "err"
+
+LDIFF_SYM322=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM322
+	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM315=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM315
-	.byte 3,141,136,1,11
+LDIFF_SYM323=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM323
+	.byte 3,141,160,1,11
 	.asciz "V_4"
 
-LDIFF_SYM316=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM316
+LDIFF_SYM324=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM324
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM317=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM317
+LDIFF_SYM325=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM325
 Lfde26_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_CameraController_ViewDidLoad
 
-LDIFF_SYM318=Lme_1a - CameraTest_CameraController_ViewDidLoad
-	.long LDIFF_SYM318
+LDIFF_SYM326=Lme_1a - CameraTest_CameraController_ViewDidLoad
+	.long LDIFF_SYM326
 	.long 0
-	.byte 12,31,0,68,14,192,2,157,40,158,39,68,13,29,68,151,38,152,37,68,153,36,154,35
+	.byte 12,31,0,68,14,224,2,157,44,158,43,68,13,29,68,148,42,149,41,68,150,40,151,39,68,152,38,153,37,68,154,36
 	.align 3
 Lfde26_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "CameraTest.CameraController:UpdateFlashView"
+	.asciz "CameraTest_CameraController_UpdateFlashView"
+
+	.byte 6,116
+	.quad CameraTest_CameraController_UpdateFlashView
+	.quad Lme_1b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM327=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM327
+	.byte 1,106,11
+	.asciz "state"
+
+LDIFF_SYM328=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM328
+	.byte 1,105,11
+	.asciz "V_1"
+
+LDIFF_SYM329=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM329
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM330=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM330
+Lfde27_start:
+
+	.long 0
+	.align 3
+	.quad CameraTest_CameraController_UpdateFlashView
+
+LDIFF_SYM331=Lme_1b - CameraTest_CameraController_UpdateFlashView
+	.long LDIFF_SYM331
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154,8
+	.align 3
+Lfde27_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14297,73 +15730,34 @@ Lfde26_end:
 	.asciz "CameraTest.CameraController:ViewWillAppear"
 	.asciz "CameraTest_CameraController_ViewWillAppear_bool"
 
-	.byte 6,79
+	.byte 6,122
 	.quad CameraTest_CameraController_ViewWillAppear_bool
-	.quad Lme_1b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM319=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM319
-	.byte 2,141,16,3
-	.asciz "animated"
-
-LDIFF_SYM320=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM320
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM321=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM321
-Lfde27_start:
-
-	.long 0
-	.align 3
-	.quad CameraTest_CameraController_ViewWillAppear_bool
-
-LDIFF_SYM322=Lme_1b - CameraTest_CameraController_ViewWillAppear_bool
-	.long LDIFF_SYM322
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
-	.align 3
-Lfde27_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "CameraTest.CameraController:ViewWillDisappear"
-	.asciz "CameraTest_CameraController_ViewWillDisappear_bool"
-
-	.byte 6,86
-	.quad CameraTest_CameraController_ViewWillDisappear_bool
 	.quad Lme_1c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM323=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM323
+LDIFF_SYM332=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM332
 	.byte 2,141,16,3
 	.asciz "animated"
 
-LDIFF_SYM324=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM324
+LDIFF_SYM333=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM333
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM325=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM325
+LDIFF_SYM334=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM334
 Lfde28_start:
 
 	.long 0
 	.align 3
-	.quad CameraTest_CameraController_ViewWillDisappear_bool
+	.quad CameraTest_CameraController_ViewWillAppear_bool
 
-LDIFF_SYM326=Lme_1c - CameraTest_CameraController_ViewWillDisappear_bool
-	.long LDIFF_SYM326
+LDIFF_SYM335=Lme_1c - CameraTest_CameraController_ViewWillAppear_bool
+	.long LDIFF_SYM335
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -14372,107 +15766,146 @@ Lfde28_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "CameraTest.CameraController:PrefersStatusBarHidden"
-	.asciz "CameraTest_CameraController_PrefersStatusBarHidden"
+	.asciz "CameraTest.CameraController:ViewWillDisappear"
+	.asciz "CameraTest_CameraController_ViewWillDisappear_bool"
 
-	.byte 6,93
-	.quad CameraTest_CameraController_PrefersStatusBarHidden
+	.byte 6,129,1
+	.quad CameraTest_CameraController_ViewWillDisappear_bool
 	.quad Lme_1d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM327=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM327
-	.byte 2,141,24,11
-	.asciz "V_0"
+LDIFF_SYM336=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM336
+	.byte 2,141,16,3
+	.asciz "animated"
 
-LDIFF_SYM328=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM328
-	.byte 1,106,0
+LDIFF_SYM337=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM337
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM329=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM329
+LDIFF_SYM338=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM338
 Lfde29_start:
 
 	.long 0
 	.align 3
-	.quad CameraTest_CameraController_PrefersStatusBarHidden
+	.quad CameraTest_CameraController_ViewWillDisappear_bool
 
-LDIFF_SYM330=Lme_1d - CameraTest_CameraController_PrefersStatusBarHidden
-	.long LDIFF_SYM330
+LDIFF_SYM339=Lme_1d - CameraTest_CameraController_ViewWillDisappear_bool
+	.long LDIFF_SYM339
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
 Lfde29_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_37:
 
-	.byte 5
-	.asciz "AVFoundation_AVCapturePhotoSettings"
-
-	.byte 40,16
-LDIFF_SYM331=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM331
-	.byte 2,35,0,0,7
-	.asciz "AVFoundation_AVCapturePhotoSettings"
-
-LDIFF_SYM332=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM332
-LTDIE_37_POINTER:
-
-	.byte 13
-LDIFF_SYM333=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM333
-LTDIE_37_REFERENCE:
-
-	.byte 14
-LDIFF_SYM334=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM334
 	.byte 2
-	.asciz "CameraTest.CameraController:HandleCapture"
-	.asciz "CameraTest_CameraController_HandleCapture"
+	.asciz "CameraTest.CameraController:PrefersStatusBarHidden"
+	.asciz "CameraTest_CameraController_PrefersStatusBarHidden"
 
-	.byte 6,98
-	.quad CameraTest_CameraController_HandleCapture
+	.byte 6,136,1
+	.quad CameraTest_CameraController_PrefersStatusBarHidden
 	.quad Lme_1e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM335=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM335
+LDIFF_SYM340=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM340
+	.byte 2,141,24,11
+	.asciz "V_0"
+
+LDIFF_SYM341=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM341
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM342=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM342
+Lfde30_start:
+
+	.long 0
+	.align 3
+	.quad CameraTest_CameraController_PrefersStatusBarHidden
+
+LDIFF_SYM343=Lme_1e - CameraTest_CameraController_PrefersStatusBarHidden
+	.long LDIFF_SYM343
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.align 3
+Lfde30_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_38:
+
+	.byte 5
+	.asciz "AVFoundation_AVCapturePhotoSettings"
+
+	.byte 40,16
+LDIFF_SYM344=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM344
+	.byte 2,35,0,0,7
+	.asciz "AVFoundation_AVCapturePhotoSettings"
+
+LDIFF_SYM345=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM345
+LTDIE_38_POINTER:
+
+	.byte 13
+LDIFF_SYM346=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM346
+LTDIE_38_REFERENCE:
+
+	.byte 14
+LDIFF_SYM347=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM347
+	.byte 2
+	.asciz "CameraTest.CameraController:HandleCapture"
+	.asciz "CameraTest_CameraController_HandleCapture"
+
+	.byte 6,141,1
+	.quad CameraTest_CameraController_HandleCapture
+	.quad Lme_1f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM348=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM348
 	.byte 1,106,11
 	.asciz "photoSettings"
 
-LDIFF_SYM336=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM336
+LDIFF_SYM349=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM349
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM337=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM337
+LDIFF_SYM350=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM350
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM338=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM338
-Lfde30_start:
+LDIFF_SYM351=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM351
+Lfde31_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_CameraController_HandleCapture
 
-LDIFF_SYM339=Lme_1e - CameraTest_CameraController_HandleCapture
-	.long LDIFF_SYM339
+LDIFF_SYM352=Lme_1f - CameraTest_CameraController_HandleCapture
+	.long LDIFF_SYM352
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
-Lfde30_end:
+Lfde31_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14480,33 +15913,33 @@ Lfde30_end:
 	.asciz "CameraTest.CameraController:DetectRotation"
 	.asciz "CameraTest_CameraController_DetectRotation"
 
-	.byte 6,110
+	.byte 6,153,1
 	.quad CameraTest_CameraController_DetectRotation
-	.quad Lme_1f
+	.quad Lme_20
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM340=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM340
+LDIFF_SYM353=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM353
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM341=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM341
-Lfde31_start:
+LDIFF_SYM354=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM354
+Lfde32_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_CameraController_DetectRotation
 
-LDIFF_SYM342=Lme_1f - CameraTest_CameraController_DetectRotation
-	.long LDIFF_SYM342
+LDIFF_SYM355=Lme_20 - CameraTest_CameraController_DetectRotation
+	.long LDIFF_SYM355
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde31_end:
+Lfde32_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14514,69 +15947,69 @@ Lfde31_end:
 	.asciz "CameraTest.CameraController:HandleRotateCamera"
 	.asciz "CameraTest_CameraController_HandleRotateCamera"
 
-	.byte 6,141,1
+	.byte 6,182,1
 	.quad CameraTest_CameraController_HandleRotateCamera
-	.quad Lme_20
+	.quad Lme_21
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM343=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM343
+LDIFF_SYM356=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM356
 	.byte 1,106,11
 	.asciz "currentCameraInput"
 
-LDIFF_SYM344=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM344
+LDIFF_SYM357=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM357
 	.byte 1,105,11
 	.asciz "camera"
 
-LDIFF_SYM345=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM345
+LDIFF_SYM358=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM358
 	.byte 1,104,11
 	.asciz "input"
 
-LDIFF_SYM346=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM346
+LDIFF_SYM359=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM359
 	.byte 1,103,11
-	.asciz "err"
-
-LDIFF_SYM347=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM347
-	.byte 3,141,232,0,11
 	.asciz "videoInput"
 
-LDIFF_SYM348=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM348
+LDIFF_SYM360=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM360
 	.byte 1,102,11
+	.asciz "err"
+
+LDIFF_SYM361=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM361
+	.byte 3,141,232,0,11
 	.asciz "V_5"
 
-LDIFF_SYM349=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM349
+LDIFF_SYM362=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM362
 	.byte 1,101,11
 	.asciz "V_6"
 
-LDIFF_SYM350=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM350
+LDIFF_SYM363=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM363
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM351=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM351
-Lfde32_start:
+LDIFF_SYM364=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM364
+Lfde33_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_CameraController_HandleRotateCamera
 
-LDIFF_SYM352=Lme_20 - CameraTest_CameraController_HandleRotateCamera
-	.long LDIFF_SYM352
+LDIFF_SYM365=Lme_21 - CameraTest_CameraController_HandleRotateCamera
+	.long LDIFF_SYM365
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde32_end:
+Lfde33_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14584,43 +16017,43 @@ Lfde32_end:
 	.asciz "CameraTest.CameraController:AddFlipAnimation"
 	.asciz "CameraTest_CameraController_AddFlipAnimation"
 
-	.byte 6,168,1
+	.byte 6,208,1
 	.quad CameraTest_CameraController_AddFlipAnimation
-	.quad Lme_21
+	.quad Lme_22
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM353=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM353
+LDIFF_SYM366=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM366
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM354=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM354
-Lfde33_start:
+LDIFF_SYM367=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM367
+Lfde34_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_CameraController_AddFlipAnimation
 
-LDIFF_SYM355=Lme_21 - CameraTest_CameraController_AddFlipAnimation
-	.long LDIFF_SYM355
+LDIFF_SYM368=Lme_22 - CameraTest_CameraController_AddFlipAnimation
+	.long LDIFF_SYM368
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde33_end:
+Lfde34_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_38:
+LTDIE_39:
 
 	.byte 8
 	.asciz "AVFoundation_AVCaptureDevicePosition"
 
 	.byte 8
-LDIFF_SYM356=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM356
+LDIFF_SYM369=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM369
 	.byte 9
 	.asciz "Unspecified"
 
@@ -14633,240 +16066,240 @@ LDIFF_SYM356=LDIE_I8 - Ldebug_info_start
 	.byte 2,0,7
 	.asciz "AVFoundation_AVCaptureDevicePosition"
 
-LDIFF_SYM357=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM357
-LTDIE_38_POINTER:
+LDIFF_SYM370=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM370
+LTDIE_39_POINTER:
 
 	.byte 13
-LDIFF_SYM358=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM358
-LTDIE_38_REFERENCE:
+LDIFF_SYM371=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM371
+LTDIE_39_REFERENCE:
 
 	.byte 14
-LDIFF_SYM359=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM359
-LTDIE_39:
+LDIFF_SYM372=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM372
+LTDIE_40:
 
 	.byte 5
 	.asciz "System_Int32"
 
 	.byte 20,16
-LDIFF_SYM360=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM360
+LDIFF_SYM373=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM373
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM361=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM361
+LDIFF_SYM374=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM374
 	.byte 2,35,16,0,7
 	.asciz "System_Int32"
 
-LDIFF_SYM362=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM362
-LTDIE_39_POINTER:
+LDIFF_SYM375=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM375
+LTDIE_40_POINTER:
 
 	.byte 13
-LDIFF_SYM363=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM363
-LTDIE_39_REFERENCE:
+LDIFF_SYM376=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM376
+LTDIE_40_REFERENCE:
 
 	.byte 14
-LDIFF_SYM364=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM364
+LDIFF_SYM377=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM377
 	.byte 2
 	.asciz "CameraTest.CameraController:CameraWithPosition"
 	.asciz "CameraTest_CameraController_CameraWithPosition_AVFoundation_AVCaptureDevicePosition"
 
-	.byte 6,176,1
+	.byte 6,216,1
 	.quad CameraTest_CameraController_CameraWithPosition_AVFoundation_AVCaptureDevicePosition
-	.quad Lme_22
+	.quad Lme_23
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM365=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM365
+LDIFF_SYM378=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM378
 	.byte 3,141,200,0,3
 	.asciz "pos"
 
-LDIFF_SYM366=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM366
+LDIFF_SYM379=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM379
 	.byte 1,106,11
 	.asciz "devices"
 
-LDIFF_SYM367=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM367
+LDIFF_SYM380=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM380
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM368=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM368
+LDIFF_SYM381=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM381
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM369=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM369
+LDIFF_SYM382=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM382
 	.byte 1,103,11
 	.asciz "dev"
 
-LDIFF_SYM370=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM370
+LDIFF_SYM383=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM383
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM371=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM371
+LDIFF_SYM384=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM384
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM372=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM372
+LDIFF_SYM385=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM385
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM373=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM373
-Lfde34_start:
+LDIFF_SYM386=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM386
+Lfde35_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_CameraController_CameraWithPosition_AVFoundation_AVCaptureDevicePosition
 
-LDIFF_SYM374=Lme_22 - CameraTest_CameraController_CameraWithPosition_AVFoundation_AVCaptureDevicePosition
-	.long LDIFF_SYM374
+LDIFF_SYM387=Lme_23 - CameraTest_CameraController_CameraWithPosition_AVFoundation_AVCaptureDevicePosition
+	.long LDIFF_SYM387
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,148,16,149,15,68,150,14,151,13,68,152,12,153,11,68,154,10
 	.align 3
-Lfde34_end:
+Lfde35_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_40:
+LTDIE_41:
 
 	.byte 5
 	.asciz "CoreMedia_CMSampleBuffer"
 
 	.byte 32,16
-LDIFF_SYM375=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM375
+LDIFF_SYM388=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM388
 	.byte 2,35,0,6
 	.asciz "handle"
 
-LDIFF_SYM376=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM376
+LDIFF_SYM389=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM389
 	.byte 2,35,16,6
 	.asciz "invalidate"
 
-LDIFF_SYM377=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM377
+LDIFF_SYM390=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM390
 	.byte 2,35,24,0,7
 	.asciz "CoreMedia_CMSampleBuffer"
 
-LDIFF_SYM378=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM378
-LTDIE_40_POINTER:
-
-	.byte 13
-LDIFF_SYM379=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM379
-LTDIE_40_REFERENCE:
-
-	.byte 14
-LDIFF_SYM380=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM380
-LTDIE_41:
-
-	.byte 5
-	.asciz "AVFoundation_AVCaptureResolvedPhotoSettings"
-
-	.byte 40,16
-LDIFF_SYM381=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM381
-	.byte 2,35,0,0,7
-	.asciz "AVFoundation_AVCaptureResolvedPhotoSettings"
-
-LDIFF_SYM382=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM382
+LDIFF_SYM391=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM391
 LTDIE_41_POINTER:
 
 	.byte 13
-LDIFF_SYM383=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM383
+LDIFF_SYM392=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM392
 LTDIE_41_REFERENCE:
 
 	.byte 14
-LDIFF_SYM384=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM384
+LDIFF_SYM393=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM393
 LTDIE_42:
 
 	.byte 5
-	.asciz "AVFoundation_AVCaptureBracketedStillImageSettings"
+	.asciz "AVFoundation_AVCaptureResolvedPhotoSettings"
 
 	.byte 40,16
-LDIFF_SYM385=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM385
+LDIFF_SYM394=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM394
 	.byte 2,35,0,0,7
-	.asciz "AVFoundation_AVCaptureBracketedStillImageSettings"
+	.asciz "AVFoundation_AVCaptureResolvedPhotoSettings"
 
-LDIFF_SYM386=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM386
+LDIFF_SYM395=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM395
 LTDIE_42_POINTER:
 
 	.byte 13
-LDIFF_SYM387=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM387
+LDIFF_SYM396=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM396
 LTDIE_42_REFERENCE:
 
 	.byte 14
-LDIFF_SYM388=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM388
+LDIFF_SYM397=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM397
 LTDIE_43:
+
+	.byte 5
+	.asciz "AVFoundation_AVCaptureBracketedStillImageSettings"
+
+	.byte 40,16
+LDIFF_SYM398=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM398
+	.byte 2,35,0,0,7
+	.asciz "AVFoundation_AVCaptureBracketedStillImageSettings"
+
+LDIFF_SYM399=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM399
+LTDIE_43_POINTER:
+
+	.byte 13
+LDIFF_SYM400=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM400
+LTDIE_43_REFERENCE:
+
+	.byte 14
+LDIFF_SYM401=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM401
+LTDIE_44:
 
 	.byte 5
 	.asciz "Foundation_NSData"
 
 	.byte 40,16
-LDIFF_SYM389=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM389
+LDIFF_SYM402=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM402
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSData"
 
-LDIFF_SYM390=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM390
-LTDIE_43_POINTER:
+LDIFF_SYM403=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM403
+LTDIE_44_POINTER:
 
 	.byte 13
-LDIFF_SYM391=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM391
-LTDIE_43_REFERENCE:
+LDIFF_SYM404=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM404
+LTDIE_44_REFERENCE:
 
 	.byte 14
-LDIFF_SYM392=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM392
-LTDIE_45:
+LDIFF_SYM405=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM405
+LTDIE_46:
 
 	.byte 5
 	.asciz "CoreAnimation_CAShapeLayer"
 
 	.byte 56,16
-LDIFF_SYM393=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM393
+LDIFF_SYM406=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM406
 	.byte 2,35,0,0,7
 	.asciz "CoreAnimation_CAShapeLayer"
 
-LDIFF_SYM394=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM394
-LTDIE_45_POINTER:
+LDIFF_SYM407=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM407
+LTDIE_46_POINTER:
 
 	.byte 13
-LDIFF_SYM395=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM395
-LTDIE_45_REFERENCE:
+LDIFF_SYM408=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM408
+LTDIE_46_REFERENCE:
 
 	.byte 14
-LDIFF_SYM396=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM396
-LTDIE_46:
+LDIFF_SYM409=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM409
+LTDIE_47:
 
 	.byte 17
 	.asciz "CameraTest_IRotateAndScale"
@@ -14874,210 +16307,210 @@ LTDIE_46:
 	.byte 16,7
 	.asciz "CameraTest_IRotateAndScale"
 
-LDIFF_SYM397=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM397
-LTDIE_46_POINTER:
+LDIFF_SYM410=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM410
+LTDIE_47_POINTER:
 
 	.byte 13
-LDIFF_SYM398=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM398
-LTDIE_46_REFERENCE:
+LDIFF_SYM411=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM411
+LTDIE_47_REFERENCE:
 
 	.byte 14
-LDIFF_SYM399=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM399
-LTDIE_47:
+LDIFF_SYM412=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM412
+LTDIE_48:
 
 	.byte 5
 	.asciz "UIKit_UIScrollView"
 
 	.byte 56,16
-LDIFF_SYM400=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM400
+LDIFF_SYM413=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM413
 	.byte 2,35,0,6
 	.asciz "__mt_WeakDelegate_var"
 
-LDIFF_SYM401=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM401
+LDIFF_SYM414=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM414
 	.byte 2,35,48,0,7
 	.asciz "UIKit_UIScrollView"
 
-LDIFF_SYM402=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM402
-LTDIE_47_POINTER:
+LDIFF_SYM415=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM415
+LTDIE_48_POINTER:
 
 	.byte 13
-LDIFF_SYM403=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM403
-LTDIE_47_REFERENCE:
+LDIFF_SYM416=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM416
+LTDIE_48_REFERENCE:
 
 	.byte 14
-LDIFF_SYM404=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM404
-LTDIE_44:
+LDIFF_SYM417=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM417
+LTDIE_45:
 
 	.byte 5
 	.asciz "CameraTest_RotateAndScale"
 
 	.byte 136,1,16
-LDIFF_SYM405=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM405
+LDIFF_SYM418=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM418
 	.byte 2,35,0,6
 	.asciz "image"
 
-LDIFF_SYM406=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM406
+LDIFF_SYM419=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM419
 	.byte 2,35,48,6
 	.asciz "screenHeight"
 
-LDIFF_SYM407=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM407
+LDIFF_SYM420=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM420
 	.byte 2,35,104,6
 	.asciz "screenWidth"
 
-LDIFF_SYM408=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM408
+LDIFF_SYM421=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM421
 	.byte 2,35,112,6
 	.asciz "circleWidth"
 
-LDIFF_SYM409=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM409
+LDIFF_SYM422=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM422
 	.byte 2,35,120,6
 	.asciz "yCircle"
 
-LDIFF_SYM410=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM410
+LDIFF_SYM423=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM423
 	.byte 3,35,128,1,6
 	.asciz "circleLayer"
 
-LDIFF_SYM411=LTDIE_45_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM411
+LDIFF_SYM424=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM424
 	.byte 2,35,56,6
 	.asciz "ImageDelegate"
 
-LDIFF_SYM412=LTDIE_46_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM412
+LDIFF_SYM425=LTDIE_47_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM425
 	.byte 2,35,64,6
 	.asciz "<imageView>k__BackingField"
 
-LDIFF_SYM413=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM413
+LDIFF_SYM426=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM426
 	.byte 2,35,72,6
 	.asciz "<retakeButton>k__BackingField"
 
-LDIFF_SYM414=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM414
+LDIFF_SYM427=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM427
 	.byte 2,35,80,6
 	.asciz "<scrollView>k__BackingField"
 
-LDIFF_SYM415=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM415
+LDIFF_SYM428=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM428
 	.byte 2,35,88,6
 	.asciz "<usePhotoButton>k__BackingField"
 
-LDIFF_SYM416=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM416
+LDIFF_SYM429=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM429
 	.byte 2,35,96,0,7
 	.asciz "CameraTest_RotateAndScale"
 
-LDIFF_SYM417=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM417
-LTDIE_44_POINTER:
+LDIFF_SYM430=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM430
+LTDIE_45_POINTER:
 
 	.byte 13
-LDIFF_SYM418=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM418
-LTDIE_44_REFERENCE:
+LDIFF_SYM431=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM431
+LTDIE_45_REFERENCE:
 
 	.byte 14
-LDIFF_SYM419=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM419
+LDIFF_SYM432=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM432
 	.byte 2
 	.asciz "CameraTest.CameraController:DidFinishProcessingPhoto"
 	.asciz "CameraTest_CameraController_DidFinishProcessingPhoto_AVFoundation_AVCapturePhotoOutput_CoreMedia_CMSampleBuffer_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureResolvedPhotoSettings_AVFoundation_AVCaptureBracketedStillImageSettings_Foundation_NSError"
 
-	.byte 6,190,1
+	.byte 6,230,1
 	.quad CameraTest_CameraController_DidFinishProcessingPhoto_AVFoundation_AVCapturePhotoOutput_CoreMedia_CMSampleBuffer_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureResolvedPhotoSettings_AVFoundation_AVCaptureBracketedStillImageSettings_Foundation_NSError
-	.quad Lme_23
+	.quad Lme_24
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM420=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM420
+LDIFF_SYM433=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM433
 	.byte 3,141,192,0,3
 	.asciz "captureOutput"
 
-LDIFF_SYM421=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM421
+LDIFF_SYM434=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM434
 	.byte 3,141,200,0,3
 	.asciz "photoSampleBuffer"
 
-LDIFF_SYM422=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM422
+LDIFF_SYM435=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM435
 	.byte 3,141,208,0,3
 	.asciz "previewPhotoSampleBuffer"
 
-LDIFF_SYM423=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM423
+LDIFF_SYM436=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM436
 	.byte 3,141,216,0,3
 	.asciz "resolvedSettings"
 
-LDIFF_SYM424=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM424
+LDIFF_SYM437=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM437
 	.byte 3,141,224,0,3
 	.asciz "bracketSettings"
 
-LDIFF_SYM425=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM425
+LDIFF_SYM438=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM438
 	.byte 3,141,232,0,3
 	.asciz "error"
 
-LDIFF_SYM426=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM426
+LDIFF_SYM439=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM439
 	.byte 3,141,240,0,11
 	.asciz "imageData"
 
-LDIFF_SYM427=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM427
+LDIFF_SYM440=LTDIE_44_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM440
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM428=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM428
+LDIFF_SYM441=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM441
 	.byte 1,102,11
 	.asciz "capturedImage"
 
-LDIFF_SYM429=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM429
+LDIFF_SYM442=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM442
 	.byte 1,101,11
 	.asciz "storyboard"
 
-LDIFF_SYM430=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM430
+LDIFF_SYM443=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM443
 	.byte 1,100,11
 	.asciz "vc"
 
-LDIFF_SYM431=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM431
+LDIFF_SYM444=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM444
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM432=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM432
-Lfde35_start:
+LDIFF_SYM445=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM445
+Lfde36_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_CameraController_DidFinishProcessingPhoto_AVFoundation_AVCapturePhotoOutput_CoreMedia_CMSampleBuffer_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureResolvedPhotoSettings_AVFoundation_AVCaptureBracketedStillImageSettings_Foundation_NSError
 
-LDIFF_SYM433=Lme_23 - CameraTest_CameraController_DidFinishProcessingPhoto_AVFoundation_AVCapturePhotoOutput_CoreMedia_CMSampleBuffer_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureResolvedPhotoSettings_AVFoundation_AVCaptureBracketedStillImageSettings_Foundation_NSError
-	.long LDIFF_SYM433
+LDIFF_SYM446=Lme_24 - CameraTest_CameraController_DidFinishProcessingPhoto_AVFoundation_AVCapturePhotoOutput_CoreMedia_CMSampleBuffer_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureResolvedPhotoSettings_AVFoundation_AVCaptureBracketedStillImageSettings_Foundation_NSError
+	.long LDIFF_SYM446
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17
 	.align 3
-Lfde35_end:
+Lfde36_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -15085,38 +16518,111 @@ Lfde35_end:
 	.asciz "CameraTest.CameraController:DidSelectedImage"
 	.asciz "CameraTest_CameraController_DidSelectedImage_UIKit_UIImage"
 
-	.byte 6,205,1
+	.byte 6,245,1
 	.quad CameraTest_CameraController_DidSelectedImage_UIKit_UIImage
-	.quad Lme_24
+	.quad Lme_25
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM434=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM434
+LDIFF_SYM447=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM447
 	.byte 2,141,16,3
 	.asciz "image"
 
-LDIFF_SYM435=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM435
+LDIFF_SYM448=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM448
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM436=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM436
-Lfde36_start:
+LDIFF_SYM449=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM449
+Lfde37_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_CameraController_DidSelectedImage_UIKit_UIImage
 
-LDIFF_SYM437=Lme_24 - CameraTest_CameraController_DidSelectedImage_UIKit_UIImage
-	.long LDIFF_SYM437
+LDIFF_SYM450=Lme_25 - CameraTest_CameraController_DidSelectedImage_UIKit_UIImage
+	.long LDIFF_SYM450
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde36_end:
+Lfde37_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "CameraTest.CameraController:get_autoFlashButton"
+	.asciz "CameraTest_CameraController_get_autoFlashButton"
+
+	.byte 7,16
+	.quad CameraTest_CameraController_get_autoFlashButton
+	.quad Lme_26
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM451=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM451
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM452=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM452
+Lfde38_start:
+
+	.long 0
+	.align 3
+	.quad CameraTest_CameraController_get_autoFlashButton
+
+LDIFF_SYM453=Lme_26 - CameraTest_CameraController_get_autoFlashButton
+	.long LDIFF_SYM453
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde38_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "CameraTest.CameraController:set_autoFlashButton"
+	.asciz "CameraTest_CameraController_set_autoFlashButton_UIKit_UIButton"
+
+	.byte 7,16
+	.quad CameraTest_CameraController_set_autoFlashButton_UIKit_UIButton
+	.quad Lme_27
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM454=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM454
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM455=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM455
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM456=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM456
+Lfde39_start:
+
+	.long 0
+	.align 3
+	.quad CameraTest_CameraController_set_autoFlashButton_UIKit_UIButton
+
+LDIFF_SYM457=Lme_27 - CameraTest_CameraController_set_autoFlashButton_UIKit_UIButton
+	.long LDIFF_SYM457
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde39_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -15124,33 +16630,33 @@ Lfde36_end:
 	.asciz "CameraTest.CameraController:get_cancelButton"
 	.asciz "CameraTest_CameraController_get_cancelButton"
 
-	.byte 7,16
+	.byte 7,19
 	.quad CameraTest_CameraController_get_cancelButton
-	.quad Lme_25
+	.quad Lme_28
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM438=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM438
+LDIFF_SYM458=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM458
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM439=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM439
-Lfde37_start:
+LDIFF_SYM459=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM459
+Lfde40_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_CameraController_get_cancelButton
 
-LDIFF_SYM440=Lme_25 - CameraTest_CameraController_get_cancelButton
-	.long LDIFF_SYM440
+LDIFF_SYM460=Lme_28 - CameraTest_CameraController_get_cancelButton
+	.long LDIFF_SYM460
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde37_end:
+Lfde40_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -15158,38 +16664,38 @@ Lfde37_end:
 	.asciz "CameraTest.CameraController:set_cancelButton"
 	.asciz "CameraTest_CameraController_set_cancelButton_UIKit_UIButton"
 
-	.byte 7,16
+	.byte 7,19
 	.quad CameraTest_CameraController_set_cancelButton_UIKit_UIButton
-	.quad Lme_26
+	.quad Lme_29
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM441=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM441
+LDIFF_SYM461=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM461
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM442=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM442
+LDIFF_SYM462=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM462
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM443=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM443
-Lfde38_start:
+LDIFF_SYM463=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM463
+Lfde41_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_CameraController_set_cancelButton_UIKit_UIButton
 
-LDIFF_SYM444=Lme_26 - CameraTest_CameraController_set_cancelButton_UIKit_UIButton
-	.long LDIFF_SYM444
+LDIFF_SYM464=Lme_29 - CameraTest_CameraController_set_cancelButton_UIKit_UIButton
+	.long LDIFF_SYM464
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde38_end:
+Lfde41_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -15197,33 +16703,33 @@ Lfde38_end:
 	.asciz "CameraTest.CameraController:get_captureButton"
 	.asciz "CameraTest_CameraController_get_captureButton"
 
-	.byte 7,19
+	.byte 7,22
 	.quad CameraTest_CameraController_get_captureButton
-	.quad Lme_27
+	.quad Lme_2a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM445=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM445
+LDIFF_SYM465=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM465
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM446=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM446
-Lfde39_start:
+LDIFF_SYM466=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM466
+Lfde42_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_CameraController_get_captureButton
 
-LDIFF_SYM447=Lme_27 - CameraTest_CameraController_get_captureButton
-	.long LDIFF_SYM447
+LDIFF_SYM467=Lme_2a - CameraTest_CameraController_get_captureButton
+	.long LDIFF_SYM467
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde39_end:
+Lfde42_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -15231,38 +16737,38 @@ Lfde39_end:
 	.asciz "CameraTest.CameraController:set_captureButton"
 	.asciz "CameraTest_CameraController_set_captureButton_UIKit_UIButton"
 
-	.byte 7,19
+	.byte 7,22
 	.quad CameraTest_CameraController_set_captureButton_UIKit_UIButton
-	.quad Lme_28
+	.quad Lme_2b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM448=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM448
+LDIFF_SYM468=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM468
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM449=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM449
+LDIFF_SYM469=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM469
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM450=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM450
-Lfde40_start:
+LDIFF_SYM470=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM470
+Lfde43_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_CameraController_set_captureButton_UIKit_UIButton
 
-LDIFF_SYM451=Lme_28 - CameraTest_CameraController_set_captureButton_UIKit_UIButton
-	.long LDIFF_SYM451
+LDIFF_SYM471=Lme_2b - CameraTest_CameraController_set_captureButton_UIKit_UIButton
+	.long LDIFF_SYM471
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde40_end:
+Lfde43_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -15270,33 +16776,33 @@ Lfde40_end:
 	.asciz "CameraTest.CameraController:get_flashButton"
 	.asciz "CameraTest_CameraController_get_flashButton"
 
-	.byte 7,22
+	.byte 7,25
 	.quad CameraTest_CameraController_get_flashButton
-	.quad Lme_29
+	.quad Lme_2c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM452=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM452
+LDIFF_SYM472=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM472
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM453=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM453
-Lfde41_start:
+LDIFF_SYM473=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM473
+Lfde44_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_CameraController_get_flashButton
 
-LDIFF_SYM454=Lme_29 - CameraTest_CameraController_get_flashButton
-	.long LDIFF_SYM454
+LDIFF_SYM474=Lme_2c - CameraTest_CameraController_get_flashButton
+	.long LDIFF_SYM474
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde41_end:
+Lfde44_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -15304,38 +16810,38 @@ Lfde41_end:
 	.asciz "CameraTest.CameraController:set_flashButton"
 	.asciz "CameraTest_CameraController_set_flashButton_UIKit_UIButton"
 
-	.byte 7,22
+	.byte 7,25
 	.quad CameraTest_CameraController_set_flashButton_UIKit_UIButton
-	.quad Lme_2a
+	.quad Lme_2d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM455=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM455
+LDIFF_SYM475=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM475
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM456=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM456
+LDIFF_SYM476=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM476
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM457=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM457
-Lfde42_start:
+LDIFF_SYM477=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM477
+Lfde45_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_CameraController_set_flashButton_UIKit_UIButton
 
-LDIFF_SYM458=Lme_2a - CameraTest_CameraController_set_flashButton_UIKit_UIButton
-	.long LDIFF_SYM458
+LDIFF_SYM478=Lme_2d - CameraTest_CameraController_set_flashButton_UIKit_UIButton
+	.long LDIFF_SYM478
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde42_end:
+Lfde45_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -15343,33 +16849,33 @@ Lfde42_end:
 	.asciz "CameraTest.CameraController:get_flashOptionView"
 	.asciz "CameraTest_CameraController_get_flashOptionView"
 
-	.byte 7,25
+	.byte 7,28
 	.quad CameraTest_CameraController_get_flashOptionView
-	.quad Lme_2b
+	.quad Lme_2e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM459=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM459
+LDIFF_SYM479=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM479
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM460=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM460
-Lfde43_start:
+LDIFF_SYM480=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM480
+Lfde46_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_CameraController_get_flashOptionView
 
-LDIFF_SYM461=Lme_2b - CameraTest_CameraController_get_flashOptionView
-	.long LDIFF_SYM461
+LDIFF_SYM481=Lme_2e - CameraTest_CameraController_get_flashOptionView
+	.long LDIFF_SYM481
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde43_end:
+Lfde46_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -15377,258 +16883,82 @@ Lfde43_end:
 	.asciz "CameraTest.CameraController:set_flashOptionView"
 	.asciz "CameraTest_CameraController_set_flashOptionView_UIKit_UIView"
 
-	.byte 7,25
-	.quad CameraTest_CameraController_set_flashOptionView_UIKit_UIView
-	.quad Lme_2c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM462=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM462
-	.byte 2,141,16,3
-	.asciz "value"
-
-LDIFF_SYM463=LTDIE_1_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM463
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM464=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM464
-Lfde44_start:
-
-	.long 0
-	.align 3
-	.quad CameraTest_CameraController_set_flashOptionView_UIKit_UIView
-
-LDIFF_SYM465=Lme_2c - CameraTest_CameraController_set_flashOptionView_UIKit_UIView
-	.long LDIFF_SYM465
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde44_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "CameraTest.CameraController:get_previewView"
-	.asciz "CameraTest_CameraController_get_previewView"
-
 	.byte 7,28
-	.quad CameraTest_CameraController_get_previewView
-	.quad Lme_2d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM466=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM466
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM467=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM467
-Lfde45_start:
-
-	.long 0
-	.align 3
-	.quad CameraTest_CameraController_get_previewView
-
-LDIFF_SYM468=Lme_2d - CameraTest_CameraController_get_previewView
-	.long LDIFF_SYM468
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde45_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "CameraTest.CameraController:set_previewView"
-	.asciz "CameraTest_CameraController_set_previewView_UIKit_UIView"
-
-	.byte 7,28
-	.quad CameraTest_CameraController_set_previewView_UIKit_UIView
-	.quad Lme_2e
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM469=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM469
-	.byte 2,141,16,3
-	.asciz "value"
-
-LDIFF_SYM470=LTDIE_1_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM470
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM471=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM471
-Lfde46_start:
-
-	.long 0
-	.align 3
-	.quad CameraTest_CameraController_set_previewView_UIKit_UIView
-
-LDIFF_SYM472=Lme_2e - CameraTest_CameraController_set_previewView_UIKit_UIView
-	.long LDIFF_SYM472
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde46_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "CameraTest.CameraController:get_rotateCameraButton"
-	.asciz "CameraTest_CameraController_get_rotateCameraButton"
-
-	.byte 7,31
-	.quad CameraTest_CameraController_get_rotateCameraButton
+	.quad CameraTest_CameraController_set_flashOptionView_UIKit_UIView
 	.quad Lme_2f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM473=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM473
-	.byte 2,141,16,0
+LDIFF_SYM482=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM482
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM483=LTDIE_1_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM483
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM474=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM474
+LDIFF_SYM484=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM484
 Lfde47_start:
 
 	.long 0
 	.align 3
-	.quad CameraTest_CameraController_get_rotateCameraButton
+	.quad CameraTest_CameraController_set_flashOptionView_UIKit_UIView
 
-LDIFF_SYM475=Lme_2f - CameraTest_CameraController_get_rotateCameraButton
-	.long LDIFF_SYM475
+LDIFF_SYM485=Lme_2f - CameraTest_CameraController_set_flashOptionView_UIKit_UIView
+	.long LDIFF_SYM485
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde47_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "CameraTest.CameraController:set_rotateCameraButton"
-	.asciz "CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton"
+	.asciz "CameraTest.CameraController:get_offFlashButton"
+	.asciz "CameraTest_CameraController_get_offFlashButton"
 
 	.byte 7,31
-	.quad CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton
+	.quad CameraTest_CameraController_get_offFlashButton
 	.quad Lme_30
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM476=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM476
-	.byte 2,141,16,3
-	.asciz "value"
-
-LDIFF_SYM477=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM477
-	.byte 2,141,24,0
+LDIFF_SYM486=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM486
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM478=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM478
+LDIFF_SYM487=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM487
 Lfde48_start:
 
 	.long 0
 	.align 3
-	.quad CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton
+	.quad CameraTest_CameraController_get_offFlashButton
 
-LDIFF_SYM479=Lme_30 - CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton
-	.long LDIFF_SYM479
+LDIFF_SYM488=Lme_30 - CameraTest_CameraController_get_offFlashButton
+	.long LDIFF_SYM488
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde48_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "CameraTest.CameraController:ReleaseDesignerOutlets"
-	.asciz "CameraTest_CameraController_ReleaseDesignerOutlets"
+	.asciz "CameraTest.CameraController:set_offFlashButton"
+	.asciz "CameraTest_CameraController_set_offFlashButton_UIKit_UIButton"
 
-	.byte 7,34
-	.quad CameraTest_CameraController_ReleaseDesignerOutlets
+	.byte 7,31
+	.quad CameraTest_CameraController_set_offFlashButton_UIKit_UIButton
 	.quad Lme_31
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM480=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM480
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM481=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM481
-	.byte 1,105,11
-	.asciz "V_1"
-
-LDIFF_SYM482=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM482
-	.byte 1,104,11
-	.asciz "V_2"
-
-LDIFF_SYM483=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM483
-	.byte 1,103,11
-	.asciz "V_3"
-
-LDIFF_SYM484=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM484
-	.byte 1,102,11
-	.asciz "V_4"
-
-LDIFF_SYM485=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM485
-	.byte 1,101,11
-	.asciz "V_5"
-
-LDIFF_SYM486=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM486
-	.byte 1,100,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM487=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM487
-Lfde49_start:
-
-	.long 0
-	.align 3
-	.quad CameraTest_CameraController_ReleaseDesignerOutlets
-
-LDIFF_SYM488=Lme_31 - CameraTest_CameraController_ReleaseDesignerOutlets
-	.long LDIFF_SYM488
-	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,148,12,149,11,68,150,10,151,9,68,152,8,153,7,68,154,6
-	.align 3
-Lfde49_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "CameraTest.CameraController:<ViewDidLoad>b__4_0"
-	.asciz "CameraTest_CameraController__ViewDidLoadb__4_0_object_System_EventArgs"
-
-	.byte 6,28
-	.quad CameraTest_CameraController__ViewDidLoadb__4_0_object_System_EventArgs
-	.quad Lme_32
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -15636,334 +16966,832 @@ Lfde49_end:
 LDIFF_SYM489=LTDIE_26_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM489
 	.byte 2,141,16,3
-	.asciz "sender"
+	.asciz "value"
 
-LDIFF_SYM490=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM490=LTDIE_21_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM490
-	.byte 2,141,24,3
-	.asciz "e"
-
-LDIFF_SYM491=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM491
-	.byte 2,141,32,0
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM492=Lfde50_end - Lfde50_start
+LDIFF_SYM491=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM491
+Lfde49_start:
+
+	.long 0
+	.align 3
+	.quad CameraTest_CameraController_set_offFlashButton_UIKit_UIButton
+
+LDIFF_SYM492=Lme_31 - CameraTest_CameraController_set_offFlashButton_UIKit_UIButton
 	.long LDIFF_SYM492
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde49_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "CameraTest.CameraController:get_onFlashButton"
+	.asciz "CameraTest_CameraController_get_onFlashButton"
+
+	.byte 7,34
+	.quad CameraTest_CameraController_get_onFlashButton
+	.quad Lme_32
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM493=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM493
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM494=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM494
 Lfde50_start:
 
 	.long 0
 	.align 3
-	.quad CameraTest_CameraController__ViewDidLoadb__4_0_object_System_EventArgs
+	.quad CameraTest_CameraController_get_onFlashButton
 
-LDIFF_SYM493=Lme_32 - CameraTest_CameraController__ViewDidLoadb__4_0_object_System_EventArgs
-	.long LDIFF_SYM493
+LDIFF_SYM495=Lme_32 - CameraTest_CameraController_get_onFlashButton
+	.long LDIFF_SYM495
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde50_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "CameraTest.CameraController:<ViewDidLoad>b__4_1"
-	.asciz "CameraTest_CameraController__ViewDidLoadb__4_1_object_System_EventArgs"
+	.asciz "CameraTest.CameraController:set_onFlashButton"
+	.asciz "CameraTest_CameraController_set_onFlashButton_UIKit_UIButton"
 
-	.byte 6,58
-	.quad CameraTest_CameraController__ViewDidLoadb__4_1_object_System_EventArgs
+	.byte 7,34
+	.quad CameraTest_CameraController_set_onFlashButton_UIKit_UIButton
 	.quad Lme_33
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM494=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM494
-	.byte 2,141,16,3
-	.asciz "sender"
-
-LDIFF_SYM495=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM495
-	.byte 2,141,24,3
-	.asciz "e"
-
-LDIFF_SYM496=LTDIE_24_REFERENCE - Ldebug_info_start
+LDIFF_SYM496=LTDIE_26_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM496
-	.byte 2,141,32,0
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM497=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM497
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM497=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM497
+LDIFF_SYM498=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM498
 Lfde51_start:
 
 	.long 0
 	.align 3
-	.quad CameraTest_CameraController__ViewDidLoadb__4_1_object_System_EventArgs
+	.quad CameraTest_CameraController_set_onFlashButton_UIKit_UIButton
 
-LDIFF_SYM498=Lme_33 - CameraTest_CameraController__ViewDidLoadb__4_1_object_System_EventArgs
-	.long LDIFF_SYM498
+LDIFF_SYM499=Lme_33 - CameraTest_CameraController_set_onFlashButton_UIKit_UIButton
+	.long LDIFF_SYM499
 	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde51_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "CameraTest.CameraController:<ViewDidLoad>b__4_2"
-	.asciz "CameraTest_CameraController__ViewDidLoadb__4_2_object_System_EventArgs"
+	.asciz "CameraTest.CameraController:get_previewView"
+	.asciz "CameraTest_CameraController_get_previewView"
 
-	.byte 6,63
-	.quad CameraTest_CameraController__ViewDidLoadb__4_2_object_System_EventArgs
+	.byte 7,37
+	.quad CameraTest_CameraController_get_previewView
 	.quad Lme_34
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM499=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM499
-	.byte 2,141,16,3
-	.asciz "sender"
-
-LDIFF_SYM500=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM500=LTDIE_26_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM500
-	.byte 2,141,24,3
-	.asciz "e"
-
-LDIFF_SYM501=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM501
-	.byte 2,141,32,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM502=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM502
+LDIFF_SYM501=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM501
 Lfde52_start:
 
 	.long 0
 	.align 3
-	.quad CameraTest_CameraController__ViewDidLoadb__4_2_object_System_EventArgs
+	.quad CameraTest_CameraController_get_previewView
 
-LDIFF_SYM503=Lme_34 - CameraTest_CameraController__ViewDidLoadb__4_2_object_System_EventArgs
-	.long LDIFF_SYM503
+LDIFF_SYM502=Lme_34 - CameraTest_CameraController_get_previewView
+	.long LDIFF_SYM502
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde52_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "CameraTest.CameraController:<ViewDidLoad>b__4_3"
-	.asciz "CameraTest_CameraController__ViewDidLoadb__4_3_object_System_EventArgs"
+	.asciz "CameraTest.CameraController:set_previewView"
+	.asciz "CameraTest_CameraController_set_previewView_UIKit_UIView"
 
-	.byte 6,70
-	.quad CameraTest_CameraController__ViewDidLoadb__4_3_object_System_EventArgs
+	.byte 7,37
+	.quad CameraTest_CameraController_set_previewView_UIKit_UIView
 	.quad Lme_35
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM504=LTDIE_26_REFERENCE - Ldebug_info_start
+LDIFF_SYM503=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM503
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM504=LTDIE_1_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM504
-	.byte 1,106,3
-	.asciz "sender"
-
-LDIFF_SYM505=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM505
-	.byte 3,141,200,0,3
-	.asciz "e"
-
-LDIFF_SYM506=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM506
-	.byte 3,141,208,0,11
-	.asciz "state"
-
-LDIFF_SYM507=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM507
-	.byte 1,105,11
-	.asciz "V_1"
-
-LDIFF_SYM508=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM508
-	.byte 1,104,0
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM509=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM509
+LDIFF_SYM505=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM505
 Lfde53_start:
 
 	.long 0
 	.align 3
-	.quad CameraTest_CameraController__ViewDidLoadb__4_3_object_System_EventArgs
+	.quad CameraTest_CameraController_set_previewView_UIKit_UIView
 
-LDIFF_SYM510=Lme_35 - CameraTest_CameraController__ViewDidLoadb__4_3_object_System_EventArgs
-	.long LDIFF_SYM510
+LDIFF_SYM506=Lme_35 - CameraTest_CameraController_set_previewView_UIKit_UIView
+	.long LDIFF_SYM506
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,148,16,149,15,68,150,14,151,13,68,152,12,153,11,68,154,10
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde53_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_48:
 
-	.byte 5
-	.asciz "Foundation_NSNotificationEventArgs"
-
-	.byte 24,16
-LDIFF_SYM511=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM511
-	.byte 2,35,0,6
-	.asciz "<Notification>k__BackingField"
-
-LDIFF_SYM512=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM512
-	.byte 2,35,16,0,7
-	.asciz "Foundation_NSNotificationEventArgs"
-
-LDIFF_SYM513=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM513
-LTDIE_48_POINTER:
-
-	.byte 13
-LDIFF_SYM514=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM514
-LTDIE_48_REFERENCE:
-
-	.byte 14
-LDIFF_SYM515=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM515
 	.byte 2
-	.asciz "CameraTest.CameraController:<DetectRotation>b__9_0"
-	.asciz "CameraTest_CameraController__DetectRotationb__9_0_object_Foundation_NSNotificationEventArgs"
+	.asciz "CameraTest.CameraController:get_rotateCameraButton"
+	.asciz "CameraTest_CameraController_get_rotateCameraButton"
 
-	.byte 6,112
-	.quad CameraTest_CameraController__DetectRotationb__9_0_object_Foundation_NSNotificationEventArgs
+	.byte 7,40
+	.quad CameraTest_CameraController_get_rotateCameraButton
 	.quad Lme_36
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM516=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM516
-	.byte 2,141,16,3
-	.asciz "sender"
-
-LDIFF_SYM517=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM517
-	.byte 2,141,24,3
-	.asciz "args"
-
-LDIFF_SYM518=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM518
-	.byte 2,141,32,0
+LDIFF_SYM507=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM507
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM519=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM519
+LDIFF_SYM508=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM508
 Lfde54_start:
 
 	.long 0
 	.align 3
-	.quad CameraTest_CameraController__DetectRotationb__9_0_object_Foundation_NSNotificationEventArgs
+	.quad CameraTest_CameraController_get_rotateCameraButton
 
-LDIFF_SYM520=Lme_36 - CameraTest_CameraController__DetectRotationb__9_0_object_Foundation_NSNotificationEventArgs
-	.long LDIFF_SYM520
+LDIFF_SYM509=Lme_36 - CameraTest_CameraController_get_rotateCameraButton
+	.long LDIFF_SYM509
 	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde54_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "CameraTest.CameraController:<DetectRotation>b__9_1"
-	.asciz "CameraTest_CameraController__DetectRotationb__9_1"
+	.asciz "CameraTest.CameraController:set_rotateCameraButton"
+	.asciz "CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton"
 
-	.byte 6,114
-	.quad CameraTest_CameraController__DetectRotationb__9_1
+	.byte 7,40
+	.quad CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton
 	.quad Lme_37
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM521=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM521
-	.byte 1,106,11
-	.asciz "V_0"
+LDIFF_SYM510=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM510
+	.byte 2,141,16,3
+	.asciz "value"
 
-LDIFF_SYM522=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM522
-	.byte 1,105,11
-	.asciz "V_1"
-
-LDIFF_SYM523=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM523
-	.byte 1,104,11
-	.asciz "V_2"
-
-LDIFF_SYM524=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM524
-	.byte 1,103,11
-	.asciz "V_3"
-
-LDIFF_SYM525=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM525
-	.byte 1,102,0
+LDIFF_SYM511=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM511
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM526=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM526
+LDIFF_SYM512=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM512
 Lfde55_start:
 
 	.long 0
 	.align 3
-	.quad CameraTest_CameraController__DetectRotationb__9_1
+	.quad CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton
 
-LDIFF_SYM527=Lme_37 - CameraTest_CameraController__DetectRotationb__9_1
-	.long LDIFF_SYM527
+LDIFF_SYM513=Lme_37 - CameraTest_CameraController_set_rotateCameraButton_UIKit_UIButton
+	.long LDIFF_SYM513
 	.long 0
-	.byte 12,31,0,84,14,128,7,157,112,158,111,68,13,29,68,150,110,151,109,68,152,108,153,107,68,154,106
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde55_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "CameraTest.CameraController:<AddFlipAnimation>b__11_0"
-	.asciz "CameraTest_CameraController__AddFlipAnimationb__11_0"
+	.asciz "CameraTest.CameraController:ReleaseDesignerOutlets"
+	.asciz "CameraTest_CameraController_ReleaseDesignerOutlets"
 
-	.byte 6,170,1
-	.quad CameraTest_CameraController__AddFlipAnimationb__11_0
+	.byte 7,43
+	.quad CameraTest_CameraController_ReleaseDesignerOutlets
 	.quad Lme_38
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM528=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM528
-	.byte 2,141,16,0
+LDIFF_SYM514=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM514
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM515=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM515
+	.byte 1,105,11
+	.asciz "V_1"
+
+LDIFF_SYM516=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM516
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM517=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM517
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM518=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM518
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM519=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM519
+	.byte 1,101,11
+	.asciz "V_5"
+
+LDIFF_SYM520=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM520
+	.byte 1,100,11
+	.asciz "V_6"
+
+LDIFF_SYM521=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM521
+	.byte 1,99,11
+	.asciz "V_7"
+
+LDIFF_SYM522=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM522
+	.byte 3,141,232,0,11
+	.asciz "V_8"
+
+LDIFF_SYM523=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM523
+	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM529=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM529
+LDIFF_SYM524=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM524
 Lfde56_start:
 
 	.long 0
 	.align 3
-	.quad CameraTest_CameraController__AddFlipAnimationb__11_0
+	.quad CameraTest_CameraController_ReleaseDesignerOutlets
 
-LDIFF_SYM530=Lme_38 - CameraTest_CameraController__AddFlipAnimationb__11_0
+LDIFF_SYM525=Lme_38 - CameraTest_CameraController_ReleaseDesignerOutlets
+	.long LDIFF_SYM525
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde56_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "CameraTest.CameraController:<ViewDidLoad>b__5_0"
+	.asciz "CameraTest_CameraController__ViewDidLoadb__5_0_object_System_EventArgs"
+
+	.byte 6,30
+	.quad CameraTest_CameraController__ViewDidLoadb__5_0_object_System_EventArgs
+	.quad Lme_39
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM526=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM526
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM527=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM527
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM528=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM528
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM529=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM529
+Lfde57_start:
+
+	.long 0
+	.align 3
+	.quad CameraTest_CameraController__ViewDidLoadb__5_0_object_System_EventArgs
+
+LDIFF_SYM530=Lme_39 - CameraTest_CameraController__ViewDidLoadb__5_0_object_System_EventArgs
 	.long LDIFF_SYM530
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde56_end:
+Lfde57_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "CameraTest.CameraController:<ViewDidLoad>b__5_1"
+	.asciz "CameraTest_CameraController__ViewDidLoadb__5_1_object_System_EventArgs"
+
+	.byte 6,62
+	.quad CameraTest_CameraController__ViewDidLoadb__5_1_object_System_EventArgs
+	.quad Lme_3a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM531=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM531
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM532=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM532
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM533=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM533
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM534=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM534
+Lfde58_start:
+
+	.long 0
+	.align 3
+	.quad CameraTest_CameraController__ViewDidLoadb__5_1_object_System_EventArgs
+
+LDIFF_SYM535=Lme_3a - CameraTest_CameraController__ViewDidLoadb__5_1_object_System_EventArgs
+	.long LDIFF_SYM535
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde58_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "CameraTest.CameraController:<ViewDidLoad>b__5_2"
+	.asciz "CameraTest_CameraController__ViewDidLoadb__5_2_object_System_EventArgs"
+
+	.byte 6,67
+	.quad CameraTest_CameraController__ViewDidLoadb__5_2_object_System_EventArgs
+	.quad Lme_3b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM536=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM536
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM537=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM537
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM538=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM538
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM539=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM539
+Lfde59_start:
+
+	.long 0
+	.align 3
+	.quad CameraTest_CameraController__ViewDidLoadb__5_2_object_System_EventArgs
+
+LDIFF_SYM540=Lme_3b - CameraTest_CameraController__ViewDidLoadb__5_2_object_System_EventArgs
+	.long LDIFF_SYM540
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde59_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "CameraTest.CameraController:<ViewDidLoad>b__5_3"
+	.asciz "CameraTest_CameraController__ViewDidLoadb__5_3_object_System_EventArgs"
+
+	.byte 6,74
+	.quad CameraTest_CameraController__ViewDidLoadb__5_3_object_System_EventArgs
+	.quad Lme_3c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM541=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM541
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM542=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM542
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM543=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM543
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM544=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM544
+Lfde60_start:
+
+	.long 0
+	.align 3
+	.quad CameraTest_CameraController__ViewDidLoadb__5_3_object_System_EventArgs
+
+LDIFF_SYM545=Lme_3c - CameraTest_CameraController__ViewDidLoadb__5_3_object_System_EventArgs
+	.long LDIFF_SYM545
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde60_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "CameraTest.CameraController:<ViewDidLoad>b__5_4"
+	.asciz "CameraTest_CameraController__ViewDidLoadb__5_4_object_System_EventArgs"
+
+	.byte 6,78
+	.quad CameraTest_CameraController__ViewDidLoadb__5_4_object_System_EventArgs
+	.quad Lme_3d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM546=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM546
+	.byte 1,106,3
+	.asciz "sender"
+
+LDIFF_SYM547=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM547
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM548=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM548
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM549=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM549
+Lfde61_start:
+
+	.long 0
+	.align 3
+	.quad CameraTest_CameraController__ViewDidLoadb__5_4_object_System_EventArgs
+
+LDIFF_SYM550=Lme_3d - CameraTest_CameraController__ViewDidLoadb__5_4_object_System_EventArgs
+	.long LDIFF_SYM550
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
+	.align 3
+Lfde61_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "CameraTest.CameraController:<ViewDidLoad>b__5_5"
+	.asciz "CameraTest_CameraController__ViewDidLoadb__5_5_object_System_EventArgs"
+
+	.byte 6,88
+	.quad CameraTest_CameraController__ViewDidLoadb__5_5_object_System_EventArgs
+	.quad Lme_3e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM551=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM551
+	.byte 1,106,3
+	.asciz "sender"
+
+LDIFF_SYM552=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM552
+	.byte 2,141,32,3
+	.asciz "e"
+
+LDIFF_SYM553=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM553
+	.byte 2,141,40,11
+	.asciz "V_0"
+
+LDIFF_SYM554=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM554
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM555=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM555
+Lfde62_start:
+
+	.long 0
+	.align 3
+	.quad CameraTest_CameraController__ViewDidLoadb__5_5_object_System_EventArgs
+
+LDIFF_SYM556=Lme_3e - CameraTest_CameraController__ViewDidLoadb__5_5_object_System_EventArgs
+	.long LDIFF_SYM556
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
+	.align 3
+Lfde62_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "CameraTest.CameraController:<ViewDidLoad>b__5_6"
+	.asciz "CameraTest_CameraController__ViewDidLoadb__5_6_object_System_EventArgs"
+
+	.byte 6,100
+	.quad CameraTest_CameraController__ViewDidLoadb__5_6_object_System_EventArgs
+	.quad Lme_3f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM557=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM557
+	.byte 1,106,3
+	.asciz "sender"
+
+LDIFF_SYM558=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM558
+	.byte 2,141,32,3
+	.asciz "e"
+
+LDIFF_SYM559=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM559
+	.byte 2,141,40,11
+	.asciz "V_0"
+
+LDIFF_SYM560=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM560
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM561=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM561
+Lfde63_start:
+
+	.long 0
+	.align 3
+	.quad CameraTest_CameraController__ViewDidLoadb__5_6_object_System_EventArgs
+
+LDIFF_SYM562=Lme_3f - CameraTest_CameraController__ViewDidLoadb__5_6_object_System_EventArgs
+	.long LDIFF_SYM562
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
+	.align 3
+Lfde63_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_49:
+
+	.byte 5
+	.asciz "Foundation_NSNotificationEventArgs"
+
+	.byte 24,16
+LDIFF_SYM563=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM563
+	.byte 2,35,0,6
+	.asciz "<Notification>k__BackingField"
+
+LDIFF_SYM564=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM564
+	.byte 2,35,16,0,7
+	.asciz "Foundation_NSNotificationEventArgs"
+
+LDIFF_SYM565=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM565
+LTDIE_49_POINTER:
+
+	.byte 13
+LDIFF_SYM566=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM566
+LTDIE_49_REFERENCE:
+
+	.byte 14
+LDIFF_SYM567=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM567
+	.byte 2
+	.asciz "CameraTest.CameraController:<DetectRotation>b__11_0"
+	.asciz "CameraTest_CameraController__DetectRotationb__11_0_object_Foundation_NSNotificationEventArgs"
+
+	.byte 6,155,1
+	.quad CameraTest_CameraController__DetectRotationb__11_0_object_Foundation_NSNotificationEventArgs
+	.quad Lme_40
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM568=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM568
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM569=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM569
+	.byte 2,141,24,3
+	.asciz "args"
+
+LDIFF_SYM570=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM570
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM571=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM571
+Lfde64_start:
+
+	.long 0
+	.align 3
+	.quad CameraTest_CameraController__DetectRotationb__11_0_object_Foundation_NSNotificationEventArgs
+
+LDIFF_SYM572=Lme_40 - CameraTest_CameraController__DetectRotationb__11_0_object_Foundation_NSNotificationEventArgs
+	.long LDIFF_SYM572
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde64_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_50:
+
+	.byte 8
+	.asciz "UIKit_UIDeviceOrientation"
+
+	.byte 8
+LDIFF_SYM573=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM573
+	.byte 9
+	.asciz "Unknown"
+
+	.byte 0,9
+	.asciz "Portrait"
+
+	.byte 1,9
+	.asciz "PortraitUpsideDown"
+
+	.byte 2,9
+	.asciz "LandscapeLeft"
+
+	.byte 3,9
+	.asciz "LandscapeRight"
+
+	.byte 4,9
+	.asciz "FaceUp"
+
+	.byte 5,9
+	.asciz "FaceDown"
+
+	.byte 6,0,7
+	.asciz "UIKit_UIDeviceOrientation"
+
+LDIFF_SYM574=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM574
+LTDIE_50_POINTER:
+
+	.byte 13
+LDIFF_SYM575=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM575
+LTDIE_50_REFERENCE:
+
+	.byte 14
+LDIFF_SYM576=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM576
+	.byte 2
+	.asciz "CameraTest.CameraController:<DetectRotation>b__11_1"
+	.asciz "CameraTest_CameraController__DetectRotationb__11_1"
+
+	.byte 6,157,1
+	.quad CameraTest_CameraController__DetectRotationb__11_1
+	.quad Lme_41
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM577=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM577
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM578=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM578
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM579=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM579
+Lfde65_start:
+
+	.long 0
+	.align 3
+	.quad CameraTest_CameraController__DetectRotationb__11_1
+
+LDIFF_SYM580=Lme_41 - CameraTest_CameraController__DetectRotationb__11_1
+	.long LDIFF_SYM580
+	.long 0
+	.byte 12,31,0,84,14,128,7,157,112,158,111,68,13,29,68,150,110,151,109,68,152,108,153,107,68,154,106
+	.align 3
+Lfde65_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "CameraTest.CameraController:<AddFlipAnimation>b__13_0"
+	.asciz "CameraTest_CameraController__AddFlipAnimationb__13_0"
+
+	.byte 6,210,1
+	.quad CameraTest_CameraController__AddFlipAnimationb__13_0
+	.quad Lme_42
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM581=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM581
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM582=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM582
+Lfde66_start:
+
+	.long 0
+	.align 3
+	.quad CameraTest_CameraController__AddFlipAnimationb__13_0
+
+LDIFF_SYM583=Lme_42 - CameraTest_CameraController__AddFlipAnimationb__13_0
+	.long LDIFF_SYM583
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde66_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -15973,46 +17801,46 @@ Lfde56_end:
 
 	.byte 1,25
 	.quad CameraTest_RotateAndScale__ctor_intptr
-	.quad Lme_3a
+	.quad Lme_44
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM531=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM531
+LDIFF_SYM584=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM584
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM532=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM532
+LDIFF_SYM585=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM585
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM533=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM533
+LDIFF_SYM586=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM586
 	.byte 3,141,168,1,11
 	.asciz "V_1"
 
-LDIFF_SYM534=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM534
+LDIFF_SYM587=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM587
 	.byte 3,141,152,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM535=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM535
-Lfde57_start:
+LDIFF_SYM588=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM588
+Lfde67_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale__ctor_intptr
 
-LDIFF_SYM536=Lme_3a - CameraTest_RotateAndScale__ctor_intptr
-	.long LDIFF_SYM536
+LDIFF_SYM589=Lme_44 - CameraTest_RotateAndScale__ctor_intptr
+	.long LDIFF_SYM589
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,153,28
 	.align 3
-Lfde57_end:
+Lfde67_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16022,86 +17850,86 @@ Lfde57_end:
 
 	.byte 1,31
 	.quad CameraTest_RotateAndScale_get_CropArea
-	.quad Lme_3b
+	.quad Lme_45
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM537=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM537
+LDIFF_SYM590=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM590
 	.byte 1,106,11
 	.asciz "factor"
 
-LDIFF_SYM538=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM538
+LDIFF_SYM591=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM591
 	.byte 3,141,192,3,11
 	.asciz "scale"
 
-LDIFF_SYM539=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM539
+LDIFF_SYM592=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM592
 	.byte 3,141,200,3,11
 	.asciz "imageFrame"
 
-LDIFF_SYM540=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM540
+LDIFF_SYM593=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM593
 	.byte 3,141,160,3,11
 	.asciz "X"
 
-LDIFF_SYM541=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM541
+LDIFF_SYM594=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM594
 	.byte 3,141,208,3,11
 	.asciz "Y"
 
-LDIFF_SYM542=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM542
+LDIFF_SYM595=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM595
 	.byte 3,141,216,3,11
 	.asciz "width"
 
-LDIFF_SYM543=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM543
+LDIFF_SYM596=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM596
 	.byte 3,141,224,3,11
 	.asciz "height"
 
-LDIFF_SYM544=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM544
+LDIFF_SYM597=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM597
 	.byte 3,141,232,3,11
 	.asciz "V_7"
 
-LDIFF_SYM545=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM545
+LDIFF_SYM598=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM598
 	.byte 3,141,144,3,11
 	.asciz "V_8"
 
-LDIFF_SYM546=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM546
+LDIFF_SYM599=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM599
 	.byte 3,141,240,2,11
 	.asciz "V_9"
 
-LDIFF_SYM547=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM547
+LDIFF_SYM600=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM600
 	.byte 3,141,224,2,11
 	.asciz "V_10"
 
-LDIFF_SYM548=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM548
+LDIFF_SYM601=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM601
 	.byte 3,141,192,2,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM549=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM549
-Lfde58_start:
+LDIFF_SYM602=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM602
+Lfde68_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_get_CropArea
 
-LDIFF_SYM550=Lme_3b - CameraTest_RotateAndScale_get_CropArea
-	.long LDIFF_SYM550
+LDIFF_SYM603=Lme_45 - CameraTest_RotateAndScale_get_CropArea
+	.long LDIFF_SYM603
 	.long 0
 	.byte 12,31,0,84,14,224,5,157,92,158,91,68,13,29,68,154,90
 	.align 3
-Lfde58_end:
+Lfde68_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16111,31 +17939,31 @@ Lfde58_end:
 
 	.byte 1,50
 	.quad CameraTest_RotateAndScale_ViewDidLoad
-	.quad Lme_3c
+	.quad Lme_46
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM551=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM551
+LDIFF_SYM604=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM604
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM552=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM552
-Lfde59_start:
+LDIFF_SYM605=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM605
+Lfde69_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_ViewDidLoad
 
-LDIFF_SYM553=Lme_3c - CameraTest_RotateAndScale_ViewDidLoad
-	.long LDIFF_SYM553
+LDIFF_SYM606=Lme_46 - CameraTest_RotateAndScale_ViewDidLoad
+	.long LDIFF_SYM606
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14
 	.align 3
-Lfde59_end:
+Lfde69_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16145,36 +17973,36 @@ Lfde59_end:
 
 	.byte 1,81
 	.quad CameraTest_RotateAndScale_ViewWillAppear_bool
-	.quad Lme_3d
+	.quad Lme_47
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM554=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM554
+LDIFF_SYM607=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM607
 	.byte 2,141,16,3
 	.asciz "animated"
 
-LDIFF_SYM555=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM555
+LDIFF_SYM608=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM608
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM556=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM556
-Lfde60_start:
+LDIFF_SYM609=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM609
+Lfde70_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_ViewWillAppear_bool
 
-LDIFF_SYM557=Lme_3d - CameraTest_RotateAndScale_ViewWillAppear_bool
-	.long LDIFF_SYM557
+LDIFF_SYM610=Lme_47 - CameraTest_RotateAndScale_ViewWillAppear_bool
+	.long LDIFF_SYM610
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde60_end:
+Lfde70_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16184,36 +18012,36 @@ Lfde60_end:
 
 	.byte 1,88
 	.quad CameraTest_RotateAndScale_ViewWillDisappear_bool
-	.quad Lme_3e
+	.quad Lme_48
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM558=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM558
+LDIFF_SYM611=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM611
 	.byte 2,141,16,3
 	.asciz "animated"
 
-LDIFF_SYM559=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM559
+LDIFF_SYM612=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM612
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM560=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM560
-Lfde61_start:
+LDIFF_SYM613=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM613
+Lfde71_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_ViewWillDisappear_bool
 
-LDIFF_SYM561=Lme_3e - CameraTest_RotateAndScale_ViewWillDisappear_bool
-	.long LDIFF_SYM561
+LDIFF_SYM614=Lme_48 - CameraTest_RotateAndScale_ViewWillDisappear_bool
+	.long LDIFF_SYM614
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde61_end:
+Lfde71_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16223,36 +18051,36 @@ Lfde61_end:
 
 	.byte 1,95
 	.quad CameraTest_RotateAndScale_PrefersStatusBarHidden
-	.quad Lme_3f
+	.quad Lme_49
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM562=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM562
+LDIFF_SYM615=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM615
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM563=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM563
+LDIFF_SYM616=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM616
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM564=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM564
-Lfde62_start:
+LDIFF_SYM617=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM617
+Lfde72_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_PrefersStatusBarHidden
 
-LDIFF_SYM565=Lme_3f - CameraTest_RotateAndScale_PrefersStatusBarHidden
-	.long LDIFF_SYM565
+LDIFF_SYM618=Lme_49 - CameraTest_RotateAndScale_PrefersStatusBarHidden
+	.long LDIFF_SYM618
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde62_end:
+Lfde72_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16262,41 +18090,41 @@ Lfde62_end:
 
 	.byte 1,102
 	.quad CameraTest_RotateAndScale_ViewForZoomingInScrollView_UIKit_UIScrollView
-	.quad Lme_40
+	.quad Lme_4a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM566=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM566
+LDIFF_SYM619=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM619
 	.byte 2,141,24,3
 	.asciz "scrollView"
 
-LDIFF_SYM567=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM567
+LDIFF_SYM620=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM620
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM568=LTDIE_1_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM568
+LDIFF_SYM621=LTDIE_1_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM621
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM569=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM569
-Lfde63_start:
+LDIFF_SYM622=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM622
+Lfde73_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_ViewForZoomingInScrollView_UIKit_UIScrollView
 
-LDIFF_SYM570=Lme_40 - CameraTest_RotateAndScale_ViewForZoomingInScrollView_UIKit_UIScrollView
-	.long LDIFF_SYM570
+LDIFF_SYM623=Lme_4a - CameraTest_RotateAndScale_ViewForZoomingInScrollView_UIKit_UIScrollView
+	.long LDIFF_SYM623
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde63_end:
+Lfde73_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16306,146 +18134,146 @@ Lfde63_end:
 
 	.byte 1,108
 	.quad CameraTest_RotateAndScale_SetImage_UIKit_UIImage
-	.quad Lme_41
+	.quad Lme_4b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM571=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM571
+LDIFF_SYM624=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM624
 	.byte 2,141,16,3
 	.asciz "image"
 
-LDIFF_SYM572=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM572
+LDIFF_SYM625=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM625
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM573=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM573
-Lfde64_start:
+LDIFF_SYM626=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM626
+Lfde74_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_SetImage_UIKit_UIImage
 
-LDIFF_SYM574=Lme_41 - CameraTest_RotateAndScale_SetImage_UIKit_UIImage
-	.long LDIFF_SYM574
+LDIFF_SYM627=Lme_4b - CameraTest_RotateAndScale_SetImage_UIKit_UIImage
+	.long LDIFF_SYM627
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde64_end:
+Lfde74_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_49:
+LTDIE_51:
 
 	.byte 5
 	.asciz "UIKit_UIColor"
 
 	.byte 40,16
-LDIFF_SYM575=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM575
+LDIFF_SYM628=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM628
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIColor"
 
-LDIFF_SYM576=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM576
-LTDIE_49_POINTER:
+LDIFF_SYM629=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM629
+LTDIE_51_POINTER:
 
 	.byte 13
-LDIFF_SYM577=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM577
-LTDIE_49_REFERENCE:
+LDIFF_SYM630=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM630
+LTDIE_51_REFERENCE:
 
 	.byte 14
-LDIFF_SYM578=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM578
-LTDIE_50:
+LDIFF_SYM631=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM631
+LTDIE_52:
 
 	.byte 5
 	.asciz "UIKit_UILabel"
 
 	.byte 48,16
-LDIFF_SYM579=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM579
+LDIFF_SYM632=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM632
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UILabel"
 
-LDIFF_SYM580=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM580
-LTDIE_50_POINTER:
+LDIFF_SYM633=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM633
+LTDIE_52_POINTER:
 
 	.byte 13
-LDIFF_SYM581=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM581
-LTDIE_50_REFERENCE:
+LDIFF_SYM634=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM634
+LTDIE_52_REFERENCE:
 
 	.byte 14
-LDIFF_SYM582=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM582
+LDIFF_SYM635=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM635
 	.byte 2
 	.asciz "CameraTest.RotateAndScale:AddCircleOverlay"
 	.asciz "CameraTest_RotateAndScale_AddCircleOverlay"
 
 	.byte 1,113
 	.quad CameraTest_RotateAndScale_AddCircleOverlay
-	.quad Lme_42
+	.quad Lme_4c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM583=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM583
+LDIFF_SYM636=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM636
 	.byte 1,106,11
 	.asciz "circleColor"
 
-LDIFF_SYM584=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM584
+LDIFF_SYM637=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM637
 	.byte 1,105,11
 	.asciz "maskColor"
 
-LDIFF_SYM585=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM585
+LDIFF_SYM638=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM638
 	.byte 1,104,11
 	.asciz "circlePath"
 
-LDIFF_SYM586=LTDIE_11_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM586
+LDIFF_SYM639=LTDIE_11_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM639
 	.byte 1,103,11
 	.asciz "maskPath"
 
-LDIFF_SYM587=LTDIE_11_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM587
+LDIFF_SYM640=LTDIE_11_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM640
 	.byte 1,102,11
 	.asciz "fillLayer"
 
-LDIFF_SYM588=LTDIE_45_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM588
+LDIFF_SYM641=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM641
 	.byte 1,101,11
 	.asciz "scaleLabel"
 
-LDIFF_SYM589=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM589
+LDIFF_SYM642=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM642
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM590=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM590
-Lfde65_start:
+LDIFF_SYM643=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM643
+Lfde75_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_AddCircleOverlay
 
-LDIFF_SYM591=Lme_42 - CameraTest_RotateAndScale_AddCircleOverlay
-	.long LDIFF_SYM591
+LDIFF_SYM644=Lme_4c - CameraTest_RotateAndScale_AddCircleOverlay
+	.long LDIFF_SYM644
 	.long 0
 	.byte 12,31,0,84,14,128,6,157,96,158,95,68,13,29,68,147,94,148,93,68,149,92,150,91,68,151,90,152,89,68,153,88
 	.byte 154,87
 	.align 3
-Lfde65_end:
+Lfde75_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16455,31 +18283,31 @@ Lfde65_end:
 
 	.byte 8,16
 	.quad CameraTest_RotateAndScale_get_imageView
-	.quad Lme_43
+	.quad Lme_4d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM592=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM592
+LDIFF_SYM645=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM645
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM593=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM593
-Lfde66_start:
+LDIFF_SYM646=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM646
+Lfde76_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_get_imageView
 
-LDIFF_SYM594=Lme_43 - CameraTest_RotateAndScale_get_imageView
-	.long LDIFF_SYM594
+LDIFF_SYM647=Lme_4d - CameraTest_RotateAndScale_get_imageView
+	.long LDIFF_SYM647
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde66_end:
+Lfde76_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16489,36 +18317,36 @@ Lfde66_end:
 
 	.byte 8,16
 	.quad CameraTest_RotateAndScale_set_imageView_UIKit_UIImageView
-	.quad Lme_44
+	.quad Lme_4e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM595=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM595
+LDIFF_SYM648=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM648
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM596=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM596
+LDIFF_SYM649=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM649
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM597=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM597
-Lfde67_start:
+LDIFF_SYM650=Lfde77_end - Lfde77_start
+	.long LDIFF_SYM650
+Lfde77_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_set_imageView_UIKit_UIImageView
 
-LDIFF_SYM598=Lme_44 - CameraTest_RotateAndScale_set_imageView_UIKit_UIImageView
-	.long LDIFF_SYM598
+LDIFF_SYM651=Lme_4e - CameraTest_RotateAndScale_set_imageView_UIKit_UIImageView
+	.long LDIFF_SYM651
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde67_end:
+Lfde77_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16528,31 +18356,31 @@ Lfde67_end:
 
 	.byte 8,19
 	.quad CameraTest_RotateAndScale_get_retakeButton
-	.quad Lme_45
+	.quad Lme_4f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM599=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM599
+LDIFF_SYM652=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM652
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM600=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM600
-Lfde68_start:
+LDIFF_SYM653=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM653
+Lfde78_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_get_retakeButton
 
-LDIFF_SYM601=Lme_45 - CameraTest_RotateAndScale_get_retakeButton
-	.long LDIFF_SYM601
+LDIFF_SYM654=Lme_4f - CameraTest_RotateAndScale_get_retakeButton
+	.long LDIFF_SYM654
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde68_end:
+Lfde78_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16562,36 +18390,36 @@ Lfde68_end:
 
 	.byte 8,19
 	.quad CameraTest_RotateAndScale_set_retakeButton_UIKit_UIButton
-	.quad Lme_46
+	.quad Lme_50
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM602=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM602
+LDIFF_SYM655=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM655
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM603=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM603
+LDIFF_SYM656=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM656
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM604=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM604
-Lfde69_start:
+LDIFF_SYM657=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM657
+Lfde79_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_set_retakeButton_UIKit_UIButton
 
-LDIFF_SYM605=Lme_46 - CameraTest_RotateAndScale_set_retakeButton_UIKit_UIButton
-	.long LDIFF_SYM605
+LDIFF_SYM658=Lme_50 - CameraTest_RotateAndScale_set_retakeButton_UIKit_UIButton
+	.long LDIFF_SYM658
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde69_end:
+Lfde79_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16601,31 +18429,31 @@ Lfde69_end:
 
 	.byte 8,22
 	.quad CameraTest_RotateAndScale_get_scrollView
-	.quad Lme_47
+	.quad Lme_51
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM606=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM606
+LDIFF_SYM659=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM659
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM607=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM607
-Lfde70_start:
+LDIFF_SYM660=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM660
+Lfde80_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_get_scrollView
 
-LDIFF_SYM608=Lme_47 - CameraTest_RotateAndScale_get_scrollView
-	.long LDIFF_SYM608
+LDIFF_SYM661=Lme_51 - CameraTest_RotateAndScale_get_scrollView
+	.long LDIFF_SYM661
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde70_end:
+Lfde80_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16635,36 +18463,36 @@ Lfde70_end:
 
 	.byte 8,22
 	.quad CameraTest_RotateAndScale_set_scrollView_UIKit_UIScrollView
-	.quad Lme_48
+	.quad Lme_52
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM609=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM609
+LDIFF_SYM662=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM662
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM610=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM610
+LDIFF_SYM663=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM663
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM611=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM611
-Lfde71_start:
+LDIFF_SYM664=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM664
+Lfde81_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_set_scrollView_UIKit_UIScrollView
 
-LDIFF_SYM612=Lme_48 - CameraTest_RotateAndScale_set_scrollView_UIKit_UIScrollView
-	.long LDIFF_SYM612
+LDIFF_SYM665=Lme_52 - CameraTest_RotateAndScale_set_scrollView_UIKit_UIScrollView
+	.long LDIFF_SYM665
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde71_end:
+Lfde81_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16674,31 +18502,31 @@ Lfde71_end:
 
 	.byte 8,25
 	.quad CameraTest_RotateAndScale_get_usePhotoButton
-	.quad Lme_49
+	.quad Lme_53
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM613=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM613
+LDIFF_SYM666=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM666
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM614=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM614
-Lfde72_start:
+LDIFF_SYM667=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM667
+Lfde82_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_get_usePhotoButton
 
-LDIFF_SYM615=Lme_49 - CameraTest_RotateAndScale_get_usePhotoButton
-	.long LDIFF_SYM615
+LDIFF_SYM668=Lme_53 - CameraTest_RotateAndScale_get_usePhotoButton
+	.long LDIFF_SYM668
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde72_end:
+Lfde82_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16708,36 +18536,36 @@ Lfde72_end:
 
 	.byte 8,25
 	.quad CameraTest_RotateAndScale_set_usePhotoButton_UIKit_UIButton
-	.quad Lme_4a
+	.quad Lme_54
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM616=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM616
+LDIFF_SYM669=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM669
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM617=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM617
+LDIFF_SYM670=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM670
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM618=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM618
-Lfde73_start:
+LDIFF_SYM671=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM671
+Lfde83_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_set_usePhotoButton_UIKit_UIButton
 
-LDIFF_SYM619=Lme_4a - CameraTest_RotateAndScale_set_usePhotoButton_UIKit_UIButton
-	.long LDIFF_SYM619
+LDIFF_SYM672=Lme_54 - CameraTest_RotateAndScale_set_usePhotoButton_UIKit_UIButton
+	.long LDIFF_SYM672
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde73_end:
+Lfde83_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16747,51 +18575,51 @@ Lfde73_end:
 
 	.byte 8,28
 	.quad CameraTest_RotateAndScale_ReleaseDesignerOutlets
-	.quad Lme_4b
+	.quad Lme_55
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM620=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM620
+LDIFF_SYM673=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM673
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM621=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM621
+LDIFF_SYM674=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM674
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM622=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM622
+LDIFF_SYM675=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM675
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM623=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM623
+LDIFF_SYM676=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM676
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM624=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM624
+LDIFF_SYM677=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM677
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM625=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM625
-Lfde74_start:
+LDIFF_SYM678=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM678
+Lfde84_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale_ReleaseDesignerOutlets
 
-LDIFF_SYM626=Lme_4b - CameraTest_RotateAndScale_ReleaseDesignerOutlets
-	.long LDIFF_SYM626
+LDIFF_SYM679=Lme_55 - CameraTest_RotateAndScale_ReleaseDesignerOutlets
+	.long LDIFF_SYM679
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
-Lfde74_end:
+Lfde84_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16801,41 +18629,41 @@ Lfde74_end:
 
 	.byte 1,62
 	.quad CameraTest_RotateAndScale__ViewDidLoadb__10_0_object_System_EventArgs
-	.quad Lme_4c
+	.quad Lme_56
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM627=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM627
+LDIFF_SYM680=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM680
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM628=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM628
+LDIFF_SYM681=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM681
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM629=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM629
+LDIFF_SYM682=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM682
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM630=Lfde75_end - Lfde75_start
-	.long LDIFF_SYM630
-Lfde75_start:
+LDIFF_SYM683=Lfde85_end - Lfde85_start
+	.long LDIFF_SYM683
+Lfde85_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale__ViewDidLoadb__10_0_object_System_EventArgs
 
-LDIFF_SYM631=Lme_4c - CameraTest_RotateAndScale__ViewDidLoadb__10_0_object_System_EventArgs
-	.long LDIFF_SYM631
+LDIFF_SYM684=Lme_56 - CameraTest_RotateAndScale__ViewDidLoadb__10_0_object_System_EventArgs
+	.long LDIFF_SYM684
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde75_end:
+Lfde85_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -16845,484 +18673,484 @@ Lfde75_end:
 
 	.byte 1,67
 	.quad CameraTest_RotateAndScale__ViewDidLoadb__10_1_object_System_EventArgs
-	.quad Lme_4d
+	.quad Lme_57
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM632=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM632
+LDIFF_SYM685=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM685
 	.byte 1,106,3
 	.asciz "sender"
 
-LDIFF_SYM633=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM633
+LDIFF_SYM686=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM686
 	.byte 2,141,32,3
 	.asciz "e"
 
-LDIFF_SYM634=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM634
+LDIFF_SYM687=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM687
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM635=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM635
+LDIFF_SYM688=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM688
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM636=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM636
-Lfde76_start:
+LDIFF_SYM689=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM689
+Lfde86_start:
 
 	.long 0
 	.align 3
 	.quad CameraTest_RotateAndScale__ViewDidLoadb__10_1_object_System_EventArgs
 
-LDIFF_SYM637=Lme_4d - CameraTest_RotateAndScale__ViewDidLoadb__10_1_object_System_EventArgs
-	.long LDIFF_SYM637
+LDIFF_SYM690=Lme_57 - CameraTest_RotateAndScale__ViewDidLoadb__10_1_object_System_EventArgs
+	.long LDIFF_SYM690
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13
 	.align 3
-Lfde76_end:
+Lfde86_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_58:
+
+	.byte 5
+	.asciz "System_Reflection_MemberInfo"
+
+	.byte 16,16
+LDIFF_SYM691=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM691
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_MemberInfo"
+
+LDIFF_SYM692=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM692
+LTDIE_58_POINTER:
+
+	.byte 13
+LDIFF_SYM693=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM693
+LTDIE_58_REFERENCE:
+
+	.byte 14
+LDIFF_SYM694=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM694
+LTDIE_57:
+
+	.byte 5
+	.asciz "System_Reflection_MethodBase"
+
+	.byte 16,16
+LDIFF_SYM695=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM695
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_MethodBase"
+
+LDIFF_SYM696=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM696
+LTDIE_57_POINTER:
+
+	.byte 13
+LDIFF_SYM697=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM697
+LTDIE_57_REFERENCE:
+
+	.byte 14
+LDIFF_SYM698=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM698
 LTDIE_56:
 
 	.byte 5
-	.asciz "System_Reflection_MemberInfo"
+	.asciz "System_Reflection_MethodInfo"
 
 	.byte 16,16
-LDIFF_SYM638=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM638
+LDIFF_SYM699=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM699
 	.byte 2,35,0,0,7
-	.asciz "System_Reflection_MemberInfo"
+	.asciz "System_Reflection_MethodInfo"
 
-LDIFF_SYM639=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM639
+LDIFF_SYM700=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM700
 LTDIE_56_POINTER:
 
 	.byte 13
-LDIFF_SYM640=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM640
+LDIFF_SYM701=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM701
 LTDIE_56_REFERENCE:
 
 	.byte 14
-LDIFF_SYM641=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM641
-LTDIE_55:
-
-	.byte 5
-	.asciz "System_Reflection_MethodBase"
-
-	.byte 16,16
-LDIFF_SYM642=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM642
-	.byte 2,35,0,0,7
-	.asciz "System_Reflection_MethodBase"
-
-LDIFF_SYM643=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM643
-LTDIE_55_POINTER:
-
-	.byte 13
-LDIFF_SYM644=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM644
-LTDIE_55_REFERENCE:
-
-	.byte 14
-LDIFF_SYM645=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM645
-LTDIE_54:
-
-	.byte 5
-	.asciz "System_Reflection_MethodInfo"
-
-	.byte 16,16
-LDIFF_SYM646=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM646
-	.byte 2,35,0,0,7
-	.asciz "System_Reflection_MethodInfo"
-
-LDIFF_SYM647=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM647
-LTDIE_54_POINTER:
-
-	.byte 13
-LDIFF_SYM648=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM648
-LTDIE_54_REFERENCE:
-
-	.byte 14
-LDIFF_SYM649=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM649
-LTDIE_58:
+LDIFF_SYM702=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM702
+LTDIE_60:
 
 	.byte 5
 	.asciz "System_Type"
 
 	.byte 24,16
-LDIFF_SYM650=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM650
+LDIFF_SYM703=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM703
 	.byte 2,35,0,6
 	.asciz "_impl"
 
-LDIFF_SYM651=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM651
+LDIFF_SYM704=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM704
 	.byte 2,35,16,0,7
 	.asciz "System_Type"
 
-LDIFF_SYM652=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM652
-LTDIE_58_POINTER:
+LDIFF_SYM705=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM705
+LTDIE_60_POINTER:
 
 	.byte 13
-LDIFF_SYM653=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM653
-LTDIE_58_REFERENCE:
+LDIFF_SYM706=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM706
+LTDIE_60_REFERENCE:
 
 	.byte 14
-LDIFF_SYM654=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM654
-LTDIE_57:
+LDIFF_SYM707=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM707
+LTDIE_59:
 
 	.byte 5
 	.asciz "System_DelegateData"
 
 	.byte 32,16
-LDIFF_SYM655=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM655
+LDIFF_SYM708=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM708
 	.byte 2,35,0,6
 	.asciz "target_type"
 
-LDIFF_SYM656=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM656
+LDIFF_SYM709=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM709
 	.byte 2,35,16,6
 	.asciz "method_name"
 
-LDIFF_SYM657=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM657
+LDIFF_SYM710=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM710
 	.byte 2,35,24,0,7
 	.asciz "System_DelegateData"
 
-LDIFF_SYM658=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM658
-LTDIE_57_POINTER:
+LDIFF_SYM711=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM711
+LTDIE_59_POINTER:
 
 	.byte 13
-LDIFF_SYM659=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM659
-LTDIE_57_REFERENCE:
+LDIFF_SYM712=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM712
+LTDIE_59_REFERENCE:
 
 	.byte 14
-LDIFF_SYM660=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM660
-LTDIE_53:
+LDIFF_SYM713=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM713
+LTDIE_55:
 
 	.byte 5
 	.asciz "System_Delegate"
 
 	.byte 104,16
-LDIFF_SYM661=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM661
+LDIFF_SYM714=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM714
 	.byte 2,35,0,6
 	.asciz "method_ptr"
 
-LDIFF_SYM662=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM662
+LDIFF_SYM715=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM715
 	.byte 2,35,16,6
 	.asciz "invoke_impl"
 
-LDIFF_SYM663=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM663
+LDIFF_SYM716=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM716
 	.byte 2,35,24,6
 	.asciz "m_target"
 
-LDIFF_SYM664=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM664
+LDIFF_SYM717=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM717
 	.byte 2,35,32,6
 	.asciz "method"
 
-LDIFF_SYM665=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM665
+LDIFF_SYM718=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM718
 	.byte 2,35,40,6
 	.asciz "delegate_trampoline"
 
-LDIFF_SYM666=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM666
+LDIFF_SYM719=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM719
 	.byte 2,35,48,6
 	.asciz "extra_arg"
 
-LDIFF_SYM667=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM667
+LDIFF_SYM720=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM720
 	.byte 2,35,56,6
 	.asciz "method_code"
 
-LDIFF_SYM668=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM668
+LDIFF_SYM721=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM721
 	.byte 2,35,64,6
 	.asciz "method_info"
 
-LDIFF_SYM669=LTDIE_54_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM669
+LDIFF_SYM722=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM722
 	.byte 2,35,72,6
 	.asciz "original_method_info"
 
-LDIFF_SYM670=LTDIE_54_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM670
+LDIFF_SYM723=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM723
 	.byte 2,35,80,6
 	.asciz "data"
 
-LDIFF_SYM671=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM671
+LDIFF_SYM724=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM724
 	.byte 2,35,88,6
 	.asciz "method_is_virtual"
 
-LDIFF_SYM672=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM672
+LDIFF_SYM725=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM725
 	.byte 2,35,96,0,7
 	.asciz "System_Delegate"
 
-LDIFF_SYM673=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM673
-LTDIE_53_POINTER:
+LDIFF_SYM726=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM726
+LTDIE_55_POINTER:
 
 	.byte 13
-LDIFF_SYM674=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM674
-LTDIE_53_REFERENCE:
+LDIFF_SYM727=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM727
+LTDIE_55_REFERENCE:
 
 	.byte 14
-LDIFF_SYM675=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM675
-LTDIE_52:
+LDIFF_SYM728=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM728
+LTDIE_54:
 
 	.byte 5
 	.asciz "System_MulticastDelegate"
 
 	.byte 112,16
-LDIFF_SYM676=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM676
+LDIFF_SYM729=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM729
 	.byte 2,35,0,6
 	.asciz "delegates"
 
-LDIFF_SYM677=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM677
+LDIFF_SYM730=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM730
 	.byte 2,35,104,0,7
 	.asciz "System_MulticastDelegate"
 
-LDIFF_SYM678=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM678
-LTDIE_52_POINTER:
+LDIFF_SYM731=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM731
+LTDIE_54_POINTER:
 
 	.byte 13
-LDIFF_SYM679=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM679
-LTDIE_52_REFERENCE:
+LDIFF_SYM732=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM732
+LTDIE_54_REFERENCE:
 
 	.byte 14
-LDIFF_SYM680=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM680
-LTDIE_51:
+LDIFF_SYM733=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM733
+LTDIE_53:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM681=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM681
+LDIFF_SYM734=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM734
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM682=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM682
-LTDIE_51_POINTER:
+LDIFF_SYM735=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM735
+LTDIE_53_POINTER:
 
 	.byte 13
-LDIFF_SYM683=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM683
-LTDIE_51_REFERENCE:
+LDIFF_SYM736=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM736
+LTDIE_53_REFERENCE:
 
 	.byte 14
-LDIFF_SYM684=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM684
-LTDIE_59:
+LDIFF_SYM737=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM737
+LTDIE_61:
 
 	.byte 5
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM685=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM685
+LDIFF_SYM738=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM738
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM686=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM686
-LTDIE_59_POINTER:
+LDIFF_SYM739=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM739
+LTDIE_61_POINTER:
 
 	.byte 13
-LDIFF_SYM687=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM687
-LTDIE_59_REFERENCE:
+LDIFF_SYM740=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM740
+LTDIE_61_REFERENCE:
 
 	.byte 14
-LDIFF_SYM688=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM688
+LDIFF_SYM741=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM741
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<Foundation.NSNotification>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
-	.quad Lme_4f
+	.quad Lme_59
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM689=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM689
+LDIFF_SYM742=LTDIE_53_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM742
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM690=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM690
+LDIFF_SYM743=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM743
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM691=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM691
+LDIFF_SYM744=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM744
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM692=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM692
+LDIFF_SYM745=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM745
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM693=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM693
+LDIFF_SYM746=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM746
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM694=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM694
+LDIFF_SYM747=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM747
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM695=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM695
+LDIFF_SYM748=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM748
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM696=Lfde77_end - Lfde77_start
-	.long LDIFF_SYM696
-Lfde77_start:
+LDIFF_SYM749=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM749
+Lfde87_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
 
-LDIFF_SYM697=Lme_4f - wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
-	.long LDIFF_SYM697
+LDIFF_SYM750=Lme_59 - wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
+	.long LDIFF_SYM750
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde77_end:
+Lfde87_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_60:
+LTDIE_62:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM698=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM698
+LDIFF_SYM751=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM751
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM699=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM699
-LTDIE_60_POINTER:
+LDIFF_SYM752=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM752
+LTDIE_62_POINTER:
 
 	.byte 13
-LDIFF_SYM700=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM700
-LTDIE_60_REFERENCE:
+LDIFF_SYM753=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM753
+LTDIE_62_REFERENCE:
 
 	.byte 14
-LDIFF_SYM701=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM701
+LDIFF_SYM754=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM754
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<Foundation.NSNotificationEventArgs>:invoke_void_object_TEventArgs"
 	.asciz "wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs
-	.quad Lme_50
+	.quad Lme_5a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM702=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM702
+LDIFF_SYM755=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM755
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM703=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM703
+LDIFF_SYM756=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM756
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM704=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM704
+LDIFF_SYM757=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM757
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM705=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM705
+LDIFF_SYM758=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM758
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM706=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM706
+LDIFF_SYM759=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM759
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM707=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM707
+LDIFF_SYM760=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM760
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM708=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM708
+LDIFF_SYM761=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM761
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM709=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM709
+LDIFF_SYM762=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM762
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM710=Lfde78_end - Lfde78_start
-	.long LDIFF_SYM710
-Lfde78_start:
+LDIFF_SYM763=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM763
+Lfde88_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs
 
-LDIFF_SYM711=Lme_50 - wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs
-	.long LDIFF_SYM711
+LDIFF_SYM764=Lme_5a - wrapper_delegate_invoke_System_EventHandler_1_Foundation_NSNotificationEventArgs_invoke_void_object_TEventArgs_object_Foundation_NSNotificationEventArgs
+	.long LDIFF_SYM764
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde78_end:
+Lfde88_end:
 
 .section __DWARF, __debug_info,regular,debug
 

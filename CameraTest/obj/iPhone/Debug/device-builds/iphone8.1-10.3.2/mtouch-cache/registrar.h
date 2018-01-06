@@ -72,16 +72,21 @@
 
 @interface CameraController : UIViewController<AVCapturePhotoCaptureDelegate> {
 }
+	@property (nonatomic, assign) UIButton * autoFlashButton;
 	@property (nonatomic, assign) UIButton * cancelButton;
 	@property (nonatomic, assign) UIButton * captureButton;
 	@property (nonatomic, assign) UIButton * flashButton;
 	@property (nonatomic, assign) UIView * flashOptionView;
+	@property (nonatomic, assign) UIButton * offFlashButton;
+	@property (nonatomic, assign) UIButton * onFlashButton;
 	@property (nonatomic, assign) UIView * previewView;
 	@property (nonatomic, assign) UIButton * rotateCameraButton;
 	-(void) release;
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UIButton *) autoFlashButton;
+	-(void) setAutoFlashButton:(UIButton *)p0;
 	-(UIButton *) cancelButton;
 	-(void) setCancelButton:(UIButton *)p0;
 	-(UIButton *) captureButton;
@@ -90,6 +95,10 @@
 	-(void) setFlashButton:(UIButton *)p0;
 	-(UIView *) flashOptionView;
 	-(void) setFlashOptionView:(UIView *)p0;
+	-(UIButton *) offFlashButton;
+	-(void) setOffFlashButton:(UIButton *)p0;
+	-(UIButton *) onFlashButton;
+	-(void) setOnFlashButton:(UIButton *)p0;
 	-(UIView *) previewView;
 	-(void) setPreviewView:(UIView *)p0;
 	-(UIButton *) rotateCameraButton;

@@ -13,6 +13,9 @@ namespace CameraTest
 	partial class CameraController
 	{
 		[Outlet]
+		UIKit.UIButton autoFlashButton { get; set; }
+
+		[Outlet]
 		UIKit.UIButton cancelButton { get; set; }
 
 		[Outlet]
@@ -23,6 +26,12 @@ namespace CameraTest
 
 		[Outlet]
 		UIKit.UIView flashOptionView { get; set; }
+
+		[Outlet]
+		UIKit.UIButton offFlashButton { get; set; }
+
+		[Outlet]
+		UIKit.UIButton onFlashButton { get; set; }
 
 		[Outlet]
 		UIKit.UIView previewView { get; set; }
@@ -42,6 +51,16 @@ namespace CameraTest
 				captureButton = null;
 			}
 
+			if (flashButton != null) {
+				flashButton.Dispose ();
+				flashButton = null;
+			}
+
+			if (flashOptionView != null) {
+				flashOptionView.Dispose ();
+				flashOptionView = null;
+			}
+
 			if (previewView != null) {
 				previewView.Dispose ();
 				previewView = null;
@@ -52,14 +71,19 @@ namespace CameraTest
 				rotateCameraButton = null;
 			}
 
-			if (flashButton != null) {
-				flashButton.Dispose ();
-				flashButton = null;
+			if (autoFlashButton != null) {
+				autoFlashButton.Dispose ();
+				autoFlashButton = null;
 			}
 
-			if (flashOptionView != null) {
-				flashOptionView.Dispose ();
-				flashOptionView = null;
+			if (onFlashButton != null) {
+				onFlashButton.Dispose ();
+				onFlashButton = null;
+			}
+
+			if (offFlashButton != null) {
+				offFlashButton.Dispose ();
+				offFlashButton = null;
 			}
 		}
 	}

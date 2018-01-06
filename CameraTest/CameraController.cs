@@ -19,6 +19,8 @@ namespace CameraTest
         private AVCaptureVideoPreviewLayer previewLayer;
         private AVCapturePhotoOutput captureOutput;
 
+        private AVCaptureFlashMode flashMode = AVCaptureFlashMode.Auto;
+
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
@@ -70,11 +72,50 @@ namespace CameraTest
 
             flashButton.TouchUpInside += (sender, e) =>
             {
-                var state = flashOptionView.Hidden;
-                flashOptionView.Hidden = state ? flashOptionView.Hidden = false : flashOptionView.Hidden = true;
+                UpdateFlashView();
+            };
+
+            autoFlashButton.TouchUpInside += (sender, e) => {
+                flashMode = AVCaptureFlashMode.Auto;
+                UpdateFlashView();
+
+                autoFlashButton.SetTitleColor(UIColor.Yellow, UIControlState.Normal);
+                onFlashButton.SetTitleColor(UIColor.White, UIControlState.Normal);
+                offFlashButton.SetTitleColor(UIColor.White, UIControlState.Normal);
+            };
+            autoFlashButton.SetTitleColor(UIColor.Yellow, UIControlState.Normal);
+
+            onFlashButton.TouchUpInside += (sender, e) => {
+                if (flashMode != AVCaptureFlashMode.On) {
+                    flashMode = AVCaptureFlashMode.On;   
+                    onFlashButton.SetTitleColor(UIColor.Yellow, UIControlState.Normal);
+                } else {
+                    flashMode = AVCaptureFlashMode.Auto;
+                    onFlashButton.SetTitleColor(UIColor.White, UIControlState.Normal);
+                }
+                autoFlashButton.SetTitleColor(UIColor.White, UIControlState.Normal);
+                offFlashButton.SetTitleColor(UIColor.White, UIControlState.Normal);
+            };
+
+            offFlashButton.TouchUpInside += (sender, e) => {
+                if (flashMode != AVCaptureFlashMode.Off) {
+                    flashMode = AVCaptureFlashMode.Off;   
+                    offFlashButton.SetTitleColor(UIColor.Yellow, UIControlState.Normal);
+                } else {
+                    flashMode = AVCaptureFlashMode.Auto;
+                    offFlashButton.SetTitleColor(UIColor.White, UIControlState.Normal);
+                }
+                autoFlashButton.SetTitleColor(UIColor.White, UIControlState.Normal);
+                onFlashButton.SetTitleColor(UIColor.White, UIControlState.Normal);
             };
 
             DetectRotation();
+        }
+
+        private void UpdateFlashView()
+        {
+            var state = flashOptionView.Hidden;
+            flashOptionView.Hidden = state ? flashOptionView.Hidden = false : flashOptionView.Hidden = true;
         }
 
         public override void ViewWillAppear(bool animated)
@@ -103,7 +144,7 @@ namespace CameraTest
             var photoSettings = AVCapturePhotoSettings.Create();
             photoSettings.IsAutoStillImageStabilizationEnabled = true;
             photoSettings.IsHighResolutionPhotoEnabled = false;
-            photoSettings.FlashMode = AVCaptureFlashMode.Auto;
+            photoSettings.FlashMode = flashMode;
 
             captureOutput.CapturePhoto(photoSettings, this);
         }

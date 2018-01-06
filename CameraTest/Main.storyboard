@@ -72,13 +72,6 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZCp-Vv-ssb">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6V7-Ev-MQa">
-                                        <rect key="frame" x="67" y="269" width="240" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xhq-Bt-9kz">
@@ -231,10 +224,13 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="autoFlashButton" destination="bGa-Ef-7JL" id="TnR-DS-93L"/>
                         <outlet property="cancelButton" destination="a1A-ew-ksE" id="yET-Uy-oyv"/>
                         <outlet property="captureButton" destination="uf3-VM-fC8" id="cLY-q4-tUz"/>
                         <outlet property="flashButton" destination="cGc-F2-vYZ" id="vig-6g-Qj0"/>
                         <outlet property="flashOptionView" destination="IDC-CI-rJF" id="cxx-Ca-20S"/>
+                        <outlet property="offFlashButton" destination="cK5-Tm-o9q" id="RcH-x5-pzz"/>
+                        <outlet property="onFlashButton" destination="nQs-1W-bKY" id="JyC-zK-SEj"/>
                         <outlet property="previewView" destination="ZCp-Vv-ssb" id="JXY-Ba-UdT"/>
                         <outlet property="rotateCameraButton" destination="k1a-Xl-lBB" id="IMp-Nz-bLZ"/>
                     </connections>
